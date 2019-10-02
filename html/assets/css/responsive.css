@@ -1,0 +1,3751 @@
+ @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+	
+	#slider-home-2 .owl-nav{
+		display: none;
+	}
+		
+	
+	
+
+/*Slider Area*/
+    .slider .owl-nav .owl-next {
+        margin-right: 0% !important;
+    }
+    .slider .owl-nav .owl-prev {
+        margin-left: 0% !important;
+    }
+    .slider-item .owl-item .item {
+        padding: 0px 120px;
+    }
+
+
+/*Home -02-*/
+    .slider-home-2 .owl-nav .owl-next {
+        margin-right: -10% !important;
+        z-index: 10;
+    }
+    .slider-home-2 .owl-nav .owl-prev {
+        margin-left: -10% !important;
+        z-index: 10;
+    }
+    .header-bottom .quate {
+        padding: 10px 30px;
+    }
+    .testimonialh .owl-nav button {
+        margin-top: -25% !important;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.about {
+    padding: 75px 0px;
+}
+	#teamm {
+    padding: 30px 0px 75px;
+}
+	.blog-grid {
+    padding: 75px 0px;
+}
+	.gallery-area {
+    padding: 70px 0px;
+}
+	#news nav {
+    margin-top: 60px !important;
+}
+	.contact-form .contact-form-area .form-area h1 {
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+	.contact-form .contact-form-area .form-area textarea {
+    margin-bottom: 53px;
+}
+	#single-blog .comment {
+    padding-top: 65px;
+}
+	#single-blog .blog-content {
+    padding: 40px 0px 30px;
+}
+	
+	#team {
+    padding: 60px 0px 75px;
+}
+
+	.blog {
+    padding: 75px 0px 75px;
+}
+	.feature h1 {
+    line-height: 40px;
+}
+	.global .counters h2 {
+    font-size: 40px;
+}
+	.feature p {
+    margin-bottom: 20px;
+}
+	.service {
+    padding:75px 0px 85px;
+}
+	.slider .item{
+		padding: 0 160px;
+	}
+	.advantages .content .item h4 {
+    font-size: 20px;
+}
+	.about .counters h5 {
+    font-size: 16px;
+}
+.map p {
+    font-size: 13px;
+}
+.testimonial {
+    padding: 75px 0px 0px;
+}
+.clients {
+    padding: 45px 0px 65px 0;
+}
+
+.testimonial .item {
+    padding-top: 20px;
+}
+	.feature {
+    padding: 75px 0px;
+}
+	.logistics {
+    padding:75px 0px 75px 0;
+}
+	.global {
+    padding: 75px 0px;
+}
+	.team {
+    
+    padding: 56px 0px 0px;
+}
+	#teaml {
+        background: none;
+    padding: 75px 0px 50px;
+}
+	.blog-grid .single-blog {
+		margin-bottom: 0px;
+}
+.blogh .blog-box img {
+    height: 218px;
+}
+	.blogh {
+    padding: 79px 0px 60px;
+}
+	.testimonialh {
+    padding: 50px 0px;
+		background-size: cover;
+}
+	.testimonialh h1 {
+    margin-bottom: 14px;
+}
+	.service-area {
+    padding: 75px 0px;
+}
+
+
+/*Header Top area*/
+    .search, .openbtn{
+        display: none !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .left img {
+        float: inherit;
+        margin-right: 50px;
+    }
+    .header .right .hitem p span {
+        margin-right: 3px;
+    }
+    .header .right .hitem p .btn {
+        padding: 10px 10px;
+		    font-size: 14px;
+		margin-left: 0;
+}
+		.about h5 {
+    font-size: 18px;
+
+    }
+	.advantages .content h2 {
+    font-size: 39px;
+}
+	
+    .header .search{
+        display: none;
+    }
+/*Slider Area*/
+    .slider .owl-nav .owl-next {
+        display: none;
+    }
+    .slider .owl-nav .owl-prev {
+        display: none;
+    }
+    .schedule .btn {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+    .testimonial .owl-nav button {
+        margin-top: -20% !important;
+    }
+/*Advance Feature Area*/
+    .advantages .content {
+   margin-bottom: 78px;
+    margin-left: 90px;
+    }
+	.map h1 {
+    font-size: 30px;
+	}
+	.map {
+    padding:15px 0px 80px 0;
+}
+	.service-details {
+    padding: 75px 0px 75px;
+}
+
+
+	.blog .blog-box h3 {
+    padding: 15px 15px 0 15px;
+}
+
+/*Home -02-*/
+    .header-bottom .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .slider-home-2 {
+        min-height: 80vh;
+    }
+    .slider-home-2 .owl-nav .owl-next {
+        margin-right:  -18% !important;
+        z-index: 10;
+    }
+    .slider-home-2 .owl-nav .owl-prev {
+        margin-left: -18% !important;
+        z-index: 10;
+    }
+    .slider-home-2 .slider-item {
+        padding: 180px 130px;
+    }
+    .schedule-hm .form-control {
+        padding: 25px 140px;
+    }
+    .feature .owl-nav button {
+        margin-top: -22% !important;
+    }
+    .team .owl-nav {
+       right: 22px;
+    }
+    .testimonialh .owl-nav button {
+        margin-top: -25% !important;
+    }
+    .contact-form .contact-form-area {
+        padding: 80px 40px 60px;
+    }
+    .contact-form .contact-form-area .contact-area h4 {
+        font-size: 16px;
+        color: #333b4c;
+    }
+
+    .header-bottom .quate {
+        padding: 10px 25px;
+    margin-left: 0 !important;
+    }
+    .service-details .sidebar .contact-area h4 {
+        font-size: 16px;
+        padding: 0px 0px 0px 10px;
+    }
+	.all-k{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.service-area p {
+    font-size: 14px;
+    padding: 0px 110px;
+}
+	.service-area h1 {
+		font-size: 36px;
+	}
+	
+	.logistics h1 {
+		font-size: 36px;
+	}
+	.feature p {
+    padding: 0px 60px;
+	}
+	
+	.align-self-center{
+		text-align: center;
+	}
+	.align-self-center img{
+		float: inherit !important;
+	}
+	.schedule {
+    margin-top: -80px;
+}
+
+
+	.service-details {
+    padding: 60px 0px 70px;
+}
+	.blog-grid {
+    padding: 70px 0px;
+}
+	#team {
+    padding: 60px 0px 60px;
+}
+	.team .abour-ha {
+    margin: 40px auto 0 auto;
+}
+	.about {
+    padding: 70px 0px;
+}
+	.about .counters h5 {
+    font-size: 11px;
+}
+	.schedule .nav-tabs .nav-link.nav-two {
+    font-size: 18px;
+}
+	.track h1 {
+    margin-bottom: 45px;
+    font-size: 24px;
+    line-height: 34px;
+}
+	.track {
+    padding: 68px 0px;
+}
+p.big {
+    margin-top: 0px;
+}
+	.global {
+    padding: 60px 0px;
+}
+	.global .left {
+    padding-right:0px;
+}
+	.global .counters {
+    margin-top: 60px;
+}
+.global .counters h2 {
+    font-size: 35px;
+}
+	.global .counters h5 {
+    font-size: 11px;
+}
+.subscribe img {
+    width: 100%;
+}
+
+.schedule .nav-tabs .nav-link.nav-one {
+    font-size: 18px;
+}
+.about .counters h2 {
+    font-size: 35px;
+	}
+	.counters img{
+		width: 75%;
+	}
+	.service-area {
+    padding: 60px 0px 0 0;
+}
+	.ma-inp{
+		    margin-top: 26px;
+	}
+	.logistics {
+    padding: 60px 0px 50px 0;
+}
+	.about h1 {
+    font-size: 36px;
+    line-height: 32px;
+}
+	.about h4 {
+    margin-top:30px;
+    margin-bottom: 9px;
+    font-size: 16px;
+    line-height: 21px;
+}
+	.about-content p {
+    font-size: 14px;
+    line-height: 23px;
+}
+	.signature img{
+		width:50%;
+	}
+	.about h5 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.advantages .content .item {
+    padding: 0px 15px 0px 15px;
+}
+
+.slider .slider-item h1 {
+    font-size: 50px;
+	line-height: 60px;
+}
+	.slider .slider-item h4 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+	.slider .slider-item .btn {
+    margin-top: 30px;
+}
+	
+/*Header Top area*/
+    .search, .openbtn{
+        display: none !important;
+    }
+    .header .right .hitem p span {
+        margin-right: 10px;
+    }
+	.map h1:after {
+    margin-top: 14px;
+}
+	.map h1 {
+    margin-bottom: 0px;
+    font-size: 36px;
+    line-height: 38px;
+}
+.map p {
+       font-size: 16px;
+    margin-top: 25px;
+}
+	.testimonial {
+    padding: 50px 0px 0px;
+}
+	.testimonial .item {
+    padding-top: 10px;
+}
+	.testimonial h1 {
+    font-size: 36px;
+}
+	.testimonial .testimonial-box {
+    padding: 45px 35px 45px 52px;
+}
+	.clients {
+    padding: 62px 0px;
+}
+	.service h1 {
+    font-size: 36px;
+		line-height: 42px;
+}
+	.slider-home-2 .slider-item {
+    padding: 175px 80px;
+    color: #fff;
+}
+	.slider-home-2 {
+    min-height:0vh;
+}
+	.service {
+    background-color: #fff;
+    padding: 70px 0px 100px;
+}
+	.service .form .submit-area label {
+    font-size: 14px;
+    padding-left: 5px;
+}
+	.service .form .submit-area .btnn {
+    padding: 10px 23px;
+    font-size: 16px;
+		    font-family: 'Rubik', sans-serif;
+}
+	.blog {
+    padding: 60px 0px 60px;
+}
+
+.blog h1 {
+    font-size: 36px;
+}
+	.blog p {
+    font-size: 14px;
+    padding: 0px 100px;
+}
+	.blog .blog-box img {
+    
+    width: 100%;
+}
+	.blog-box a {
+    font-size: 22px;
+    line-height: 23px;
+}
+	.blog .blog-box h3 {
+    padding: 15px 12px 10px 15px;
+}
+	.blog p.more .btnn {
+    padding: 9px 18px;
+    font-size: 16px;
+}
+
+    .header .right .hitem p .btn {
+          margin-top: -26px;
+   margin-left: 224px;
+		    font-size: 12px
+    }
+    .page-header {
+        padding: 80px 0px;
+    }
+    .feature h1 {
+        font-weight: 700;
+        padding: 0px;
+    }
+    .left img {
+        margin-top: 15px;
+    }
+    .schedule-hm .form-control {
+        padding: 25px 100px;
+    }
+    .schedule-hm .btn {
+        padding: 10px 25px;
+        margin-right: 0px;
+    }
+/*Slider Area*/
+    .slider{
+        height: 64vh !important;
+    }
+    .slider .slider-item {
+            padding: 110px 70px;
+    }
+    .feature .owl-nav button {
+        margin-top: -35% !important;
+    }
+    .logistics p {
+        padding: 0px;
+    }
+/*Global Logistic area*/
+
+
+/*Our Advantage*/
+    .advantages .content h2 {
+          padding-left: 20px;
+    font-size: 36px;
+    }
+	.advantages .content .item .icon {
+    height: 65px;
+    width: 65px;
+    margin-right: 10px;
+}
+	.advantages .content .item .icon img {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+}
+	.advantages .content .item h4 {
+    font-size: 18px;
+}
+    .advantages .content {
+           margin-bottom: 51px;
+    padding: 18px 0px;
+    }
+	.map {
+       padding: 60px 0px 60px 0;
+}
+    .advantages .content .item h6 {
+        line-height: 20px;
+		    font-size: 14px;
+    }
+	.advantages .content .item .aditem {
+    margin: 16px 0px;
+}
+
+    .testimonial .owl-nav button {
+        margin-top: -35% !important;
+    }
+    #logistics-carousel-one .item:hover.item:after {
+        bottom: 152px;
+    }
+    .global .counters .text-box {
+        margin-left: 15px;
+    }
+/*Subscribe Area*/
+    .subscribe-here {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .schedule .btn {
+        padding: 10px 15px;
+        margin-right: 0px;
+		    margin-top: 59px;
+    }
+    .subscribe h1{
+           font-size: 28px;
+    padding-top: 60px;
+    }
+    .subscribe .btn {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    .service-details .content .pricing-table .price {
+        height: 70px;
+        width: 70px;
+    }
+    .service-details .content .pricing-table .price h5 {
+        margin-top: 34px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .service-details .content .pricing-table {
+        padding: 14px;
+        margin-top: 30px;
+    }
+    .pricing-table ul {
+        margin-top: -20px;
+    }
+    .service-details .content .pricing-table .button {
+        padding: 8px 15px;
+        border-radius: 5px;
+    }
+    .price h5 span.symbol {
+        font-size: 14px;
+        position: absolute;
+        top: 35px !important;
+        left: 5px;
+        font-weight: 400;
+    }
+    .service-details .sidebar {
+        padding: 35px 0px 0px;
+        margin: 08px 15px 15px 0px;
+    }
+    .service-details .sidebar .contact-area {
+        padding: 30px 10px;
+        padding-bottom: 30px;
+    }
+    .service-details #add {
+        padding: 1px 10px;
+        height: 250px;
+    }
+    .service-details #add h4 a {
+        margin-bottom: 15px;
+        display: block;
+    }
+    .service-details .sidebar .contact-area {
+        padding: 30px 10px;
+    }
+    .service-details .sidebar .contact-area h4 {
+        padding: 5px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+/*Fotter Area*/
+    .footer ul li {
+        margin: 0px 0px 10px 0px;
+    }
+    .footer {
+        padding: 60px 0px;
+    }
+    .footer h4 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+/*Home -02- Testimonial*/
+    .testimonialh .owl-nav button {
+        color: #fff !important;
+        margin-top: -40% !important;
+    }
+
+    .contact-form .contact-form-area {
+        padding: 80px 26px 60px;
+    }
+    .contact-form .contact-form-area .contact-area h4 img {
+        margin-right: 10px;
+    }
+    .contact-form .contact-form-area .contact-area h4 {
+        font-size: 11px;
+        color: #333b4c;
+    }
+	.all-k{
+		display: none;
+	}
+	.header-bottom .quate {
+    display: none;
+}
+	.home-02 {
+    width: 100%;
+}
+.home-02 button{
+   float: right;
+}
+.feature {
+    padding: 60px 0px;
+}
+.feature .feature-area {
+    padding: 0 80px 0 80px;
+}
+	.global .right {
+     padding-left: 20px;
+    margin-top: 42px;
+}
+	.global p.small {
+    margin-bottom: 30px;
+}
+.team p {
+    font-size: 13px;
+}
+.about-content {
+    padding: 45px 0px 0px 20px;
+}
+
+
+	.team {
+    padding: 55px 0px 0px;
+}
+	.blogh {
+    padding: 60px 0px 57px;
+}
+.blogh .blog-box img {
+    height: 166px;
+}
+	.testimonialh {
+       padding: 60px 0px;
+    background-size: cover;
+
+}
+	.testimonialh h1 {
+    margin-bottom: 40px;
+		    font-size: 36px;
+}
+	.team h1 {
+    font-size: 36px;
+}
+	.content h1{
+		display: none;
+	}
+	.team .item .text a {
+    height: 45px;
+		width: 45px;
+	}
+	#teaml {
+    background: none;
+    padding: 52px 0px 30px;
+}
+	.mr-has{
+		margin-top: 30px !important;
+	}
+	.gallery-area {
+    padding: 50px 0px;
+}
+	#news nav {
+    margin-top: 50px !important;
+}
+	.ds-iret{
+		display: block;
+	}
+	#teamm {
+    background: none;
+    padding: 30px 0px 60px;
+}
+.mr-has-2{
+	display: block;
+}
+	#single-blog .blog-content {
+    padding: 30px 0px 0;
+}
+	#single-blog .blog-content p.tag {
+    margin-top: 0 !important;
+}
+	#single-blog .comment {
+    padding-top: 40px;
+}
+
+	#single-blog .comment h4 {
+    margin-bottom: 35px;
+}
+#single-blog .comment .btn {
+    padding: 7px 16px;
+    font-size: 16px;
+}
+
+}
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+	.service-details .sidebar {
+    margin: 08px 0 40px 0px;
+}
+	.gallery-area .single-gallery .overlay {
+    width: 95%;
+}
+	#single-blog .blog-content h4 {
+    margin-top: 0;
+}
+	#single-blog .blog-content p.tag {
+    margin-top: 0px !important;
+}
+	.service-details .sidebar .contact-area img {
+    margin-right:0;
+    margin-top:0;
+    margin-bottom: 0;
+}
+	.pagination{
+		margin-bottom: 40px;
+	}
+	.testimonialh h1 {
+    font-size: 36px;
+		    margin-bottom: 24px;
+}
+	.subscribe .mb-3{
+		    padding-bottom: 40px;
+	}
+	.footer h4 {
+    margin-bottom: 20px;
+}
+	.feature p {
+    margin-bottom: 30px;
+    padding: 0px 40px;
+    font-size: 16px;
+}
+	.feature .item p {
+    margin-bottom: 20px;
+}
+.left img {
+    float: inherit;
+    margin-right: 0px;
+}
+.global .left {
+    padding-right: 60px;
+    padding-left: 75px;
+}
+	
+	.slider-home-2 .slider-item h4 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+.slider-home-2 .slider-item .btn {
+    padding: 10px 14px;
+    margin-top: 17px;
+    font-size: 16px;
+}
+.slider-home-2 {
+    min-height: 52vh;
+}
+
+
+	.blog h1 {
+    font-size: 35px;
+}
+	.blog h1:after {
+    margin-left: 43.5%;
+}
+	.advantages .content h2 {
+    font-size: 35px;
+}
+	.align-self-center{
+		text-align: center;
+	}
+	.align-self-center img{
+		float: inherit !important;
+	}
+	.service .form label {
+    margin-top: 6px;
+}
+	.testimonial p.button {
+    margin-top: 30px;
+}
+	.service h1 {
+    margin-bottom: 15px;
+	}
+	.map h1 {
+    font-size: 35px;
+		    margin-bottom: 18px;
+}
+	.testimonial h1 {
+    font-size: 35px;
+}
+	.testimonial h1:after {
+    margin-left: 40.5%;
+}
+	.signature img{
+		    width: 65%;
+    margin-right: 27px;
+	}
+	.logistics h1 {
+    font-size: 35px;
+}
+	.logistics h1:after {
+    margin-left: 41.5%;
+}
+.about h1 {
+    font-size: 35px;
+}
+	.about h4 {
+    font-size: 18px;
+    line-height: 25px;
+		    margin-bottom: 5px;
+}
+
+	.slider .slider-item h4 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+	.slider .slider-item .btn {
+    padding: 8px 17px;
+    margin-top: 26px;
+    font-size: 14px;
+}
+	.schedule .nav-tabs .nav-link {
+    font-size: 16px;
+}
+	
+	.service-details .content #active .price {
+    top: 147px;
+}
+	.header-top {
+    display: none;
+}
+		.header-bottom .quate {
+    display: none;
+}
+	.home-02 {
+    width: 100%;
+}
+.home-02 button{
+   float: right;
+}
+.feature {
+    padding: 60px 0px;
+}
+.feature .feature-area {
+    padding: 0 80px 0 80px;
+}
+	.global .right {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+	.global p.small {
+    margin-bottom: 30px;
+}
+	.team .item {
+    margin: 0 10px 20px;
+}
+	.team {
+    padding: 55px 0px 0px;
+}
+	.blogh {
+    padding: 60px 0px 57px;
+}
+.blogh .blog-box img {
+    height: 166px;
+}
+	.testimonialh {
+    padding: 50px 0px;
+}
+	
+	
+	
+	
+		.feature {
+    padding: 50px 0px;
+}
+	.logistics {
+    padding: 50px 0px;
+}
+	.global {
+    padding: 75px 0px;
+}
+	.team {
+    
+    padding: 56px 0px 0px;
+}
+.blogh .blog-box img {
+    height: 218px;
+}
+	.blogh {
+    padding: 79px 0px 60px;
+}
+	.testimonialh {
+       padding: 50px 0px;
+    background-size: cover;
+}
+.header-bottom .quate {
+    display: none;
+}
+	.testimonialh p.button {
+    margin-top: 20px;
+}
+	
+	
+	.header .left {
+   display: none;
+}
+	.logo-te{
+		    display: inline-grid;
+    background: #fff;
+	}
+	.header .right .hitem p{
+		display: none;
+	}
+	.all-k{
+		
+		display: inline-block;;
+	}
+
+	.navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+    border-color: rgb(255, 255, 255);
+}
+	.header .navbar-nav {
+    padding: 22px;
+    margin: 0px;
+}
+	.header .right .hitem {
+     padding: 0px 0px; 
+     border-bottom: 0px solid #003b65;
+}
+	.header .right #hitem {
+  display: inline-flex;
+}
+	.schedule .form-control {
+    width: 100%;
+}
+	.logistics {
+    padding: 50px 0px 50px 0;
+}
+.about .counters h2 {
+    font-size: 48px;
+}
+	.about .counters .text-box {
+    width: 75%;
+    margin-left: 19px;
+}
+	.map {
+    padding: 60px 0px 60px 0;
+}
+	.testimonial {
+    padding: 50px 0px 0px;
+}
+	.testimonial .item {
+    padding-top: 20px;
+}
+	.clients {
+    background-color: #032c56;
+    padding: 50px 0px;
+}
+.service {
+    background-color: #fff;
+    padding: 50px 0px 50px;
+}
+	.service .form .submit-area .btnn {
+   display: block !important;
+}
+	.blog .blog-box {
+    margin: 30px 55px;
+}
+	.blog p.more {
+    margin-top: 7px;
+}
+	.blog {
+    padding: 55px 0px 30px;
+}
+
+/*Header Top area*/
+    .search, .openbtn{
+        display: none !important;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .left a {
+        display: inline-block;
+        margin-left: 200px;
+    }
+    .header-top p span {
+        margin-right: 0px;
+    }
+    .header .right .hitem p span {
+        margin-right: 10px;
+    }
+    .header .right .hitem p .btn {
+        padding: 5px 25px;
+		    font-size: 11px;
+    }
+    .schedule .btn {
+        float: left !important;
+        margin-right: -20px;
+		    margin-top: 16px;
+    }
+    .header-bottom img {
+        height: auto;
+    }
+    .feature .owl-nav button {
+        margin-top: -40% !important;
+    }
+    .logistics p {
+        padding: 0px;
+		line-height: 25px;
+    }
+    .page-header {
+        padding: 60px 0px;
+    }
+    .header-top p span {
+        margin-right: 0px;
+    }
+    .header-top p {
+        width: 100%;
+    }
+    .blog p {
+        text-align: center;
+        font-size:16px;
+        padding: 0px;
+    }
+    .schedule-hm .btn {
+        margin-right: 0px;
+    }
+    #logistics-carousel-one .item:hover.item:after {
+        bottom: 209px;
+    }
+    .logistics .owl-carousel .item h4 {
+        margin-top: 27px;
+        padding: 0px 25px;
+    }
+    #logistics-carousel-one .item:before {
+        position: absolute;
+        content: "";
+        top: 20%;
+        left: 38%;
+    }
+    #logistics-carousel-two .item:hover.item:after {
+        bottom: 209px;
+    }
+    #logistics-carousel-two .item:before {
+         position: absolute;
+         content: "";
+         top: 20%;
+         left: 38%;
+     }
+    #logistics-carousel-three .item:hover.item:after {
+        bottom: 209px;
+    }
+    #logistics-carousel-three .item:before {
+        position: absolute;
+        content: "";
+        top: 20%;
+        left: 38%;
+    }
+/*Slider Area*/
+    .slider {
+        height: 60vh;
+        margin-top: 0px;
+    }
+    .slider .slider-item {
+        padding: 85px 0px;
+    }
+    .slider-home-2 .slider-item {
+        padding: 115px 0px;
+        color: #fff;
+    }
+    .slider-item .item {
+        padding: 0px 30px;
+    }
+    .slider-home-2 .slider-item h1 {
+            font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    }
+    .slider .slider-item h1 {
+            font-size: 48px;
+    line-height: 56px;
+    }
+    .feature h1 {
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #032c56;
+        padding: 0px;
+    }
+
+    .signle-counter {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .testimonial .owl-nav button {
+        color: #fff !important;
+        margin-top: -50% !important;
+    }
+    .subscribe img {
+        display: none;
+    }
+    .subscribe-here {
+        padding: 30px 0px;
+    }
+    .subscribe h1 {
+        padding-top: 40px;
+        margin-bottom: 25px;
+        font-size: 35px;
+    }
+
+    .footer ul li {
+        list-style: none;
+        margin: 0px 0px 15px 0px;
+    }
+    .footer-bottom p {
+        color: #8897a6;
+        text-align: center;
+    }
+/*Home -02- Global Counters*/
+    .global .counters {
+        margin-top: 100px;
+        padding: 0px 50px;
+    }
+    .global .counter {
+        margin-bottom: 30px;
+    }
+    .team .owl-nav {
+           margin-top: 25px !important;
+    margin-right: 15px;
+    }
+    .team .owl-nav button {
+        height: 40px;
+        width: 40px;
+    }
+    .team p {
+        margin-bottom: 80px;
+    }
+    .about {
+        background-color: #fff;
+        padding: 90px 0px 0px;
+    }
+/*Contact Page*/
+
+    .contact-form .contact-form-area .form-area h1 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+    .contact-form .contact-form-area {
+        padding: 60px 15px;
+    }
+    .contact-form .contact-form-area .form-area input {
+        margin-bottom: 15px;
+    }
+    .contact-form .contact-form-area .contact-area {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+	
+	
+		
+			.service-area h1 {
+    font-size: 34px;
+}
+	
+.service-area p {
+    padding: 0px 37px;
+}
+	#teaml {
+    padding: 37px 0px 30px;
+}
+	.blog-grid {
+    padding: 50px 0px;
+}
+	#single-blog .blog-content {
+    padding: 40px 0px 22px
+}
+	#single-blog .comment {
+    padding-top: 41px;
+}
+	#single-blog .comment h4 {
+    margin-bottom: 28px;
+}
+	#single-blog .comment .btn {
+    padding: 11px 10px;
+}
+.gallery-area {
+    padding: 50px 0px;
+}
+
+#news nav {
+    margin-top: 20px !important;
+}
+.service-area h1:after {
+    margin-left: 39.5%;
+}
+
+.service-area {
+    padding: 50px 0px;
+}
+	.service-details {
+      padding: 50px 0px 70px;
+}
+	.service-details .content #active {
+    margin-top: 32px;
+}
+	.page-header h1 {
+    font-size: 47px;
+}
+.team .abour-ha {
+    margin: 24px auto 0 auto;
+}
+#team {
+    padding: 60px 0px 54px;
+    background: none;
+}
+	#teaml .item {
+    margin: 10px;
+}
+	#teamm {
+    background: none;
+    padding: 30px 0px 30px;
+}
+	
+	
+	
+	
+	
+}
+@media only screen and (min-width: 480px) and (max-width: 574px) {
+	
+	.slider .slider-item h4 {
+    margin-top: 8px;
+    font-size: 20px;
+}
+	.slider .slider-item .btn {
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+	.header-top {
+    display: none;
+}
+	.home-02 {
+       width: 60%;
+}
+.feature {
+    padding: 55px 0px;
+}	
+	.feature p {
+   margin-bottom: 20px;
+    padding: 0px 0px;
+}
+	.header-bottom .float-right {
+		display: none;
+	}
+	.blog-grid .single-blog p {
+    margin-bottom: 10px;
+}
+
+.global {
+    padding: 54px 0px;
+}
+	.team .item {
+    margin: 0 10px 20px;
+}
+	.blogh {
+    padding: 79px 0px 57px;
+}
+	.testimonialh .testimonial-area {
+    padding: 0px 0;
+}
+	.testimonialh p.button {
+    text-align: center;
+    margin-top: 25px;
+}
+	.testimonialh {
+    padding: 40px 0px;
+		    padding: 40px 0px;
+    background-size: cover;
+}
+	.testimonialh h1 {
+    margin-bottom: 12px;
+}
+	
+	
+	
+	.service-details .sidebar {
+    margin: 08px 0 40px 0px;
+}
+	.hidd{
+		display: none;
+	}
+	.schedule .form-control {
+    width: 100%;
+}
+	.schedule .btn {
+    float: left;
+}
+	.logistics {
+    padding: 55px 0px;
+}
+	.logistics h1:after {
+    margin-left: 8.5%;
+}
+	.map {
+    padding: 0px 0px 35px 0;
+}
+	.testimonial {
+    padding: 65px 0px 0px;
+}
+	.clients {
+    background-color: #032c56;
+    padding: 60px 0px;
+}
+	.service .form {
+    margin-top: 0;
+}
+	.service .form label {
+    margin-top: 20px;
+}
+	.service .form .submit-area .btnn {
+    display: block !important;
+}
+	.blog {
+    padding: 55px 0px 50px;
+}
+	.testimonial h1:after {
+    margin-left: 18.5%;
+}
+	.blog h1:after {
+    margin-left: 21.5%;
+}
+	.map h1 {
+    margin-bottom: 15px;
+		    margin-bottom: 15px;
+    line-height: 48px;
+		    margin-left: 15px;
+}
+	.left img {
+    float: right;
+    margin-right: 0px;
+}
+	.map p {
+    margin-left: 15px;
+}
+	.testimonial p.button {
+    margin-top: 33px;
+}
+.service-details h1 {
+    margin-bottom: 0px;
+    font-size: 36px;
+    margin-left: 25px;
+}
+
+	.team {
+    padding: 60px 0px 0px;
+}
+	.service-details .content .video {
+    margin: 30px 0px 35px;
+}
+	.service-details .content .pricing-table {
+    margin-top: 0;
+		    margin: 30px;
+}
+	.testimonial .item {
+    padding-top: 25px;
+}
+	.footer .row .col-sm-6{
+		    margin: 0 65px;
+	}
+	.bg-light {
+          margin-left: 40%;
+}
+
+/*Header Top area*/
+    .search, .openbtn{
+        display: none !important;
+    }
+  .header .left img {
+    padding: 0;
+    width: 23%;
+    margin-top: 8px;
+    margin-right: 195px;
+}
+	.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+    .header .left {
+           background: #fff;
+    margin-left: 0px;
+    width: 98%;
+    height: 78px;
+    }
+    .header-top p span {
+        margin-right: 0px;
+    }
+    .header .right .hitem p span {
+        margin-right: 14px;
+    }
+    .header .right .hitem p .btn {
+        margin-left: 165px;
+        margin-top: 15px;
+    }
+    .header-bottom img {
+           height: auto;
+    width: 75%;
+    margin-left: 37px;
+    }
+    .page-header {
+        padding: 60px 0px;
+    }
+    .header-top p span {
+        margin-right: 0px;
+    }
+    .header-top p {
+        width: 100%;
+    }
+    .logistics p {
+        text-align: center;
+        color: #5f6a75;
+        font-size: 16px;
+        padding: 20px 0px;
+        margin: 0px;
+		line-height: 25px;
+    }
+    .schedule .tab-content {
+        border-radius: 0px 0px 15px 15px;
+    }
+    .schedule-hm .btn {
+        margin-right: 0px;
+    }
+/*Slider Area*/
+    .slider {
+        height: 55vh;
+    }
+    .slider .slider-item {
+        padding: 80px 30px;
+    }
+    .slider .slider-item h1 {
+        font-size: 45px;
+		line-height: 50px;
+    }
+    .feature h1 {
+    padding: 0px;
+    line-height: 40px;
+    }
+    .schedule #nav-tab .nav-link {
+        font-size: 16px;
+        padding: 10px 9px;
+    }
+    .nav-tabs {
+        border-bottom: none;
+        margin-left: 1px;
+    }
+    .signle-counter {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .feature .owl-nav button {
+        margin-top: -62% !important;
+    }
+    .advantages .content {
+           padding: 54px 0px;
+		margin-bottom: 72px;
+    }
+    .blogh p {
+        padding: 0px 36px;
+    }
+	.signature img{
+		    width: 58%;
+    margin-right: 25px;
+	}
+
+    .testimonial .testimonial-box .client .c-image {
+        width: 0%;
+    }
+    .testimonial .testimonial-box .client .c-details {
+        width: 70%;
+    }
+    .testimonial .testimonial-box .client .c-details h5 {
+        font-size: 18px;
+    }
+    .testimonial .testimonial-box .client .c-details p {
+        font-size: 12px;
+    }
+    .blog p {
+        text-align: center;
+        font-size: 16px;
+        padding: 0px;
+    }
+    .service {
+           padding: 60px 0px 65px;
+    }
+    .subscribe{
+        padding-bottom: 30px;
+    }
+    .schedule .btn {
+       margin-right: -20px;
+    font-size: 17px;
+    margin-top: 10px;
+    }
+    .testimonial .testimonial-area {
+        padding: 0px;
+    }
+    .subscribe img {
+        display: none;
+    }
+    .subscribe h1 {
+        padding-top: 30px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+    .footer {
+        padding: 60px 0px;
+    }
+    .footer h4 {
+        margin-bottom: 20px;
+    }
+    .footer ul li {
+        margin: 0px 0px 10px 0px;
+    }
+
+/*Home -02- Slider*/
+    .slider-home-2 {
+          min-height: 46vh;
+    }
+	.track h1 {
+    margin-bottom: 45px;
+    font-size: 31px;
+}
+	.track {
+    padding: 80px 0px;
+}
+.global .right {
+    padding-left: 40px;
+}
+
+    .slider-home-2 .slider-item {
+        padding: 135px 15px;
+        color: #fff;
+    }
+    .slider-home-2 .slider-item h1 {
+            font-size: 48px;
+    line-height: 50px;
+    }
+    .feature .item p {
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+	.slider-home-2 .slider-item h4 {
+    margin-top: 4px;
+    font-size: 21px;
+    line-height: 29px;
+}
+	.slider-home-2 .slider-item .btn {
+    padding: 11px 25px;
+    margin-top: 16px;
+    font-size: 16px;
+}
+    .schedule-hm .nav-tabs .nav-link img {
+        margin-right: 4px;
+    }
+    .schedule-hm #nav-tab .nav-link.active {
+        font-size: 15px;
+    }
+    .global .counters {
+        padding: 0px 30px;
+		    margin-top: 60px;
+    }
+    .global .counter {
+        margin-bottom: 30px;
+    }
+    .team p {
+        margin-bottom: 90px;
+    }
+    .team .owl-nav {
+	       position: absolute;
+    right: 42%;
+    top: -82px;
+    }
+    .testimonialh .testimonial-box .client img {
+        margin: 0 auto;
+    }
+    .testimonialh .testimonial-box .client h5 {
+        text-align: center;
+    }
+    .testimonialh .testimonial-box .client p {
+        text-align: center;
+    }
+    .footer-bottom p {
+        text-align: center;
+    }
+/*Common Page Style*/
+    .page-header {
+        padding: 55px 0px;
+    }
+/*Contact Page*/
+    .header-top p {
+        width: 100%;
+    }
+/*Blog Page*/
+    .blog-sidebar {
+        margin-top:0px;
+    }
+    .single-blog h2 {
+        font-size: 26px;
+    }
+    .blog-grid .single-blog p.meta span {
+        margin-left: 45px;
+    }
+    .blog-grid .single-blog .blog-thumb .share {
+        height: 45px;
+        width: 80px;
+        margin-top: 375px;
+        right: 15px;
+        padding-top: 17px;
+    }
+    .blog-grid nav .page-link {
+        font-size: 22px;
+        padding: 5px 14px !important;
+        margin: 0px;
+    }
+    .about {
+        background-color: #fff;
+        padding: 50px 0px 0px;
+    }
+/*Contact Page*/
+    .contact-form .contact-form-area .form-area h1 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+    .contact-form .contact-form-area {
+        padding: 60px 15px;
+    }
+    .contact-form .contact-form-area .form-area input {
+        margin-bottom: 15px;
+    }
+    .contact-form .contact-form-area .contact-area {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+	
+	
+	
+			.service-area h1 {
+    font-size: 34px;
+}
+	
+.service-area p {
+    padding: 0px 8px;
+}
+	#teaml {
+    padding: 37px 0px 30px;
+}
+	.blog-grid {
+    padding: 50px 0px;
+}
+	#single-blog .blog-content {
+    padding:20px 0px 22px
+}
+	#single-blog .blog-content p {
+    padding-bottom: 10px;
+    margin: 0px !important;
+	margin-top: 8px !important;
+}
+	#single-blog .blog-content p.tag {
+    margin-top: 0px !important;
+}
+	#single-blog .blog-content h4 {
+    margin-top: 7px;
+}
+	#single-blog .comment {
+    padding-top: 41px;
+}
+	#single-blog .comment h4 {
+    margin-bottom: 28px;
+}
+	#single-blog .comment .btn {
+    padding: 11px 10px;
+}
+.gallery-area {
+    padding: 50px 0px;
+}
+
+#news nav {
+    margin-top: 48px !important;
+}
+.service-area h1:after {
+    margin-left: 39.5%;
+}
+
+.service-area {
+    padding: 50px 0px;
+}
+	.service-details {
+      padding: 50px 0px 70px;
+}
+	.service-details .content #active {
+    margin-top: 0px;
+}
+	.page-header h1 {
+    font-size: 47px;
+}
+.team .abour-ha {
+    margin: 24px auto 0 auto;
+}
+#team {
+    padding: 60px 0px 54px;
+    background: none;
+}
+	#teaml .item {
+    margin: 10px;
+}
+	#teamm {
+    background: none;
+    padding: 30px 0px 30px;
+}
+	
+	
+	
+	
+	
+	
+	
+}
+
+@media only screen and (min-width: 426px) and (max-width: 479px) {
+	
+	.testimonial p.button {
+    text-align: center;
+    margin-top: 45px;
+}
+		.logistics h1 {
+    font-size: 36px;
+}
+	.header-top {
+    display: none;
+}
+	.home-02 {
+       width: 60%;
+}
+.feature {
+    padding: 55px 0px;
+}	
+	.feature p {
+       margin-bottom:10px;
+    padding: 0px 0;
+    font-size: 14px;
+}
+.feature .item p {
+    margin-bottom: 25px;
+	font-size: 14px;
+}
+.global {
+     padding: 55px 0 0 0px;
+}
+	.team .item {
+    margin: 0 10px 20px;
+}
+	.blogh {
+    padding: 79px 0px 57px;
+}
+	.testimonialh .testimonial-area {
+    padding: 0px 0;
+}
+	.testimonialh p.button {
+    text-align: center;
+    margin-top: 25px;
+}
+	.testimonialh {
+       padding: 40px 0px;
+    background-size: cover;
+}
+	.testimonialh h1 {
+    margin-bottom: 12px;
+    font-size: 36px;
+}
+	
+	.global .left {
+    padding-right: 60px;
+    display: none;
+}
+	
+	.global h1 {
+    margin-bottom: 13px;
+}
+	p.big {
+    margin-top: 10px;
+		    font-size: 18px;
+    line-height: 25px
+}
+	.global .right {
+    padding-left: 35px;
+}
+	.hidd{
+		display: none;
+	}
+	.schedule .form-control {
+    width: 100%;
+}
+	.schedule .btn {
+    float: left;
+}
+	.logistics {
+    padding: 40px 0px;
+}
+	.logistics h1:after {
+      margin-left: 9.5%;
+}
+	.map {
+    padding: 0px 0px 70px 0;
+}
+	.service-details .sidebar {
+    margin: 08px 0 40px 0px;
+}
+	.service-details h1 {
+    margin-bottom: 0px;
+}
+	.testimonial {
+    padding: 65px 0px 0px;
+}
+	.clients {
+     background-color: #032c56;
+    padding: 30px 0px;
+}
+	.subscribe .btn {
+    padding-left: 20px;
+    padding-right: 38px;
+    font-size: 16px;
+}
+	.service .form {
+    margin-top: 0;
+}
+	.service .form label {
+    margin-top: 20px;
+}
+	.service .form .submit-area .btnn {
+    display: block !important;
+}
+	.blog {
+    padding: 55px 0px 50px;
+}
+	.testimonial h1:after {
+    margin-left: 18.5%;
+}
+	.blog h1:after {
+    margin-left: 21.5%;
+}
+	.map h1 {
+       margin-bottom: 15px;
+    line-height: 41px;
+    font-size: 36px;
+}
+	.testimonial .item {
+    padding-top: 25px;
+}
+	.footer .row .col-sm-6{
+		    margin: 0 65px;
+	}
+	.bg-light {
+           margin-left: 42%;
+}
+	
+	.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgb(255, 255, 255);
+}
+	.left img{
+	width: 36%;
+    padding: 12px 0 !important;
+    margin-right: 55%;
+	}
+	.advantages .content .item .icon {
+    height: 60px;
+    width: 60px;
+    margin-right: 8px;
+}
+	.advantages .content .item .icon img {
+    height: 19px;
+    width: 21px;
+    position: relative;
+    top: 9px;
+}
+	.advantages .content .item h4 {
+    font-size: 20px;
+}
+	.advantages .content .item h6 {
+    font-size: 12px;
+    line-height: 20px;
+}
+	.testimonial .testimonial-area {
+    padding: 0px 0;
+}
+
+
+    /*Header Top area*/
+    .search, .openbtn{
+        display: none !important;
+    }
+    .header .left {
+        background: #fff;
+        margin-left: 120px;
+    }
+    .header .right .hitem p span {
+        margin-right: 34px;
+    }
+    .header .right .hitem p .btn {
+        margin-left: 241px;
+        margin-top: -15px;
+    }
+    .header-bottom img {
+         height: auto;
+    width: 89%;
+    margin-left: 27px;
+    }
+    .page-header {
+        padding: 60px 0px;
+    }
+    .header-top p span {
+        margin-right: 0px;
+    }
+    .header-top p {
+        width: 100%;
+    }
+    .schedule-hm .btn {
+        margin-right: 0px;
+    }
+    .blogh p {
+        padding: 0px 20px;
+    }
+    /*Slider Area*/
+    .slider {
+       height: 55vh;
+    }
+    .slider .slider-item {
+           padding: 85px 30px;
+    }
+    .slider .slider-item h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .slider .slider-item h4 {
+           margin-top: 0px;
+    font-size: 18px;
+    }
+    .schedule .tab-content {
+        border-radius: 0px 0px 15px 15px;
+    }
+    .schedule .btn {
+        margin-right: 0px;
+    }
+    .nav-tabs {
+        margin-left: 1px;
+    }
+    .schedule #nav-tab .nav-link {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    .signle-counter {
+    margin-left: 25px;
+        margin-bottom: 30px;
+    }
+    .advantages .content {
+        margin-bottom: 70px;
+		    padding: 40px 0px;
+    }
+	.about .counters {
+    margin-top: 15px;
+}
+	.blog-grid .single-blog p {
+    margin-bottom: 15px;
+		line-height: 25px;
+}
+	.blog-grid .single-blog {
+    margin-bottom: 32px;
+}
+
+
+    .float-right {
+        display: none !important;
+    }
+    .testimonial .testimonial-box .client .c-image {
+        width: 0%;
+    }
+    .testimonial .testimonial-box .client .c-details {
+        width: 70%;
+    }
+    .testimonial .testimonial-box .client .c-details h5 {
+        font-size: 18px;
+    }
+    .testimonial .testimonial-box .client .c-details p {
+        font-size: 12px;
+    }
+    .logistics p {
+        text-align: center;
+        color: #5f6a75;
+        font-size: 16px;
+        padding: 15px 0px;
+        margin: 0px;
+    }
+    .service {
+          padding: 60px 0px 60px;
+    }
+	.global .counters {
+    margin-top: 44px;
+}
+.blog h1 {
+	font-size: 36px;
+	}
+.global p.small {
+    margin-bottom: 29px;
+}
+    .subscribe{
+        padding-bottom: 30px;
+    }
+    .subscribe img {
+        display: none;
+    }
+    .subscribe h1 {
+        padding-top: 30px;
+        margin-bottom: 25px;
+        font-size: 26px;
+    }
+    .advantages .content h2 {
+        font-size: 36px;
+    }
+    .testimonial .testimonial-box h4 a {
+        font-size: 16px;
+    }
+    .testimonial .testimonial-box {
+        padding: 18px 20px;
+    }
+    .testimonial .testimonial-box p {
+        font-size: 14px;
+    }
+    .blog p {
+        font-size: 15px;
+        padding: 0px;
+    }
+    .testimonial .testimonial-box h4 {
+        text-align: center;
+    }
+    .footer {
+        padding: 60px 0px;
+    }
+    .footer h4 {
+        margin-bottom: 30px;
+    }
+/*Home -02- Slider*/
+    .slider-home-2 {
+        min-height: 40vh;
+    }
+    .slider-home-2 .slider-item {
+        padding: 140px 0px;
+        color: #fff;
+    }
+    .slider-home-2 .slider-item {
+           padding: 88px 20px;
+    }
+    .slider-home-2 .slider-item h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .slider-home-2 .slider-item h4 {
+        font-size: 22px;
+		    margin-top: 0;
+    line-height: 19px;
+    }
+	.slider-home-2 .slider-item .btn {
+    padding: 10px 26px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+    .feature h1 {
+        font-size: 28px;
+        padding: 0px;
+		    margin-bottom: 5px;
+    }
+    .feature h4 {
+        font-size:16px;
+    }
+    .feature .owl-nav button {
+        margin-top: -85% !important;
+    }
+    .track {
+        padding: 70px 0px;
+    }
+    .track h1 {
+        margin-bottom: 50px;
+        font-size: 28px;
+    }
+    .schedule-hm .nav-tabs .nav-link img {
+        margin-right: 8px;
+    }
+    .schedule-hm .nav-tabs .nav-link {
+        padding: 15px;
+        font-size: 14px;
+    }
+    .team {
+        padding: 70px 0px 0px;
+    }
+    .team p {
+        margin-bottom: 90px;
+    }
+    .team .owl-nav {
+           margin-right: 6px;
+    right: 6%;
+    top: -86px;
+    }
+    .global .counter {
+        margin-bottom: 20px;
+    }
+    .global .counters {
+        padding: 0px 30px;
+    }
+    .testimonialh .testimonial-box h4 {
+        font-size: 18px;
+    }
+    .testimonialh .testimonial-box {
+        padding: 30px 25px;
+    }
+    .testimonialh .testimonial-box p {
+        font-size: 15px;
+    }
+    .testimonialh .testimonial-box .client img {
+        margin: 0 auto;
+    }
+    .testimonialh .testimonial-box .client h5 {
+        text-align: center;
+    }
+    .testimonialh .testimonial-box .client p {
+        text-align: center;
+    }
+    .footer-bottom p {
+        text-align: center;
+    }
+.blog-sidebar .widget {
+    margin-top: 30px;
+}
+/*Blog Page*/
+    .blog-sidebar {
+        margin-top: 15px;
+    }
+    .single-blog h2 {
+        font-size: 26px;
+    }
+    .blog-grid .single-blog p.meta span {
+        margin-left: 10px;
+    }
+    .blog-grid .single-blog .blog-thumb .share {
+        height: 45px;
+        width: 80px;
+        margin-top: 375px;
+        right: 15px;
+        padding-top: 17px;
+    }
+    .blog-grid nav .page-link {
+        font-size: 20px;
+        padding: 5px 14px !important;
+        margin: 0px;
+    }
+    .about {
+        background-color: #fff;
+        padding: 40px 0px 0px;
+    }
+/*Contact Page*/
+    .contact-form .contact-form-area .form-area h1 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+    .contact-form .contact-form-area {
+        padding: 60px 15px;
+    }
+    .contact-form .contact-form-area .form-area input {
+        margin-bottom: 15px;
+    }
+    .contact-form .contact-form-area .contact-area {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+	
+	#single-blog .blog-content p.tag {
+    margin-top: 0 !important;
+}
+	#single-blog .admin h4 a {
+    font-size: 20px;
+}
+	#single-blog .admin {
+    padding: 30px 0px;
+}
+	
+		.blog-content blockquote {
+    font-size: 16px;
+    padding: 9px;
+}
+	#single-blog .blog-content p {
+    padding-bottom: 18px;
+		 
+}
+	#single-blog .blog-content h4 {
+    margin-top: 0px;
+}
+	
+		.service-area h1 {
+    font-size: 34px;
+}
+	
+.service-area p {
+   padding: 0px 0px;
+}
+	#teaml {
+    padding: 37px 0px 30px;
+}
+	.blog-grid {
+    padding: 50px 0px;
+}
+	#single-blog .blog-content {
+    padding: 15px 0px 22px
+}
+	#single-blog .comment {
+    padding-top: 41px;
+}
+	#single-blog .comment h4 {
+    margin-bottom: 28px;
+}
+	#single-blog .comment .btn {
+    padding: 11px 10px;
+}
+.gallery-area {
+    padding: 50px 0px;
+}
+
+#news nav {
+    margin-top: 48px !important;
+}
+.service-area h1:after {
+    margin-left: 39.5%;
+}
+
+.service-area {
+    padding: 50px 0px;
+}
+	.service-details {
+      padding: 50px 0px 70px;
+}
+	.service-details .content #active {
+    margin-top: 32px;
+		    margin-top: 32px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+	.service-details .content #active .price {
+    top: 147px;
+}
+	.about h1 {
+    margin-top: 10px;
+    font-size: 36px;
+    line-height: 42px;
+}
+	.about h4 {
+    margin-top: 17px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 27px;
+}
+	.page-header h1 {
+    font-size: 47px;
+}
+.team .abour-ha {
+    margin: 24px auto 0 auto;
+}
+#team {
+    padding: 60px 0px 54px;
+    background: none;
+}
+	#teaml .item {
+    margin: 10px;
+}
+	#teamm {
+    background: none;
+    padding: 30px 0px 30px;
+}
+	
+	.slider .slider-item .btn {
+    padding: 8px 15px;
+    margin-top: 17px;
+    font-size: 16px;
+}
+	.schedule .nav-tabs .nav-link img {
+    margin-right:0px;
+    width: 12%;
+}
+	.schedule #nav-tab .nav-link.active {
+    font-size: 14px;
+}
+	.schedule .btn {
+    margin-top: 17px;
+    font-size: 16px;
+    padding: 9px 33px;
+}
+
+
+	
+}
+@media only screen and (min-width: 361px) and (max-width: 425px) {
+	
+.feature .feature-area {
+    padding: 0 80px 0 80px;
+}		
+.header-top {
+    display: none;
+}
+	.home-02 {
+       width: 60%;
+}
+.feature {
+        padding: 25px 0px;
+}	
+	.feature p {
+    margin-bottom: 40px;
+    padding: 0px 50px;
+}
+
+.global {
+    padding:55px 0px 15px 0;
+}
+	.global .counters {
+    margin-top: 45px;
+}
+	.team .item {
+    margin: 0 10px 20px;
+}
+	.blogh {
+    padding: 79px 0px 57px;
+}
+	.testimonialh .testimonial-area {
+    padding: 0px 0;
+}
+	.testimonialh p.button {
+    text-align: center;
+    margin-top: 25px;
+}
+	.testimonialh {
+       padding: 40px 0px;
+    background-size: cover;
+
+}
+	.testimonialh h1 {
+    margin-bottom: 12px;
+		    font-size: 35px;
+}
+	
+	.global .left {
+    padding-right: 60px;
+    display: none;
+}
+	
+	
+	
+    /*Header Top area*/
+    .search, .openbtn{
+        display: none !important;
+    }
+    .header .left {
+        margin-left: 95px;
+    }
+    .header .right .hitem p span {
+        margin-right: 2px;
+    }
+    .header .right .hitem p .btn {
+        margin-left: 187px;
+        margin-top: -15px;
+        padding: 10px 25px;
+    }
+    .schedule .btn {
+        font-size: 16px;
+        padding: 10px 50px;
+        float: right;
+        margin-right: 0px;
+    }
+    .schedule .tab-content {
+        border-radius: 0px 0px 15px 15px;
+    }
+    .schedule .nav-tabs .nav-link img {
+        width: 12%;
+    }
+    .schedule .nav-tabs .nav-link img {
+        margin-right: 6px;
+        margin-left: 5px;
+    }
+    .header-bottom img {
+       height: auto;
+    width: 100%;
+    margin-left: 26px;
+    }
+	.slider-home-2 .slider-item .btn {
+    padding: 12px 15px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+    .schedule-hm .form-control {
+        padding: 0px;
+    }
+    .schedule-hm .btn {
+        padding: 7px 24px;
+        margin-right: 0px;
+    }
+    .page-header {
+        padding: 60px 0px;
+    }
+    .feature p {
+        padding: 0px;
+		    font-size: 14px;
+	}
+	.track {
+    padding: 40px 0px;
+}
+.sha-je {
+    margin-top: -49px!important;
+}
+.slider .slider-item .btn {
+    padding: 8px 12px;
+    margin-top: 14px;
+    font-size: 12px;
+}
+    /*Slider Area*/
+    .slider {
+           height: 49vh;
+    }
+    .slider .slider-item {
+        padding: 55px 30px;
+    }
+    .slider .slider-item h1 {
+           font-size: 29px;
+    line-height: 36px;
+    }
+    .slider .slider-item h4 {
+        font-size: 16px;
+		margin-top: 0px;
+    }
+    .nav-tabs {
+        margin-left: 2px;
+    }
+    .schedule #nav-tab .nav-link {
+        font-size: 12px;
+        padding: 15px 0px;
+    }
+    .signle-counter {
+           margin-left: 0;
+    margin-bottom: 20px;
+    }
+    .logistics h1 {
+        font-size: 30px;
+    }
+	.global .counters h5 {
+    font-size: 15px;
+}
+	.global .counters h2 {
+    font-size: 34px;
+}
+    .logistics p {
+           font-size: 14px;
+    padding: 10px 0px;
+    margin: 0px;
+    line-height: 25px
+    }
+	.counter-image img{
+		width: 70%;
+	}
+    #logistics-carousel-one .item:before {
+        position: absolute;
+        content: "";
+        top: 20%;
+        left: 40%;
+    }
+    .about h1 {
+           font-size: 30px;
+    line-height: 35px;
+    }
+    .advantages .content {
+        margin-bottom: 78px;
+		    padding: 40px 0px;
+    }
+    .float-right {
+        float: none !important;
+		    display: none;
+    }
+	.about h4 {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 25px;
+}
+	.about-content p {
+    font-size: 14px;
+}
+    .testimonial .testimonial-box .client .c-image {
+        width: 0%;
+    }
+    .testimonial .testimonial-box .client .c-details {
+        width: 70%;
+    }
+    .testimonial .testimonial-box .client .c-details h5 {
+        font-size: 18px;
+    }
+    .testimonial .testimonial-box .client .c-details p {
+        font-size: 12px;
+    }
+    .service {
+          padding: 60px 0px 60px
+    }
+	.blog p.more .btnn {
+    padding: 7px 23px;
+    font-size: 16px;
+}
+	.blog p.more {
+    margin-top: 25px;
+}
+	.advantages .content .item {
+    padding: 0px 28px 0px 13px;
+}
+    .subscribe{
+        padding-bottom: 30px;
+    }
+    .subscribe img {
+        display: none;
+    }
+    .subscribe h1 {
+        padding-top: 30px;
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .advantages .content h2 {
+        font-size: 35px;
+		padding-left: 25px;
+
+    }
+    .advantages .content .item .icon img {
+        height: 40px;
+        width: 40px;
+    }
+    .advantages .content .item h4 {
+        font-size: 17px;
+    }
+    .advantages .content .item h6 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .map h1 {
+        font-size: 35px;
+    }
+    .testimonial .testimonial-area {
+        padding: 0px 10px;
+    }
+    .testimonial h1 {
+        font-size: 35px;
+    }
+    .testimonial .testimonial-box h4 a {
+        font-size: 16px;
+    }
+    .testimonial .testimonial-box {
+        padding: 18px 40px;
+    }
+    .testimonial .testimonial-box p {
+        font-size: 14px;
+    }
+    .service h1 {
+        font-size: 35px;
+    }
+    .subscribe .btn {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog p {
+        font-size: 15px;
+        padding: 0px;
+    }
+    .testimonial .testimonial-box h4 {
+        text-align: center;
+    }
+    .footer {
+        padding: 60px 0px;
+    }
+    .footer h4 {
+        margin-bottom: 30px;
+    }
+
+/*Home -02-     */
+
+    .slider-home-2 {
+       min-height: 23vh;
+    }
+    .header-top p span {
+        margin-right: 23px;
+        font-size: 14px;
+    }
+    .slider-home-2 .slider-item {
+        padding: 60px 25px;
+    }
+    .slider-home-2 .slider-item h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .slider-home-2 .slider-item h4 {
+        font-size: 18px;
+		margin-top: 2px;
+    line-height: 20px;
+    }
+    .feature h4 {
+        font-size: 14px;
+    }
+    .feature h1 {
+        font-size: 28px;
+        padding: 0px;
+    }
+    .feature .owl-nav button {
+        margin-top: -125% !important;
+    }
+    .logistics h1:after {
+        margin-left: 38%;
+    }
+    .track h1 {
+        color: #fff;
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    .nav-tabs {
+        margin-left: 1px;
+    }
+    .schedule-hm .nav-tabs .nav-link img {
+        margin-right: 5px;
+        width: 12%;
+    }
+    .schedule-hm .nav-tabs .nav-link {
+        padding: 15px 9px;
+        font-size: 12px;
+    }
+    .global .counters .text-box {
+        width: 70%;
+    }
+    .global h1 {
+        font-size: 30px;
+    line-height: 35px;
+		    margin-bottom: 0px;
+    }
+	p.big {
+    margin-top: 9px;
+		    font-size: 18px;
+    line-height: 25px;
+}
+	.global .right {
+    padding-left: 25px;
+}
+	.global p.small {
+    margin-bottom: 15px;
+}
+    .team {
+        padding: 70px 0px 0px;
+    }
+    .team p {
+        margin-bottom: 130px;
+    }
+    .team .owl-nav {
+          right: 34%;
+        margin-right: 6px;
+    }
+    .testimonialh .testimonial-box h4 a {
+        color: #f5a519;
+        font-size: 15px;
+    }
+    .testimonialh .testimonial-box .client h5 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .global .counter {
+        margin-bottom: 20px;
+    }
+    .global .counters {
+        padding: 0px 30px;
+    }
+    .testimonialh .testimonial-box h4 {
+        font-size: 18px;
+    }
+    .testimonialh .testimonial-box {
+        padding: 10px 15px;
+    }
+    .testimonialh .testimonial-box .client {
+        margin-top: 5px;
+    }
+    .testimonialh .testimonial-box p {
+        font-size: 15px;
+    }
+    .testimonialh .testimonial-box .client img {
+        margin: 0 auto;
+    }
+    .testimonialh .testimonial-box .client h5 {
+        text-align: center;
+    }
+    .testimonialh .testimonial-box .client p {
+        text-align: center;
+        font-size: 10px;
+    }
+    .footer-bottom p {
+        text-align: center;
+    }
+    .header-top p.right {
+        display: none;
+    }
+/*Blog Page*/
+    .blogh p {
+        text-align: center;
+        padding: 0px;
+    }
+    .blog-sidebar {
+        margin-top: 40px;
+    }
+    .single-blog h2 {
+        font-size: 26px;
+    }
+    .blog-grid .single-blog p.meta span {
+        margin-left: 10px;
+    }
+    .blog-grid .single-blog .blog-thumb .share {
+        height: 45px;
+        width: 80px;
+        margin-top: 375px;
+        right: 15px;
+        padding-top: 17px;
+    }
+    .blog-grid nav .page-link {
+        font-size: 18px;
+        padding: 5px 10px !important;
+        margin: 0px;
+    }
+    #news nav .page-link {
+        font-size: 16px;
+        padding: 1px 7px !important;
+        margin: 0px 5px;
+    }
+    .about {
+        background-color: #fff;
+        padding: 35px 0px 0px;
+    }
+/*Contact Page*/
+    .contact-form .contact-form-area .form-area h1 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    .contact-form .contact-form-area {
+        padding: 60px 15px;
+    }
+    .contact-form .contact-form-area .form-area input {
+        margin-bottom: 15px;
+    }
+    .contact-form .contact-form-area .contact-area {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+	
+	
+		.hidd{
+		display: none;
+	}
+	.schedule .form-control {
+    width: 100%;
+}
+	.schedule .btn {
+   float: left;
+    margin-top: 10px;
+    padding: 8px 12px;
+}
+	.logistics {
+      padding: 45px 0px;
+}
+	.logistics h1:after {
+    margin-left: 8.5%;
+}
+.map {
+    padding: 20px 0px 30px 0;
+}
+
+
+	.testimonial {
+    padding: 65px 0px 0px;
+}
+	.clients {
+    background-color: #032c56;
+   padding: 35px 0px;
+}
+	.service .form {
+    margin-top: 0;
+}
+	.service .form label {
+    margin-top: 20px;
+}
+	.service .form .submit-area .btnn {
+    display: block !important;
+}
+	.blog {
+       padding: 20px 0px 30px;
+}
+	.testimonial h1:after {
+    margin-left: 8.5%;;
+}
+	.blog h1:after {
+    margin-left: 16.5%;
+}
+	.map h1 {
+    margin-bottom: 15px;
+		    line-height: 42px;
+}
+	.service p {
+    font-size: 14px;
+}
+	.service .form .submit-area label {
+    font-size: 16px;
+    padding-left: 4px;
+}
+	.blog h1 {
+		font-size: 35px;
+	}
+	
+	.testimonial p.button .more {
+    padding: 7px 17px;
+    font-size: 16px;
+}
+	.testimonial p.button {
+    margin-top: 45px;
+}
+	.map p {
+    font-size: 14px;
+}
+	.testimonial .item {
+    padding-top: 25px;
+}
+	.footer .row .col-sm-6{
+		    margin: 0 0;
+	}
+	.bg-light {
+          margin-left: 38%;
+}
+	
+	.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgb(255, 255, 255);
+}
+	.left img {
+       width: 41%;
+    padding: 12px 0 !important;
+    margin-right: 50%;
+
+}
+	
+	.service-details .sidebar {
+    margin: 08px 0px 40px 0px;
+}
+	
+		.service-area h1 {
+    font-size: 34px;
+}
+	.service-details .content .pricing-table {
+    margin-top: 0;
+    margin: 22px;
+}
+.service-area p {
+    padding: 0px 0px;
+}
+	#teaml {
+    padding: 37px 0px 30px;
+}
+	.blog-grid {
+    padding: 50px 0px;
+}
+	#single-blog .blog-content {
+       padding: 20px 0px 22px;
+}
+	#single-blog .comment {
+    padding-top: 41px;
+}
+	#single-blog .comment h4 {
+    margin-bottom: 28px;
+}
+	#single-blog .comment .btn {
+    padding: 11px 10px;
+}
+.gallery-area {
+    padding: 50px 0px;
+}
+
+#news nav {
+    margin-top: 48px !important;
+}
+.service-area h1:after {
+    margin-left: 39.5%;
+}
+	#single-blog p.meta {
+    padding-bottom: 15px;
+}
+	.blog-content blockquote {
+    font-size: 14px;
+    padding: 18px;
+}
+#single-blog .blog-content p {
+    padding-bottom: 0px;
+}
+	.gallery-area .main-iso {
+    margin: 0;
+}
+.service-area {
+    padding: 50px 0px;
+}
+	.service-details {
+      padding: 50px 0px 30px;
+}
+	.blog-grid .single-blog p {
+    font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.blog-grid .single-blog {
+    margin-bottom: 20px;
+}
+	.blog-sidebar .widget {
+    margin-top: 30px;
+}
+	.service-details .content #active {
+    margin-top: 0px;
+}
+	.page-header h1 {
+    font-size: 47px;
+}
+.team .abour-ha {
+    margin: 24px auto 0 auto;
+}
+#team {
+    padding: 60px 0px 54px;
+    background: none;
+}
+	#teaml .item {
+    margin: 10px;
+}
+	#teamm {
+    background: none;
+    padding: 30px 0px 30px;
+}
+	
+	
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+		
+.feature .feature-area {
+    padding: 0 80px 0 80px;
+}		
+.header-top {
+    display: none;
+}
+	.home-02 {
+       width: 60%;
+}
+.feature {
+    padding: 30px 0px;
+}	
+	.feature p {
+    margin-bottom: 40px;
+    padding: 0px 50px;
+}
+
+.global {
+       padding: 32px 0px 15px 0
+}
+	.team .item {
+    margin: 0 10px 20px;
+}
+	.blogh {
+    padding: 79px 0px 57px;
+}
+	.testimonialh .testimonial-area {
+    padding: 0px 0;
+}
+	.testimonialh p.button {
+    text-align: center;
+    margin-top: 25px;
+}
+	.testimonialh {
+      padding: 40px 0px;
+    background-size: cover;
+}
+	.testimonialh h1 {
+    margin-bottom: 12px;
+		font-size: 27px;
+}
+	
+	.global .left {
+    padding-right: 60px;
+    display: none;
+}
+	.slider-home-2 .slider-item .btn {
+      padding: 7px 7px;
+    font-size: 12px;
+    margin-top:0px;
+}
+	
+	
+	
+	
+		
+	.hidd{
+		display: none;
+	}
+	.schedule .form-control {
+    width: 100%;
+}
+	.schedule .btn {
+    float: left;
+}
+	.logistics {
+      padding: 45px 0px;
+}
+	.logistics h1:after {
+    margin-left: 8.5%;
+}
+	.map {
+    padding: 20px 0px 40px 0;
+}
+	.testimonial {
+    padding: 45px 0px 0px;
+}
+	.clients {
+    background-color: #032c56;
+    padding: 30px 0px;
+}
+	.testimonial p.button {
+    text-align: center;
+    margin-top: 30px;
+}
+	.testimonial p.button .more {
+    font-size: 14px;
+	}
+	.blog p.more .btnn {
+    font-size: 14px;
+}
+	.blog p.more {
+    margin-top: 30px;
+}
+	.service .form {
+    margin-top: 0;
+}
+	.service .form label {
+    margin-top: 20px;
+}
+	.service .form .submit-area .btnn {
+    display: block !important;
+}
+	.blog {
+    padding:40px 0px 50px;
+}
+	.testimonial h1:after {
+       margin-left: 11.5%;
+}
+	.blog h1 {
+    font-size: 30px;
+    letter-spacing: 0.25px;
+}
+	.blog h1:after {
+       margin-left: 15.5%;
+}
+	.map h1 {
+    margin-bottom: 15px;
+}
+	.testimonial .item {
+    padding-top: 25px;
+}
+	.footer .row .col-sm-6{
+		    margin: 0 0;
+	}
+	.bg-light {
+         margin-left: 37%;
+	}
+	
+	.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgb(255, 255, 255);
+}
+	.left img{
+		      width: 45%;
+    padding: 12px 0 !important;
+    margin-right: 45% !important;
+	}
+	.advantages .content .item .icon {
+    height: 60px;
+    width: 60px;
+    margin-right: 8px;
+}
+	.advantages .content .item .icon img {
+    height: 19px;
+    width: 21px;
+    position: relative;
+    top: 9px;
+}
+	.advantages .content .item h4 {
+    font-size: 20px;
+}
+	.advantages .content .item h6 {
+    font-size: 12px;
+    line-height: 20px;
+}
+	.testimonial .testimonial-area {
+    padding: 0px 0;
+}
+
+    /*Header Top area*/
+    .search, .openbtn{
+        display: none !important;
+    }
+    .header .left {
+        margin-left: 70px;
+    }
+    .header .right .hitem p span {
+        margin-right: 2px;
+    }
+    .header .right .hitem p .btn {
+        padding: 10px 15px;
+        margin-top: 15px;
+    }
+    .left img {
+        margin-right: 72px;
+    }
+    .schedule .nav-tabs .nav-link img {
+          width: 12%;
+    margin-right: 0px;
+    padding-left: 1px;
+    }
+    .header-bottom img {
+            height: auto;
+    width: 100%;
+    margin-left: 15px;
+    }
+    .feature p {
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+	.slider .slider-item .btn {
+    padding: 9px 12px;
+    margin-top: 11px;
+    font-size: 12px;
+}
+	
+    /*Slider Area*/
+    .slider {
+           height: 48vh;
+    }
+
+    .slider .slider-item {
+        padding: 80px 30px;
+    }
+    .slider .slider-item h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .slider .slider-item h4 {
+        font-size: 16px;
+		margin-top: 7px;
+    }
+    .slider .slider-item .btn {
+        margin-bottom: 15px;
+    }
+	.schedule {
+    margin-top: -73px;
+}
+    .nav-tabs {
+        margin-left: 2px;
+    }
+    .schedule #nav-tab .nav-link {
+           font-size: 11px;
+    padding: 10px 1px;
+    }
+    .signle-counter {
+                   margin-left: 30px;
+    margin-bottom: 20px;
+    }
+	.global .counters h5 {
+    font-size: 12px;
+	}
+	.about .counters {
+    margin-top: 22px;
+}
+
+
+	.global .counters h2 {
+		font-size: 36px;
+	}
+	.global .counters {
+    margin-top: 55px;
+}
+    #logistics-carousel-one .item:hover.item:after {
+        bottom: 203px;
+    }
+    #logistics-carousel-one .item:before {
+        top: 20%;
+        left: 42%;
+    }
+    #logistics-carousel-two .item:hover.item:after {
+        bottom: 203px;
+    }
+    #logistics-carousel-two .item:before {
+        top: 20%;
+        left: 42%;
+    }
+    #logistics-carousel-three .item:hover.item:after {
+        bottom: 203px;
+    }
+    #logistics-carousel-three .item:before {
+        top: 20%;
+        left: 42%;
+    }
+    .logistics h1 {
+        font-size: 30px;
+    }
+    .logistics p {
+           font-size: 15px;
+    padding: 15px 0px;
+    margin: 0px;
+    }
+    .schedule .tab-content {
+        border-radius: 0px 0px 15px 15px;
+    }
+    .schedule-hm .form-control {
+        padding: 0px;
+    }
+    .schedule-hm .btn {
+        padding: 6px 20px;
+        margin-right: 0px;
+    }
+    .about h1 {
+		    font-size: 30px;
+    line-height: 40px;
+    }
+    .about .counters h5 {
+        font-size: 12px;
+        padding: 0px 15px;
+    }
+    .about .counters h2 {
+        font-size: 30px;
+        padding-left: 15px;
+    }
+    .advantages .content {
+         margin-bottom: 0px;
+    padding: 40px 0px;
+    }
+    .float-right {
+        display: none !important;
+    }
+    .testimonial .testimonial-box .client .c-image {
+        width: 0%;
+    }
+    .testimonial .testimonial-box .client .c-details {
+        width: 70%;
+    }
+    .testimonial .testimonial-box .client .c-details h5 {
+        font-size: 18px;
+    }
+    .testimonial .testimonial-box .client .c-details p {
+        font-size: 12px;
+    }
+    .service {
+       padding: 30px 0px 50px;
+    }
+.service .form .submit-area .btnn {
+    padding: 10px 17px;
+    font-size: 13px;
+}
+    .subscribe {
+        padding-bottom: 40px;
+    }
+    .schedule .btn {
+            padding: 10px 17px;
+    float: left;
+    margin-right: 0px;
+    font-size: 13px;
+		margin-top: 0px;
+    }
+    .subscribe img {
+        display: none;
+    }
+    .subscribe h1 {
+        padding-top: 30px;
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .advantages .content h2 {
+        font-size: 30px;
+		padding-left: 37px;
+    }
+	.advantages .content .item {
+    padding: 0px 20px 0px 20px;
+}
+    .advantages .content .item .icon {
+        height: 60px;
+        width: 60px;
+    }
+    .advantages .content .item .icon {
+        margin-right: 15px;
+    }
+    .advantages .content .item .icon img {
+        height: 30px;
+        width: 30px;
+    }
+    .advantages .content .item h4 {
+        font-size: 17px;
+    }
+    .advantages .content .item h6 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .map h1 {
+        font-size: 30px;
+    }
+    .testimonial .testimonial-area {
+        padding: 0px 10px;
+    }
+    .testimonial h1 {
+        font-size: 30px;
+    }
+    .testimonial .testimonial-box h4 a {
+        font-size: 16px;
+    }
+    .testimonial .testimonial-box {
+        padding: 18px 40px;
+    }
+    .testimonial .testimonial-box p {
+        font-size: 14px;
+    }
+    .service h1 {
+        font-size: 30px;
+    }
+    .subscribe .btn {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog p {
+        font-size: 15px;
+        padding: 0px;
+    }
+    .testimonial .testimonial-box h4 {
+        text-align: center;
+    }
+    .footer {
+        padding: 60px 0px;
+    }
+    .footer h4 {
+        margin-bottom: 20px;
+    }
+    .footer ul li {
+        list-style: none;
+        margin: 0px 0px 10px 0px;
+    }
+
+    /*Home -02-     */
+
+    .slider-home-2 {
+        min-height: 24vh;
+    }
+    .header-top p span {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .slider-home-2 .slider-item {
+        padding: 60px 25px;
+    }
+    .slider-home-2 .slider-item h1 {
+           font-size: 27px;
+    line-height: 30px;
+    }
+    .slider-home-2 .slider-item h4 {
+           font-size: 14px;
+    margin-top: 0px;
+    }
+    .feature .item p {
+          margin-bottom: 15px;
+    font-size: 13px;
+    }
+    .feature h4 {
+            font-size: 14px;
+
+    }
+    .feature h1 {
+        font-size: 28px;
+        padding: 0px;
+    }
+    .feature .owl-nav button {
+        margin-top: -125% !important;
+    }
+    .logistics h1:after {
+        margin-left: 38%;
+    }
+    .track h1 {
+        color: #fff;
+        margin-bottom: 50px;
+        font-size: 22px;
+    }
+    .nav-tabs {
+        margin-left: 1px;
+    }
+    .schedule-hm .nav-tabs .nav-link img {
+        margin-right: 5px;
+        width: 12%;
+    }
+    .schedule-hm .nav-tabs .nav-link {
+        padding: 15px 7px;
+        font-size: 10px;
+    }
+    label {
+        font-size: 12px;
+    }
+    .global .counters .text-box {
+        width: 75%;
+        margin-left: 30px;
+    }
+    .global h1 {
+        font-size: 30px;
+    }
+    .team {
+        padding: 40px 0px 0px;
+    }
+    .team p {
+        margin-bottom: 120px;
+    }
+    .team .owl-nav {
+           margin-right: 6px;
+    right: 34%;
+    }
+    .testimonialh .testimonial-box h4 a {
+        color: #f5a519;
+        font-size: 13px;
+    }
+    .testimonialh .testimonial-box .client h5 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .global .counter {
+        margin-bottom: 20px;
+    }
+    .global .counters {
+        padding: 0px 30px;
+    }
+    .testimonialh .testimonial-box h4 {
+        font-size: 18px;
+    }
+    .testimonialh .testimonial-box {
+        padding: 10px 15px;
+    }
+    .testimonialh .testimonial-box .client {
+        margin-top: 5px;
+    }
+    .testimonialh .testimonial-box p {
+        font-size: 12px;
+    }
+    .testimonialh .testimonial-box .client img {
+        margin: 0 auto;
+    }
+    .testimonialh .testimonial-box .client h5 {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .testimonialh p.button .more {
+        padding: 10px 20px;
+		font-size: 14px;
+    }
+    .testimonialh .testimonial-box .client p {
+        text-align: center;
+        font-size: 10px;
+    }
+    .footer-bottom p {
+        text-align: center;
+    }
+	.about h4 {
+    margin-top: 15px;
+    margin-bottom: 17px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5f6a75;
+    font-weight: 400;
+}
+	.service-details .content .pricing-table .price {
+    top: 118px;
+          padding:0;
+    }
+	#team {
+    padding: 35px 0px 50px;
+    background: none;
+}
+	#teaml .item{
+		margin-bottom: 30px;
+	}
+	.service-details {
+    padding: 40px 0px 35px;
+}
+	.blog-grid .single-blog {
+    margin-bottom: 20px;
+}
+	.blog-sidebar .widget {
+    margin-top: 30px;
+}
+	.blog-content blockquote {
+    font-size: 14px;
+    padding: 20px;
+}
+	#single-blog .blog-content p {
+    padding-bottom: 0;
+}
+#single-blog .admin h4 a {
+    font-size: 20px;
+}
+	.blog-grid .single-blog p {
+    font-size: 14px;
+    margin-bottom: 30px;
+		line-height: 23px;
+	}
+
+.team .abour-ha {
+    margin: 20px auto 0 auto;
+}
+	.team p.button .more {
+    font-size: 13px;
+}
+    .page-header {
+        padding: 40px 0px;
+    }
+    .service-area h1:after {
+        margin-left: 35%;
+    }
+    .service-area {
+        padding: 35px 0px;
+    }
+    .blog-grid nav .page-link {
+        font-size: 14px;
+        padding: 5px 10px !important;
+        margin: 0px;
+    }
+    .about {
+        background-color: #fff;
+          padding: 60px 0px 0px;
+    }
+    .service-details .content .pricing-table {
+        margin-bottom: 30px;
+		margin-top: 0;
+		
+    }
+    .service-details .sidebar {
+        margin: 0px;
+    }
+    .service-details .sidebar .contact-area h4 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .service-details h1 {
+           margin-top: 20px;
+    margin-bottom: 14px;;
+    }
+    .page-header h1 {
+           font-size: 36px;
+    }
+    .page-header h6 a {
+        font-size: 16px;
+    }
+    .page-header h6 {
+        color: #fff;
+        font-size: 16px;
+    }
+    .service-details #add {
+        padding: 20px 33px;
+        height: 266px;
+        margin-top: 40px;
+    }
+	.service-details .content .video {
+    margin: 30px 0px 35px;
+}
+	#teamm {
+    background: none;
+    padding: 30px 0px 29px;
+}
+	.gallery-area h5 a {
+    font-size: 14px;
+}
+/*Blog Page*/
+    .blogh p {
+        padding: 0px;
+    }
+    .blog-sidebar {
+        margin-top: 40px;
+    }
+    .single-blog h2 {
+        font-size: 26px;
+    }
+    .blog-grid .single-blog p.meta span {
+        margin-left: 10px;
+    }
+    .blog-grid .single-blog .blog-thumb .share {
+        height: 45px;
+        width: 80px;
+        margin-top: 375px;
+        right: 15px;
+        padding-top: 17px;
+    }
+    #news nav .page-link {
+        font-size: 14px;
+        padding: 3px 7px !important;
+        margin: 0px 5px;
+    }
+/*Contact Page*/
+    .contact-form .contact-form-area .form-area h1 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 28px;
+    }
+    .contact-form .contact-form-area {
+        padding: 60px 15px;
+    }
+    .contact-form .contact-form-area .form-area input {
+        margin-bottom: 15px;
+    }
+    .contact-form .contact-form-area .contact-area {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+	
+	
+	
+	.service-area h1 {
+     font-size: 24px;
+    line-height: 20px;
+}
+	
+.service-area p {
+       padding: 0px 0;
+    font-size: 13px;
+}
+	#teaml {
+    padding: 37px 0px 30px;
+}
+	.blog-grid {
+    padding: 50px 0px;
+}
+	#single-blog .blog-content {
+    padding: 40px 0px 22px
+}
+	#single-blog .comment {
+    padding-top: 41px;
+}
+	#single-blog .comment h4 {
+    margin-bottom: 28px;
+}
+	#single-blog .comment .btn {
+    padding: 11px 10px;
+}
+.gallery-area {
+    padding: 50px 0px;
+}
+
+#news nav {
+    margin-top: 48px !important;
+}
+.single-blog h2 a {
+    font-size: 23px;
+}
+.track {
+    padding: 65px 0px;
+}
+.global .right {
+    padding: 0 15px;
+}
+
+
+	
+	
+
+}

@@ -1,0 +1,43 @@
+/*
+Theme Name: Transtics
+Theme URI:
+Author: AndIT Themes
+Author URI: http://anditthemes.com
+Description: Transtics theme for transport and logistics business agency.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: transport, logistics, business, 3 colum, 4 colum, blog
+Text Domain: transtics
+*/
+
+/* Theme CSS */
+.credit h5{
+	color: #fff;
+	margin-top: 50px;
+}
+.credit h5 a{
+	color: #da0707;
+}
+.navbar-nav li{
+	margin-top: 5px;
+}
+.pagination{
+	display: block;
+}
+.pagination .page-numbers{
+	padding: 5px 10px;
+}
+.pagination .page-numbers.current{
+	background-color: #ec0101 !important;
+    color: #fff;
+    border-radius: 50%;
+}
+.blog-content img{
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+#single-blog .blog-content p.tag a:after{
+	content: ',';
+}
