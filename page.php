@@ -1,5 +1,6 @@
 <?php 
-/* Template Name: Blog List */ 
+/* Template Name: Blog List */
+the_post();
 get_header(); ?>
 
 <!-- Blog Grid -->
@@ -7,7 +8,7 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-lg-9 col-md-12 col-sm-12 col-12">
-                <?php the_content(); >
+                <?php the_content(); ?>
             </div>
 
             <?php get_sidebar(); ?>

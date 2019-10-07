@@ -71,7 +71,7 @@
     padding: 60px 0px 75px;
 }
 
-	.blog {
+	.blogs {
     padding: 75px 0px 75px;
 }
 	.feature h1 {
@@ -206,7 +206,7 @@
 }
 
 
-	.blog .blog-box h3 {
+	.blogs .blog-box h3 {
     padding: 15px 15px 0 15px;
 }
 
@@ -452,18 +452,18 @@ p.big {
     font-size: 16px;
 		    font-family: 'Rubik', sans-serif;
 }
-	.blog {
+	.blogs {
     padding: 60px 0px 60px;
 }
 
-.blog h1 {
+.blogs h1 {
     font-size: 36px;
 }
-	.blog p {
+	.blogs p {
     font-size: 14px;
     padding: 0px 100px;
 }
-	.blog .blog-box img {
+	.blogs .blog-box img {
     
     width: 100%;
 }
@@ -471,10 +471,10 @@ p.big {
     font-size: 22px;
     line-height: 23px;
 }
-	.blog .blog-box h3 {
+	.blogs .blog-box h3 {
     padding: 15px 12px 10px 15px;
 }
-	.blog p.more .btnn {
+	.blogs p.more .btnn {
     padding: 9px 18px;
     font-size: 16px;
 }
@@ -823,10 +823,10 @@ p.big {
 }
 
 
-	.blog h1 {
+	.blogs h1 {
     font-size: 35px;
 }
-	.blog h1:after {
+	.blogs h1:after {
     margin-left: 43.5%;
 }
 	.advantages .content h2 {
@@ -1030,13 +1030,13 @@ p.big {
 	.service .form .submit-area .btnn {
    display: block !important;
 }
-	.blog .blog-box {
+	.blogs .blog-box {
     margin: 30px 55px;
 }
-	.blog p.more {
+	.blogs p.more {
     margin-top: 7px;
 }
-	.blog {
+	.blogs {
     padding: 55px 0px 30px;
 }
 
@@ -1085,7 +1085,7 @@ p.big {
     .header-top p {
         width: 100%;
     }
-    .blog p {
+    .blogs p {
         text-align: center;
         font-size:16px;
         padding: 0px;
@@ -1389,13 +1389,13 @@ p.big {
 	.service .form .submit-area .btnn {
     display: block !important;
 }
-	.blog {
+	.blogs {
     padding: 55px 0px 50px;
 }
 	.testimonial h1:after {
     margin-left: 18.5%;
 }
-	.blog h1:after {
+	.blogs h1:after {
     margin-left: 21.5%;
 }
 	.map h1 {
@@ -1552,7 +1552,7 @@ p.big {
     .testimonial .testimonial-box .client .c-details p {
         font-size: 12px;
     }
-    .blog p {
+    .blogs p {
         text-align: center;
         font-size: 16px;
         padding: 0px;
@@ -1907,13 +1907,13 @@ p.big {
 	.service .form .submit-area .btnn {
     display: block !important;
 }
-	.blog {
+	.blogs {
     padding: 55px 0px 50px;
 }
 	.testimonial h1:after {
     margin-left: 18.5%;
 }
-	.blog h1:after {
+	.blogs h1:after {
     margin-left: 21.5%;
 }
 	.map h1 {
@@ -2074,7 +2074,7 @@ p.big {
 	.global .counters {
     margin-top: 44px;
 }
-.blog h1 {
+.blogs h1 {
 	font-size: 36px;
 	}
 .global p.small {
@@ -2103,7 +2103,7 @@ p.big {
     .testimonial .testimonial-box p {
         font-size: 14px;
     }
-    .blog p {
+    .blogs p {
         font-size: 15px;
         padding: 0px;
     }
@@ -2580,11 +2580,11 @@ p.big {
     .service {
           padding: 60px 0px 60px
     }
-	.blog p.more .btnn {
+	.blogs p.more .btnn {
     padding: 7px 23px;
     font-size: 16px;
 }
-	.blog p.more {
+	.blogs p.more {
     margin-top: 25px;
 }
 	.advantages .content .item {
@@ -2642,7 +2642,7 @@ p.big {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .blog p {
+    .blogs p {
         font-size: 15px;
         padding: 0px;
     }
@@ -2868,13 +2868,13 @@ p.big {
 	.service .form .submit-area .btnn {
     display: block !important;
 }
-	.blog {
+	.blogs {
        padding: 20px 0px 30px;
 }
 	.testimonial h1:after {
     margin-left: 8.5%;;
 }
-	.blog h1:after {
+	.blogs h1:after {
     margin-left: 16.5%;
 }
 	.map h1 {
@@ -2888,7 +2888,7 @@ p.big {
     font-size: 16px;
     padding-left: 4px;
 }
-	.blog h1 {
+	.blogs h1 {
 		font-size: 35px;
 	}
 	
@@ -3109,10 +3109,10 @@ p.big {
 	.testimonial p.button .more {
     font-size: 14px;
 	}
-	.blog p.more .btnn {
+	.blogs p.more .btnn {
     font-size: 14px;
 }
-	.blog p.more {
+	.blogs p.more {
     margin-top: 30px;
 }
 	.service .form {
@@ -3124,17 +3124,17 @@ p.big {
 	.service .form .submit-area .btnn {
     display: block !important;
 }
-	.blog {
+	.blogs {
     padding:40px 0px 50px;
 }
 	.testimonial h1:after {
        margin-left: 11.5%;
 }
-	.blog h1 {
+	.blogs h1 {
     font-size: 30px;
     letter-spacing: 0.25px;
 }
-	.blog h1:after {
+	.blogs h1:after {
        margin-left: 15.5%;
 }
 	.map h1 {
@@ -3410,7 +3410,7 @@ p.big {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .blog p {
+    .blogs p {
         font-size: 15px;
         padding: 0px;
     }

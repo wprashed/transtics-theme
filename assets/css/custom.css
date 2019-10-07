@@ -1489,12 +1489,12 @@ span.flaticon-left-arrow {
 }
 .service-area .service-box .overlay {
     position: absolute;
-    top: -10px;
+    top: 0px;
     bottom: 0;
-    left: -10px;
+    left: 0px;
     right: 0px;
-    height: 108%;
-    width: 106%;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgb(3,44,86,0.8);
@@ -1854,10 +1854,10 @@ span.flaticon-left-arrow {
 	============= */
 
 /* 16.1 Home Page One Blog */
-.blog {
+.blogs {
    padding: 100px 0px 100px;
 }
-.blog h1 {
+.blogs h1 {
        text-align: center;
     margin-bottom: 20px;
     color: #032c56;
@@ -1868,7 +1868,7 @@ span.flaticon-left-arrow {
     letter-spacing: 0.25px;
 
 }
-.blog h1:after {
+.blogs h1:after {
     content: "";
     display: block;
     width: 70px;
@@ -1877,7 +1877,7 @@ span.flaticon-left-arrow {
     margin-left: 46.5%;
     margin-top:20px;
 }
-.blog p {
+.blogs p {
        text-align: center;
     font-size: 16px;
     padding: 0px 184px;
@@ -1886,7 +1886,7 @@ span.flaticon-left-arrow {
     line-height: 25px;
     font-weight: 400;
 }
-.blog .blog-box{
+.blogs .blog-box{
     margin-top: 30px;
     border-radius: 15px;
     background-color: #fff;
@@ -1894,11 +1894,11 @@ span.flaticon-left-arrow {
     -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2) !important;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2) !important;
 }
-.blog .blog-box img{
+.blogs .blog-box img{
 		width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
-.blog .blog-box h3 {
+.blogs .blog-box h3 {
         padding: 20px 15px 20px 15px;
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
@@ -1914,7 +1914,7 @@ span.flaticon-left-arrow {
  .blog-box:hover h3 a{
 	color: red;
 }
-.blog .blog-box h3:after {
+.blogs .blog-box h3:after {
     content: "";
     display: block;
     width: 70px;
@@ -1929,7 +1929,7 @@ span.flaticon-left-arrow {
     font-weight: 300;
     font-family: 'Rubik', sans-serif;
 }
-.blogh h1 {
+.bloghs h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #032c56;
@@ -1938,10 +1938,10 @@ span.flaticon-left-arrow {
 .all-k{
 		display: none;
 	}
-.blog p.more{
+.blogs p.more{
     margin-top: 50px;
 }
-.blog p.more .btnn {
+.blogs p.more .btnn {
        background-color: #ec0101;
     color: #fff;
     padding: 8px 25px;
@@ -2913,7 +2913,7 @@ color: #fff;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 1px;
+    left: 15px;
     right: 10px;
     height: 100%;
     width: 92%;
