@@ -7,7 +7,7 @@ Description: Transtics theme for transport and logistics business agency.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: transport, logistics, business, 3 colum, 4 colum, blog
+Tags: transport, logistics, business, 3 colum, 4 colum, blog, portfolio
 Text Domain: transtics
 */
 
@@ -39,5 +39,6 @@ Text Domain: transtics
     height: auto;
 }
 #single-blog .blog-content p.tag a:after{
-	content: ',';
+	content: ' ';
+	padding: 0px 5px !important;
 }
