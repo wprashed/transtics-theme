@@ -30,11 +30,25 @@ get_header(); ?>
                         <div>
                             <h4><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( "ID" ) ) ); ?>"><?php the_author(); ?></a></h4>
                             <p><?php the_author_meta( "description" ); ?></p>
+                            <?php
+                                $transtics_author_facebook  = get_field( "facebook", "user_" . get_the_author_meta( "ID" ) );
+                                $transtics_author_twitter   = get_field( "twitter", "user_" . get_the_author_meta( "ID" ) );
+                                $transtics_author_linkedin = get_field( "linkedin", "user_" . get_the_author_meta( "ID" ) );
+                                $transtics_author_medium = get_field( "medium", "user_" . get_the_author_meta( "ID" ) );
+                            ?>
                             <span>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fab fa-medium-m"></i></a>
+                                <?php if ( $transtics_author_facebook ): ?>
+                                    <a href="<?php echo esc_url( $transtics_author_facebook ); ?>"><i class="fab fa-facebook-f"></i></a>
+                                <?php endif; ?>
+                                <?php if ( $transtics_author_twitter ): ?>
+                                    <a href="<?php echo esc_url( $transtics_author_twitter ); ?>"><i class="fab fa-twitter"></i></a>
+                                <?php endif; ?>
+                                <?php if ( $transtics_author_linkedin ): ?>
+                                    <a href="<?php echo esc_url( $transtics_author_linkedin ); ?>"><i class="fab fa-linkedin-in"></i></a>
+                                <?php endif; ?>
+                                <?php if ( $transtics_author_medium ): ?>
+                                    <a href="<?php echo esc_url( $transtics_author_medium ); ?>"><i class="fab fa-medium-m"></i></a>
+                                <?php endif; ?>
                             </span>
                         </div>
                     </div>
