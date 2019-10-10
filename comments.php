@@ -66,7 +66,7 @@ if ( post_password_required() ) {
                 $comments_number = get_comments_number();
                 if ( '1' === $comments_number ) {
                     /* translators: %s: post title */
-                    printf( _x( 'One Reply to &ldquo;%s&rdquo;', 'comments title', 'philosophy' ), get_the_title() );
+                    printf( _x( 'One Reply to &ldquo;%s&rdquo;', 'comments title', 'transtics' ), get_the_title() );
                 } else {
                     printf(
                         /* translators: 1: number of comments, 2: post title */
@@ -75,7 +75,7 @@ if ( post_password_required() ) {
                             '%1$s Replies to &ldquo;%2$s&rdquo;',
                             $comments_number,
                             'comments title',
-                            'philosophy'
+                            'transtics'
                         ),
                         number_format_i18n( $comments_number ),
                         get_the_title()
@@ -88,7 +88,7 @@ if ( post_password_required() ) {
             'avatar_size' => 100,
             'style'       => 'ol',
             'short_ping'  => true,
-            'reply_text'  => '<i class="fa fa-mail-reply"></i> ' . __( 'Reply', 'philosophy' ),
+            'reply_text'  => '<i class="fa fa-mail-reply"></i> ' . __( 'Reply', 'transtics' ),
         ) );
     ?>
 	<?php endif; ?>

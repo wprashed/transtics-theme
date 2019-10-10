@@ -7,7 +7,7 @@
             <?php
                 if ( ! have_posts() ):
                     ?>
-                    <h1 class="text-center"><?php _e("No result found !!","cmo"); ?></h1>
+                    <h1 class="text-center"><?php _e("No result found !!","transtics"); ?></h1>
                 <?php
                 endif;
             ?>

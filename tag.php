@@ -7,7 +7,7 @@
             <?php
                 if ( ! have_posts() ):
                     ?>
-                    <h1 class="text-center"><?php _e("There is no post in this tag !!","cmo"); ?></h1>
+                    <h1 class="text-center"><?php _e("There is no post in this tag !!","transtics"); ?></h1>
                 <?php
                 endif;
             ?>
