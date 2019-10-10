@@ -36,7 +36,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="credit text-center">
-                    <h5>All Rights Reserved <a href="http://anditthemes.com">AndIT Themes</a></h5>
+                    <h5>
+                        <?php
+                            $copyright_text = ot_get_option('copyright_text');
+                        ?>
+                        <?php echo $copyright_text; ?>
+                    </h5>
                 </div>
             </div>
         </div>

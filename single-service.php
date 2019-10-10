@@ -29,7 +29,12 @@ get_header(); ?>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home.png" alt="Image">
                             </div>
                             <div class="col-md-10 col-sm-10 col-10">
-                                <h4>Collins Street West Victoria 8007, AU</h4>
+                                <h4>
+                                    <?php
+                                        $address = ot_get_option('address');
+                                    ?>
+                                    <?php echo $address; ?>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -39,7 +44,16 @@ get_header(); ?>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/call.png" alt="Image">
                             </div>
                             <div class="col-md-10 col-sm-10 col-10">
-                                <h4>+124 (2486) 444 <br>+133 (4444) 878</h4>
+                                <h4>
+                                    <?php
+                                        $phone_one = ot_get_option('phone_one');
+                                    ?>
+                                    <?php
+                                        $phone_two = ot_get_option('phone_two');
+                                    ?>
+                                    <?php echo $phone_one; ?> 
+                                    <br><?php echo $phone_two; ?>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -49,7 +63,16 @@ get_header(); ?>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png" alt="Image">
                             </div>
                             <div class="col-md-10 col-sm-10 col-10">
-                                <h4>mail@example.com <br>info@mail.com</h4>
+                                <h4>
+                                    <?php
+                                        $email_one = ot_get_option('email_one');
+                                    ?>
+                                    <?php
+                                        $email_two = ot_get_option('email_two');
+                                    ?>
+                                    <?php echo $email_one; ?> 
+                                    <br><?php echo $email_two; ?>
+                                </h4>
                             </div>
                         </div>
                     </div>
