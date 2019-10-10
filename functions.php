@@ -125,6 +125,4 @@ add_action( "widgets_init", "transtics_widgets" );
 
 /* Theme Option */
 
-require_once('lib/ReduxCore/framework.php');
-require_once('lib/sample/option.php');
 require_once('inc/theme-options.php');
