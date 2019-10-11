@@ -122,6 +122,14 @@ final class Transtics_Elementor_Extension {
 
 		// Add Plugin actions
 		add_action( 'elementor/widgets/widgets_registered', [ $this, 'init_widgets' ] );
+		add_action( 'elementor/elements/categories_registered', [ $this, 'register_new_category'] );
+	}
+
+	public function register_new_category($manager){
+		$manager->add_category('transticscategory', [
+			'title'=>__('Transtics', 'transticsee'),
+			'icon'=>'fa fa-image'
+		]);
 	}
 
 	/**
@@ -203,9 +211,11 @@ final class Transtics_Elementor_Extension {
 
 		// Include Widget files
 		require_once( __DIR__ . '/widgets/slider.php' );
+		require_once( __DIR__ . '/widgets/team.php' );
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Slider_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Team_widget() );
 
 	}
 

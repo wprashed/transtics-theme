@@ -462,7 +462,7 @@ body{
 
 /* 5.1 Home Page One Slider */
 .slider {
-    background-image: url(../images/banner.png);
+    background-image: url();
     background-size: cover;
     font-family: 'Work Sans', sans-serif;
     background-repeat: no-repeat;
