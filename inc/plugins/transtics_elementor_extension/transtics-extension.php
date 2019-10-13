@@ -211,11 +211,17 @@ final class Transtics_Elementor_Extension {
 
 		// Include Widget files
 		require_once( __DIR__ . '/widgets/slider.php' );
-		require_once( __DIR__ . '/widgets/team.php' );
+		require_once( __DIR__ . '/widgets/team-slider.php' );
+		require_once( __DIR__ . '/widgets/team-grid.php' );
+		require_once( __DIR__ . '/widgets/client.php' );
+		require_once( __DIR__ . '/widgets/service-grid.php' );
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Slider_widget() );
-		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Team_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_TeamSlider_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_TeamGrid_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Client_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_ServiceGrid_widget() );
 
 	}
 
