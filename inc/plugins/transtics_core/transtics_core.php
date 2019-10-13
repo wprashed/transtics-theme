@@ -16,6 +16,7 @@
 
 
 /* Custom Post */
+
 function cptui_register_my_cpts() {
 
 	/**
@@ -48,7 +49,7 @@ function cptui_register_my_cpts() {
 		"rewrite" => array( "slug" => "slider", "with_front" => true ),
 		"query_var" => true,
 		"menu_icon" => "dashicons-slides",
-		"supports" => array( "title", "editor" ),
+		"supports" => array( "title" ),
 	);
 
 	register_post_type( "slider", $args );
@@ -231,7 +232,10 @@ function cptui_register_my_cpts() {
 
 add_action( 'init', 'cptui_register_my_cpts' );
 
+
+
 /* Custom Post Taxonomy */
+
 function cptui_register_my_taxes() {
 
 	/**
@@ -320,13 +324,78 @@ function cptui_register_my_taxes() {
 }
 add_action( 'init', 'cptui_register_my_taxes' );
 
+
+
+
 /* Custom Fileds */
+
 if( function_exists('acf_add_local_field_group') ):
+
+acf_add_local_field_group(array(
+	'key' => 'group_5d9f328dc57c0',
+	'title' => 'Contact Template',
+	'fields' => array(
+		array(
+			'key' => 'field_5d9f329f4ee3e',
+			'label' => 'Google Map',
+			'name' => 'google_map',
+			'type' => 'google_map',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'center_lat' => '',
+			'center_lng' => '',
+			'zoom' => '',
+			'height' => 600,
+		),
+	),
+	'location' => array(
+		array(
+			array(
+				'param' => 'page_template',
+				'operator' => '==',
+				'value' => 'page-template/contact.php',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'normal',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+	'active' => true,
+	'description' => '',
+));
 
 acf_add_local_field_group(array(
 	'key' => 'group_5d9b0bce5e919',
 	'title' => 'Slider',
 	'fields' => array(
+		array(
+			'key' => 'field_5da028723b1dd',
+			'label' => 'Slider Content',
+			'name' => 'slider_content',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'maxlength' => '',
+		),
 		array(
 			'key' => 'field_5d9b0bd757f12',
 			'label' => 'Button Text',

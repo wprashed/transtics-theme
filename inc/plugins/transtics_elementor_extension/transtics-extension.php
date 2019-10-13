@@ -12,47 +12,20 @@ Text Domain: transticsee
 
 final class Transtics_Elementor_Extension {
 
-	/**
-	 * Plugin Version
-	 *
-	 * @var string The plugin version.
-	 */
+	// Widget Version
+
 	const VERSION = '1.0.0';
 
-	/**
-	 * Minimum Elementor Version
-	 *
-	 * @var string Minimum Elementor version required to run the plugin.
-	 */
+	// Minimum Elementor Version
+
 	const MINIMUM_ELEMENTOR_VERSION = '2.0.0';
 
-	/**
-	 * Minimum PHP Version
-	 *
-	 * @var string Minimum PHP version required to run the plugin.
-	 */
+	// Minimum PHP Version
+
 	const MINIMUM_PHP_VERSION = '7.0';
 
-	/**
-	 * Instance
-	 *
-	 * @access private
-	 * @static
-	 *
-	 * @var Elementor_Test_Extension The single instance of the class.
-	 */
 	private static $_instance = null;
 
-	/**
-	 * Instance
-	 *
-	 * Ensures only one instance of the class is loaded or can be loaded.
-	 *
-	 * @access public
-	 * @static
-	 *
-	 * @return Elementor_Test_Extension An instance of the class.
-	 */
 	public static function instance() {
 
 		if ( is_null( self::$_instance ) ) {
@@ -62,11 +35,6 @@ final class Transtics_Elementor_Extension {
 
 	}
 
-	/**
-	 * Constructor
-	 *
-	 * @access public
-	 */
 	public function __construct() {
 
 		add_action( 'init', [ $this, 'i18n' ] );
@@ -74,32 +42,12 @@ final class Transtics_Elementor_Extension {
 
 	}
 
-	/**
-	 * Load Textdomain
-	 *
-	 * Load plugin localization files.
-	 *
-	 * Fired by `init` action hook.
-	 *
-	 * @access public
-	 */
 	public function i18n() {
 
 		load_plugin_textdomain( 'transticsee' );
 
 	}
 
-	/**
-	 * Initialize the plugin
-	 *
-	 * Load the plugin only after Elementor (and other plugins) are loaded.
-	 * Checks for basic plugin requirements, if one check fail don't continue,
-	 * if all check have passed load the files required to run the plugin.
-	 *
-	 * Fired by `plugins_loaded` action hook.
-	 *
-	 * @access public
-	 */
 	public function init() {
 
 		// Check if Elementor installed and activated
@@ -132,13 +80,6 @@ final class Transtics_Elementor_Extension {
 		]);
 	}
 
-	/**
-	 * Admin notice
-	 *
-	 * Warning when the site doesn't have Elementor installed or activated.
-	 *
-	 * @access public
-	 */
 	public function admin_notice_missing_main_plugin() {
 
 		if ( isset( $_GET['activate'] ) ) unset( $_GET['activate'] );
@@ -154,13 +95,6 @@ final class Transtics_Elementor_Extension {
 
 	}
 
-	/**
-	 * Admin notice
-	 *
-	 * Warning when the site doesn't have a minimum required Elementor version.
-	 *
-	 * @access public
-	 */
 	public function admin_notice_minimum_elementor_version() {
 
 		if ( isset( $_GET['activate'] ) ) unset( $_GET['activate'] );
@@ -177,13 +111,6 @@ final class Transtics_Elementor_Extension {
 
 	}
 
-	/**
-	 * Admin notice
-	 *
-	 * Warning when the site doesn't have a minimum required PHP version.
-	 *
-	 * @access public
-	 */
 	public function admin_notice_minimum_php_version() {
 
 		if ( isset( $_GET['activate'] ) ) unset( $_GET['activate'] );
@@ -200,13 +127,6 @@ final class Transtics_Elementor_Extension {
 
 	}
 
-	/**
-	 * Init Widgets
-	 *
-	 * Include widgets files and register them
-	 *
-	 * @access public
-	 */
 	public function init_widgets() {
 
 		// Include Widget files

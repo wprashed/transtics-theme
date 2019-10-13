@@ -3,84 +3,40 @@
 
 class Transtics_Client_widget extends \Elementor\Widget_Base {
 
-	/**
-	 * Get widget name.
-	 *
-	 * Retrieve Blank widget name.
-	 *
-	 * @return string Widget name.
-	 * @since 1.0.0
-	 * @access public
-	 *
-	 */
+	// Widget Name
+
 	public function get_name() {
 		return 'client';
 	}
 
-	/**
-	 * Get widget title.
-	 *
-	 * Retrieve Blank widget title.
-	 *
-	 * @return string Widget title.
-	 * @since 1.0.0
-	 * @access public
-	 *
-	 */
+	// Widget Titke
+
 	public function get_title() {
 		return __( 'Client', 'transticsee' );
 	}
 
-	/**
-	 * Get widget icon.
-	 *
-	 * Retrieve Blank widget icon.
-	 *
-	 * @return string Widget icon.
-	 * @since 1.0.0
-	 * @access public
-	 *
-	 */
+	// Widget Icon
+
 	public function get_icon() {
 		return 'fa fa-handshake';
 	}
 
-	/**
-	 * Get widget categories.
-	 *
-	 * Retrieve the list of categories the Blank widget belongs to.
-	 *
-	 * @return array Widget categories.
-	 * @since 1.0.0
-	 * @access public
-	 *
-	 */
+	//	Widget Categories
+
 	public function get_categories() {
 		return [ 'transticscategory' ];
 	}
 
-	/**
-	 * Register Blank widget controls.
-	 *
-	 * Adds different input fields to allow the user to change and customize the widget settings.
-	 *
-	 * @since 1.0.0
-	 * @access protected
-	 */
+	// Register Widget Control
+
 	protected function _register_controls() {
 
 		$this->register_controls();
 
 	}
 
-	/**
-	 * Register Blank widget content ontrols.
-	 *
-	 * Adds different input fields to allow the user to change and customize the widget settings.
-	 *
-	 * @since 1.0.0
-	 * @access protected
-	 */
+	// Widget Controls 
+
 	function register_controls() {
 
 		// Slider Background
@@ -116,16 +72,8 @@ class Transtics_Client_widget extends \Elementor\Widget_Base {
 
 	}
 
-	
+	// Widget Render Output
 
-	/**
-	 * Render Blank widget output on the frontend.
-	 *
-	 * Written in PHP and used to generate the final HTML.
-	 *
-	 * @since 1.0.0
-	 * @access protected
-	 */
 	protected function render() {
 
 		$settings   = $this->get_settings_for_display();
@@ -154,14 +102,8 @@ class Transtics_Client_widget extends \Elementor\Widget_Base {
 
 	}
 
-	/**
-	 * Render Blank widget output on the frontend.
-	 *
-	 * Written in JS and used to generate the final HTML.
-	 *
-	 * @since 1.0.0
-	 * @access protected
-	 */
+	// Widget Output Content Template
+
 	protected function _content_template() {
 		$total = $settings['total'];
 		$args=[
