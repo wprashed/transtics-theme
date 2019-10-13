@@ -1334,8 +1334,7 @@ span.flaticon-left-arrow {
 
 /* 12.1 Home Page One Client */
 .clients{
-    background-color: #032c56;
-      padding: 85px 0px 100px 0;
+      padding: 50px 0px;
 }
 .clients p{
     text-align: center;
@@ -1485,6 +1484,7 @@ span.flaticon-left-arrow {
 }
 .service-area .service-box .service-img img{
     width: 100%;
+    max-height: 310px;
     display: block;
 }
 .service-area .service-box .overlay {
@@ -2591,10 +2591,7 @@ p.big {
 
 /* 21.1 Home Page Two Team */
 .team{
-    background-image: url(../images/team-bg.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    padding: 100px 0px 0px;
+    padding: 100px 0px;
 }
 .team h1{
 color: #fff;
@@ -2728,7 +2725,6 @@ color: #fff;
 }
 /* 21.2 About Page Team */
 #team{
-    padding: 60px 0px 100px;
     background:none;
 }
 #team h1{
@@ -2738,7 +2734,6 @@ color: #fff;
 /* 21.3 Team Page Team Leader */
 #teaml{
     background: none;
-    padding: 100px 0px 30px;
 }
 #teaml h1{
    color: #032c56;
@@ -2763,7 +2758,6 @@ color: #fff;
 /* 21.4 Team Page Team Management */
 #teamm{
     background: none;
-    padding: 30px 0px 115px;
 }
 #teamm h1{
    color: #032c56;
