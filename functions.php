@@ -126,15 +126,3 @@ add_action( "widgets_init", "transtics_widgets" );
 /* Theme Option */
 
 require_once('inc/theme-options.php');
-
-/* Google Map API */
-
-function my_acf_google_map_api( $api ){
-    
-    $api['key'] = 'AIzaSyB2YeMKniOp8PvU2qPj99m7LTedKOEGYUM';
-    
-    return $api;
-    
-}
-
-add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
