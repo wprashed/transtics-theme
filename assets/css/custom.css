@@ -944,6 +944,10 @@ span.flaticon-left-arrow {
 .about .counters{
     margin-top: 50px;
 }
+.about .counters .counter-image p.icon{
+    font-size: 80px !important;
+    line-height: 0px !important;
+}
 .about .counters .text-box{
     width: 75%;
 }
@@ -1094,12 +1098,6 @@ span.flaticon-left-arrow {
 	============= */
 
 /* 11.1 Home Page One Testimonial */
-.testimonial{
-    background-image: url(../images/shipments.jpg);
-    background-size: cover;
-    background-position: bottom;
-    padding: 100px 0px 0px;
-}
 .testimonial h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -1155,6 +1153,7 @@ span.flaticon-left-arrow {
 .testimonial .testimonial-box .client .c-image img{
     height: 50px;
     width: 50px;
+    border-radius: 50%;
 }
 .testimonial .testimonial-box .client .c-details{
     width: 82%

@@ -130,6 +130,18 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 		);
 
 		$this->add_control(
+			'padding',
+			[
+				'label' => __( 'Padding', 'transticsee' ),
+				'type' => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => [ 'px', '%', 'em' ],
+				'selectors' => [
+					'{{WRAPPER}} .service-area' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				],
+			]
+		);
+
+		$this->add_control(
 			'total_count',
 			[
 				'label' => __( 'Total Item', 'transticsee' ),

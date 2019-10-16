@@ -135,6 +135,9 @@ final class Transtics_Elementor_Extension {
 		require_once( __DIR__ . '/widgets/team-grid.php' );
 		require_once( __DIR__ . '/widgets/client.php' );
 		require_once( __DIR__ . '/widgets/service-grid.php' );
+		require_once( __DIR__ . '/widgets/testimonial.php' );
+		require_once( __DIR__ . '/widgets/intro.php' );
+		require_once( __DIR__ . '/widgets/advantages.php' );
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Slider_widget() );
@@ -142,6 +145,9 @@ final class Transtics_Elementor_Extension {
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_TeamGrid_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Client_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_ServiceGrid_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Testimonial_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Intro_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Advantages_widget() );
 
 	}
 

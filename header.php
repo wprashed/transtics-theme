@@ -77,7 +77,7 @@
 <!-- Header Bottom / -->
 
 <?php
- if (!is_home() & !is_page_template('page-template/homepage-two.php') & !is_page_template('page-template/homepage-one.php')) {
+ if (!is_home() & !is_page_template('page-template/homepage.php')) {
      get_template_part("template-parts/common/header/breadcamb");
  }
 ?>

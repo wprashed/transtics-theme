@@ -104,6 +104,18 @@ class Transtics_TeamGrid_widget extends \Elementor\Widget_Base {
 			]
 		);
 
+		$this->add_control(
+			'padding',
+			[
+				'label' => __( 'Padding', 'transticsee' ),
+				'type' => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => [ 'px', '%', 'em' ],
+				'selectors' => [
+					'{{WRAPPER}} .team' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				],
+			]
+		);
+
 		$this->end_controls_section();
 
 	}

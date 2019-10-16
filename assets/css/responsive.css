@@ -98,9 +98,6 @@
 .map p {
     font-size: 13px;
 }
-.testimonial {
-    padding: 75px 0px 0px;
-}
 .clients {
     padding: 45px 0px 65px 0;
 }
@@ -412,9 +409,6 @@ p.big {
 .map p {
        font-size: 16px;
     margin-top: 25px;
-}
-	.testimonial {
-    padding: 50px 0px 0px;
 }
 	.testimonial .item {
     padding-top: 10px;
@@ -1013,9 +1007,6 @@ p.big {
 	.map {
     padding: 60px 0px 60px 0;
 }
-	.testimonial {
-    padding: 50px 0px 0px;
-}
 	.testimonial .item {
     padding-top: 20px;
 }
@@ -1372,9 +1363,6 @@ p.big {
 }
 	.map {
     padding: 0px 0px 35px 0;
-}
-	.testimonial {
-    padding: 65px 0px 0px;
 }
 	.clients {
     background-color: #032c56;
@@ -1885,9 +1873,6 @@ p.big {
 }
 	.service-details h1 {
     margin-bottom: 0px;
-}
-	.testimonial {
-    padding: 65px 0px 0px;
 }
 	.clients {
      background-color: #032c56;
@@ -2851,10 +2836,6 @@ p.big {
     padding: 20px 0px 30px 0;
 }
 
-
-	.testimonial {
-    padding: 65px 0px 0px;
-}
 	.clients {
     background-color: #032c56;
    padding: 35px 0px;
@@ -3094,9 +3075,6 @@ p.big {
 }
 	.map {
     padding: 20px 0px 40px 0;
-}
-	.testimonial {
-    padding: 45px 0px 0px;
 }
 	.clients {
     background-color: #032c56;

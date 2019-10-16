@@ -39,15 +39,17 @@ class Transtics_Client_widget extends \Elementor\Widget_Base {
 
 	function register_controls() {
 
-		// Slider Background
+		// Controls
 
 		$this->start_controls_section(
 			'backgrount_section',
 			[
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Client Controls', 'transticsee' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
+
+		// Background
 
 		$this->add_group_control(
 			\Elementor\Group_Control_Background::get_type(),
@@ -65,6 +67,18 @@ class Transtics_Client_widget extends \Elementor\Widget_Base {
 				'label' => __( 'Total Item', 'transticsee' ),
 				'type' => \Elementor\Controls_Manager::NUMBER,
 				'default' => 5,
+			]
+		);
+
+		$this->add_control(
+			'padding',
+			[
+				'label' => __( 'Padding', 'transticsee' ),
+				'type' => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => [ 'px', '%', 'em' ],
+				'selectors' => [
+					'{{WRAPPER}} .clients' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				],
 			]
 		);
 
