@@ -33,6 +33,7 @@ function transtics_assets() {
     wp_enqueue_style( "owl-theme-css", get_theme_file_uri( "/assets/css/owl.theme.default.min.css" ), null, "1.0" );
     wp_enqueue_style( "fontawesome-css", get_theme_file_uri( "/assets/css/fontawesome.min.css" ), null, "1.0" );
     wp_enqueue_style( "flaticon-css", get_theme_file_uri( "/assets/css/flaticon.css" ), null, "1.0" );
+    wp_enqueue_style( "fancybox-css", get_theme_file_uri( "/assets/css/jquery.fancybox.min.css" ), null, "1.0" );
     wp_enqueue_style( "custom-css", get_theme_file_uri( "/assets/css/custom.css" ), null, "1.0" );
     wp_enqueue_style( "responsive-css", get_theme_file_uri( "/assets/css/responsive.css" ), null, "1.0" );
     wp_enqueue_style( "transtics-css", get_stylesheet_uri(), null, "1.0" );
@@ -41,6 +42,8 @@ function transtics_assets() {
     wp_enqueue_script( "bootstrap-js", get_theme_file_uri( "/assets/js/bootstrap.min.js" ), array( "jquery" ), "1.0" );
     wp_enqueue_script( "carousel-js", get_theme_file_uri( "/assets/js/owl.carousel.min.js" ), array( "jquery" ), "1.0" );
     wp_enqueue_script( "fontawesome-js", get_theme_file_uri( "/assets/js/fontawesome.min.js" ), array( "jquery" ), "1.0", true );
+    wp_enqueue_script( "isotope-js", get_theme_file_uri( "/assets/js/isotope.pkgd.min.js" ), array( "jquery" ), "1.0", true );
+    wp_enqueue_script( "fancybox-js", get_theme_file_uri( "/assets/js/jquery.fancybox.min.js" ), array( "jquery" ), "1.0", true );
     wp_enqueue_script( "counterup-js", get_theme_file_uri( "/assets/js/jquery.counterup.min.js" ), array( "jquery" ), "1.0", true );
     wp_enqueue_script( "scroll-js", get_theme_file_uri( "/assets/js/scroll-top.js" ), array( "jquery" ), "1.0", true );
     wp_enqueue_script( "search-js", get_theme_file_uri( "/assets/js/search.js" ), array( "jquery" ), "1.0", true );
