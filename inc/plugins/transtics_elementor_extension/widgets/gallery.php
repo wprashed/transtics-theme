@@ -190,8 +190,8 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 		                        <div class="item col-lg-4 col-md-6 col-sm-6 <?php echo esc_attr($slug);?>">
 		                        <?php else: ?>
 		                        <?php
-		                                        endif;
-		                                        ?>
+		                            endif;
+		                        ?>
 		                            <div class="single-gallery">
 		                                <?php the_post_thumbnail(); ?>
 		                                <div class="overlay">
@@ -265,8 +265,8 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 		                        <div class="item col-lg-4 col-md-6 col-sm-6 <?php echo esc_attr($slug);?>">
 		                        <?php else: ?>
 		                        <?php
-		                                        endif;
-		                                        ?>
+		                            endif;
+		                        ?>
 		                            <div class="single-gallery">
 		                                <?php the_post_thumbnail(); ?>
 		                                <div class="overlay">

@@ -197,6 +197,68 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 			]
 		);
 
+		// Title Style
+
+		$this->add_control(
+			'title_color',
+			[
+				'label'     => __( 'Title Color', 'transticsee' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'default'   => '#ffffff',
+				'selectors' => [
+					'{{WRAPPER}} .atitle' => 'color: {{VALUE}}'
+				]
+			]
+		);
+
+		$this->add_group_control(
+			\Elementor\Group_Control_Typography::get_type(),
+			[
+				'name'     => 'title_typography',
+				'label'    => __( 'Title Typography', 'transticsee' ),
+				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'selector' => '{{WRAPPER}} .atitle',
+			]
+		);
+
+		// Content
+
+		$this->add_control(
+			'content_color',
+			[
+				'label'     => __( 'Description Color', 'transticsee' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'default'   => '#ffffff',
+				'selectors' => [
+					'{{WRAPPER}} .adetails' => 'color: {{VALUE}}'
+				]
+			]
+		);
+
+		$this->add_group_control(
+			\Elementor\Group_Control_Typography::get_type(),
+			[
+				'name'     => 'content_typography',
+				'label'    => __( 'Description Typography', 'transticsee' ),
+				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'selector' => '{{WRAPPER}} .adetails',
+			]
+		);
+
+		// Icon
+
+		$this->add_control(
+			'icon_color',
+			[
+				'label'     => __( 'Icon Color', 'transticsee' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'default'   => '#ffffff',
+				'selectors' => [
+					'{{WRAPPER}} .iconf' => 'color: {{VALUE}}'
+				]
+			]
+		);
+
 		$this->end_controls_section();
 
 	}
@@ -221,34 +283,34 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		                        <div class="d-flex justify-content-between aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                	<i class="<?php echo $item['icon_one'] ?> fa-4x"></i>
+		                                	<span class="iconf"><i class="<?php echo $item['icon_one'] ?> fa-4x"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
-		                                <h4><?php echo $item['title_one'] ?></h4>
-		                                <h6><?php echo $item['content_one'] ?></h6>
+		                                <h4 class="atitle"><?php echo $item['title_one'] ?></h4>
+		                                <h6 class="adetails"><?php echo $item['content_one'] ?></h6>
 		                            </div>
 		                        </div>
 		                        <div class="d-flex justify-content-between aditem aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <i class="<?php echo $item['icon_two'] ?> fa-4x"></i>
+		                                    <span class="iconf"><i class="<?php echo $item['icon_two'] ?> fa-4x"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
-		                                <h4><?php echo $item['title_two'] ?></h4>
-		                                <h6><?php echo $item['content_two'] ?></h6>
+		                                <h4 class="atitle"><?php echo $item['title_two'] ?></h4>
+		                                <h6 class="adetails"><?php echo $item['content_two'] ?></h6>
 		                            </div>
 		                        </div>
 		                        <div class="d-flex justify-content-between aditem aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <i class="<?php echo $item['icon_three'] ?> fa-4x"></i>
+		                                    <span class="iconf"><i class="<?php echo $item['icon_three'] ?> fa-4x"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
-		                                <h4><?php echo $item['title_three'] ?></h4>
-		                                <h6><?php echo $item['content_three'] ?></h6>
+		                                <h4 class="atitle"><?php echo $item['title_three'] ?></h4>
+		                                <h6 class="adetails"><?php echo $item['content_three'] ?></h6>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -282,34 +344,34 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		                        <div class="d-flex justify-content-between aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <i class="{{ item.icon_one }} fa-4x"></i>
+		                                    <span class="iconf"><i class="{{ item.icon_one }} fa-4x"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
-		                                <h4>{{{ item.title_one }}}</h4>
-		                                <h6>{{{ item.content_one }}}</h6>
+		                                <h4 class="atitle">{{{ item.title_one }}}</h4>
+		                                <h6 class="adetails">{{{ item.content_one }}}</h6>
 		                            </div>
 		                        </div>
 		                        <div class="d-flex justify-content-between aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <i class="{{ item.icon_two }} fa-4x"></i>
+		                                    <span class="iconf"><i class="{{ item.icon_two }} fa-4x"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
-		                                <h4>{{{ item.title_two }}}</h4>
-		                                <h6>{{{ item.content_two }}}</h6>
+		                                <h4 class="atitle">{{{ item.title_two }}}</h4>
+		                                <h6 class="adetails">{{{ item.content_two }}}</h6>
 		                            </div>
 		                        </div>
 		                        <div class="d-flex justify-content-between aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <i class="{{ item.icon_three }} fa-4x"></i>
+		                                    <span class="iconf"><i class="{{ item.icon_three }} fa-4x"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
-		                                <h4>{{{ item.title_three }}}</h4>
-		                                <h6>{{{ item.content_three }}}</h6>
+		                                <h4 class="atitle">{{{ item.title_three }}}</h4>
+		                                <h6 class="adetails">{{{ item.content_three }}}</h6>
 		                            </div>
 		                        </div>
 		                    </div>
