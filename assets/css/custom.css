@@ -2807,7 +2807,7 @@ color: #fff;
     font-size: 17px;
     color: #333b4c;
 }
-.contact-form .contact-form-area .contact-area h4 img{
+.contact-form .contact-form-area .contact-area h4 span.float-left{
     float: left;
     margin-right: 20px;
 }
