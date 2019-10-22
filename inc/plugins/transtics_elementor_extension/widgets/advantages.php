@@ -283,7 +283,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		                        <div class="d-flex justify-content-between aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                	<span class="iconf"><i class="<?php echo $item['icon_one'] ?> fa-4x"></i></span>
+		                                	<span class="iconf"><i class="<?php echo $item['icon_one'] ?>"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
@@ -294,7 +294,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		                        <div class="d-flex justify-content-between aditem aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <span class="iconf"><i class="<?php echo $item['icon_two'] ?> fa-4x"></i></span>
+		                                    <span class="iconf"><i class="<?php echo $item['icon_two'] ?>"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
@@ -305,7 +305,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		                        <div class="d-flex justify-content-between aditem aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <span class="iconf"><i class="<?php echo $item['icon_three'] ?> fa-4x"></i></span>
+		                                    <span class="iconf"><i class="<?php echo $item['icon_three'] ?>"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
@@ -344,7 +344,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		                        <div class="d-flex justify-content-between aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <span class="iconf"><i class="{{ item.icon_one }} fa-4x"></i></span>
+		                                    <span class="iconf"><i class="{{ item.icon_one }}"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
@@ -355,7 +355,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		                        <div class="d-flex justify-content-between aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <span class="iconf"><i class="{{ item.icon_two }} fa-4x"></i></span>
+		                                    <span class="iconf"><i class="{{ item.icon_two }}"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">
@@ -366,7 +366,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		                        <div class="d-flex justify-content-between aditem">
 		                            <div class="icons">
 		                                <div class="icon d-flex justify-content-center">
-		                                    <span class="iconf"><i class="{{ item.icon_three }} fa-4x"></i></span>
+		                                    <span class="iconf"><i class="{{ item.icon_three }}"></i></span>
 		                                </div>
 		                            </div>
 		                            <div class="text">

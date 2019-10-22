@@ -140,6 +140,7 @@ final class Transtics_Elementor_Extension {
 		require_once( __DIR__ . '/widgets/advantages.php' );
 		require_once( __DIR__ . '/widgets/contact.php' );
 		require_once( __DIR__ . '/widgets/gallery.php' );
+		require_once( __DIR__ . '/widgets/subscribe.php' );
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Slider_widget() );
@@ -152,6 +153,7 @@ final class Transtics_Elementor_Extension {
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Advantages_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Contact_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Gallery_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Subscribe_widget() );
 
 	}
 
