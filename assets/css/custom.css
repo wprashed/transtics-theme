@@ -1013,11 +1013,10 @@ span.flaticon-left-arrow {
     background-color: #ec0101;
     margin-right: 20px;
 }
-.advantages .content .item .icon img{
-       height: 45px;
-    width: 45px;
+.advantages .content .item .icon span{
+    font-size: 50px !important;
+    line-height: 50px !important;
     position: relative;
-    top: 6px;
 }
 .advantages .content .item h4 {
     color: #fff;

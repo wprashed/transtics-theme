@@ -521,11 +521,11 @@ p.big {
     width: 65px;
     margin-right: 10px;
 }
-	.advantages .content .item .icon img {
-    height: 30px;
-    width: 30px;
+	.advantages .content .item .icon span {
+    font-size: 30px !important;
+    line-height: 30px !important;
     position: relative;
-    top: 5px;
+    top: 0 !important;
 }
 	.advantages .content .item h4 {
     font-size: 18px;
@@ -1930,11 +1930,11 @@ p.big {
     width: 60px;
     margin-right: 8px;
 }
-	.advantages .content .item .icon img {
-    height: 19px;
-    width: 21px;
+	.advantages .content .item .icon span {
+    font-size: 25px !important;
+    line-height: 25px !important;
     position: relative;
-    top: 9px;
+    top: 0 !important;
 }
 	.advantages .content .item h4 {
     font-size: 20px;
@@ -2591,9 +2591,10 @@ p.big {
 		padding-left: 25px;
 
     }
-    .advantages .content .item .icon img {
-        height: 40px;
-        width: 40px;
+    .advantages .content .item .icon span {
+        font-size: 40px !important;
+        line-height: 40px !important;
+        top: 0 !important;
     }
     .advantages .content .item h4 {
         font-size: 17px;
@@ -3142,11 +3143,11 @@ p.big {
     width: 60px;
     margin-right: 8px;
 }
-	.advantages .content .item .icon img {
-    height: 19px;
-    width: 21px;
+	.advantages .content .item .icon span {
+    font-size: 25px !important;
+    line-height: 25px !important;
     position: relative;
-    top: 9px;
+    top: 0 !important;
 }
 	.advantages .content .item h4 {
     font-size: 20px;
@@ -3352,9 +3353,10 @@ p.big {
     .advantages .content .item .icon {
         margin-right: 15px;
     }
-    .advantages .content .item .icon img {
-        height: 30px;
-        width: 30px;
+    .advantages .content .item .icon span {
+        font-size: 30px !important;
+        line-height: 30px !important;
+        top: 0 !important;
     }
     .advantages .content .item h4 {
         font-size: 17px;
