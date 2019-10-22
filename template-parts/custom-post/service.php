@@ -1,7 +1,14 @@
 <?php query_posts( array(
     'post_type' => 'service',
     'post_per_page' => -1,
-  )); 
+    'tax_query' => array(
+        array(
+            'taxonomy' => 'service_category',
+            'field'    => 'slug',
+            'terms'    => 'bob',
+        ),
+    ),
+  ));
 ?>
 <?php while (have_posts()) : the_post(); ?>
 <div class="col-md-6 col-12">
