@@ -154,15 +154,7 @@ class Transtics_Intro_widget extends \Elementor\Widget_Base {
 				'default'     => __( 'More About Us', 'transticsee' ),
 			]
 		);
-		$this->add_group_control(
-			\Elementor\Group_Control_Typography::get_type(),
-			[
-				'name'     => 'button_typography',
-				'label'    => __( 'Button Typography', '`' ),
-				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
-				'selector' => '{{WRAPPER}} .more',
-			]
-		);
+		
 		$this->add_control(
 			'button_url',
 			[
@@ -175,6 +167,16 @@ class Transtics_Intro_widget extends \Elementor\Widget_Base {
 					'is_external' => true,
 					'nofollow' => true,
 				],
+			]
+		);
+		
+		$this->add_group_control(
+			\Elementor\Group_Control_Typography::get_type(),
+			[
+				'name'     => 'button_typography',
+				'label'    => __( 'Button Typography', '`' ),
+				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'selector' => '{{WRAPPER}} .more',
 			]
 		);
 
@@ -535,7 +537,8 @@ class Transtics_Intro_widget extends \Elementor\Widget_Base {
 	// Widget Render Output
 
 	protected function render() {
-
+		$target = $settings['button_url']['is_external'] ? ' target="_blank"' : '';
+		$nofollow = $settings['button_url']['nofollow'] ? ' rel="nofollow"' : '';
 		$settings   = $this->get_settings_for_display();
 		?>
 		<!-- Intro -->
