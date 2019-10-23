@@ -1559,7 +1559,21 @@ span.flaticon-left-arrow {
     height: 3px;
     margin-top: 10px;
 }
-
+.pricing-area h1 {
+        margin-bottom: 25px;
+    font-weight: 700;
+    color: #032c56;
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+}
+.pricing-area h1:after {
+    content: "";
+    display: block;
+    width: 70px;
+    background-color: #ec0101;
+    height: 3px;
+    margin-top: 10px;
+}
 /* 14.2 Service Drtails Sidebar */
 .service-details .sidebar{
     background-color: #f2f2f2;
@@ -1625,9 +1639,8 @@ span.flaticon-left-arrow {
     padding-bottom: 50px;
 }
 .service-details #add{
-       background-image: url(../images/add.png);
-    background-size: cover;
-    padding: 1px 35px;
+    background: transparent;
+    padding: 0px;
     position: relative;
     z-index: -1;
 }
@@ -1706,28 +1719,28 @@ span.flaticon-left-arrow {
     margin-top: 100px !important;
 }
 
-.service-details .content #active{
+.pricing-area #active{
     background-color: #032c56;
     border:0px;
     margin-top: 0px;
 }
-.service-details .content #active h5{
+.pricing-area #active h5{
     color: #fff;
 }
-.service-details .content #active .price{
+.pricing-area #active .price{
     top: 130px;
 }
-.service-details .content #active ul li:first-child{
+.pricing-area #active ul li:first-child{
     margin-top: 150px;
 }
-.service-details .content #active ul li{
+.pricing-area #active ul li{
     color: #fbfbfb;
     padding: 12px 0px;
 }
-.service-details .content #active h6{
+.pricing-area #active h6{
     margin-top: 50px;
 }
-.service-details .content #active .button{
+.pricing-area #active .button{
     background-color: #ec0101;
 }
 .pricing-table h5{
@@ -1736,13 +1749,13 @@ span.flaticon-left-arrow {
 }
 
 /* 14.4 Service Drtails Pricing Table */
-.service-details .content .pricing-table{
+.pricing-area .pricing-table{
         padding: 30px 10px;
     border:1px solid #e5e5e5;
     border-radius: 10px;
     margin-top: 35px;
 }
-.service-details .content .pricing-table .price{
+.pricing-area .pricing-table .price{
     background-color: #ec0101;
     color: #fff;
     height: 90px;
@@ -1756,44 +1769,45 @@ span.flaticon-left-arrow {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.service-details .content .pricing-table .price h5 {
+.pricing-area .pricing-table .price h5 {
     color: #fff;
-    margin-top: 35px;
+    margin-top: 30px;
     font-size: 20px;
     font-weight: 600;
 }
-.service-details .content .pricing-table .price h5 span.symbol{
+.pricing-area .pricing-table .price h5 span.symbol{
     font-size: 14px;
     position: absolute;
     top: 35px !important;
     left: 9px;
     font-weight: 400;
 }
-.service-details .content .pricing-table .price h5 span.perifix{
+.pricing-area .pricing-table .price h5 span.perifix{
     font-size: 14px;
 }
-.service-details .content .pricing-table ul li{
-       font-size: 15px;
+.pricing-area .pricing-table ul li{
+    font-size: 15px;
     padding: 10px 0px;
     border-bottom: 1px solid #e5e5e5;
     color: #737f9a;
     font-weight: 400;
-	 font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik', sans-serif;
+    list-style: none;
 }
-.service-details .content .pricing-table ul li:first-child{
+.pricing-area .pricing-table ul li:first-child{
     margin-top: 120px;
 }
-.service-details .content .pricing-table ul li:last-child{
+.pricing-area .pricing-table ul li:last-child{
     border-bottom: 0px;
 }
-.service-details .content .pricing-table ul li::before{
+.pricing-area .pricing-table ul li::before{
     display: none;
     margin: 0px;
 }
-.service-details .content .pricing-table h6{
+.pricing-area .pricing-table h6{
     margin-top: 40px;
 }
-.service-details .content .pricing-table .button{
+.pricing-area .pricing-table .button{
     background-color: #333b4c;
     color: #fff;
     padding: 8px 25px;

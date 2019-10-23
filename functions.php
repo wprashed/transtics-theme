@@ -122,6 +122,16 @@ function transtics_widgets() {
         'before_title'  => '<h4>',
         'after_title'   => '</h4>',
     ) );
+
+    register_sidebar( array(
+        'name'          => __( 'Service Widget', 'transtics' ),
+        'id'            => 'service-widget',
+        'description'   => __( 'Widgets in this area will service single page.', 'transtics' ),
+        'before_widget' => '<div id="add" class="sidebar %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h4>',
+        'after_title'   => '</h4>',
+    ) );
 }
 
 add_action( "widgets_init", "transtics_widgets" );

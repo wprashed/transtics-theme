@@ -608,8 +608,7 @@ p.big {
         padding-bottom: 30px;
     }
     .service-details #add {
-        padding: 1px 10px;
-        height: 250px;
+        padding:0px;
     }
     .service-details #add h4 a {
         margin-bottom: 15px;
@@ -3622,8 +3621,7 @@ p.big {
         font-size: 16px;
     }
     .service-details #add {
-        padding: 20px 33px;
-        height: 266px;
+        padding: 0px;
         margin-top: 40px;
     }
 	.service-details .content .video {

@@ -319,7 +319,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav a {
     color: #c2d3e3 !important;
     text-transform: uppercase;
     font-size: 16px;
@@ -328,13 +328,13 @@ body{
 	font-weight: 400;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav a:hover{
     color: #ec0101 !important;
 }
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link{
+.navbar-light .navbar-nav .active>a,
+.navbar-light .navbar-nav a.active,
+.navbar-light .navbar-nav a.show,
+.navbar-light .navbar-nav .show>a{
     color: #ec0101 !important;
     font-weight: 500;
 }
@@ -406,10 +406,10 @@ body{
     margin-top: 12px;
     display: inline-block;
 }
-.header-bottom .navbar-light .navbar-nav .nav-link{
+.header-bottom .navbar-light .navbar-nav a{
     color: #647886!important;
 }
-.navbar-expand-lg .navbar-nav .nav-link {
+.navbar-expand-lg .navbar-nav a {
     padding-left: 0px;
 }
 .header-bottom .search{
@@ -462,7 +462,7 @@ body{
 
 /* 5.1 Home Page One Slider */
 .slider {
-    background-image: url(../images/banner.png);
+    background-image: url();
     background-size: cover;
     font-family: 'Work Sans', sans-serif;
     background-repeat: no-repeat;
@@ -596,7 +596,7 @@ font-family: 'Rubik', sans-serif;
     font-family: 'Work Sans', sans-serif;
     color: #042c54;
 }
-.schedule .nav-tabs .nav-link {
+.schedule .nav-tabs a {
     background-color: #f5f5f5;
     border: 0px;
     padding: 20px;
@@ -605,19 +605,19 @@ font-family: 'Rubik', sans-serif;
 	color: #032c56;
     letter-spacing: 0.25px
 }
-.schedule .nav-tabs .nav-link img{
+.schedule .nav-tabs a img{
     margin-right: 10px;
 }
-.schedule #nav-tab .nav-link.active{
+.schedule #nav-tab a.active{
     background-color: #fff;
     border-bottom: 2px solid #ec0101;
     color: #032c56;
 	letter-spacing:0.25px;
 }
-.schedule .nav-tabs .nav-link.nav-one{
+.schedule .nav-tabs a.nav-one{
     border-radius: 15px 0px 0px 0px;
 }
-.schedule .nav-tabs .nav-link.nav-two{
+.schedule .nav-tabs a.nav-two{
     border-radius: 0px 15px 0px 0px;
 }
 .schedule .tab-content {
@@ -659,7 +659,7 @@ font-family: 'Rubik', sans-serif;
     font-family: 'Work Sans', sans-serif;
     color: #042c54;
 }
-.schedule-hm .nav-tabs .nav-link{
+.schedule-hm .nav-tabs a{
     background-color: #f5f5f5;
     border:0px;
     padding: 20px;
@@ -667,18 +667,18 @@ font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: #042c54;
 }
-.schedule-hm .nav-tabs .nav-link img{
+.schedule-hm .nav-tabs a img{
     margin-right: 10px;
 }
-.schedule-hm #nav-tab .nav-link.active{
+.schedule-hm #nav-tab a.active{
     background-color: #fff;
     border-bottom: 2px solid #ec0101;
     color: #042c54;
 }
-.schedule-hm .nav-tabs .nav-link.nav-one{
+.schedule-hm .nav-tabs a.nav-one{
     border-radius: 15px 0px 0px 0px;
 }
-.schedule-hm .nav-tabs .nav-link.nav-two{
+.schedule-hm .nav-tabs a.nav-two{
     border-radius: 0px 15px 0px 0px;
 }
 .schedule-hm .tab-content{
@@ -749,10 +749,10 @@ font-family: 'Rubik', sans-serif;
     text-align: center;
     border: 0px;
 }
-.logistics .nav-link{
+.logistics a{
     display: inline-flex;
 }
-.logistics .nav-tabs .nav-link{
+.logistics .nav-tabs a{
     background-color: #fff;
     border:0px;
     padding: 10px 20px;
@@ -760,21 +760,21 @@ font-family: 'Rubik', sans-serif;
     color: #042c54;
     margin-top: 10px;
 }
-.logistics .nav-tabs .nav-link img{
+.logistics .nav-tabs a img{
     margin-right: 06px;
     height: 22px;
     width: auto;
 }
-.logistics .nav-tabs .nav-link.nav-one{
+.logistics .nav-tabs a.nav-one{
     border-radius: 10px 0px 0px 0px;
 }
-.logistics .nav-tabs .nav-link.nav-two{
+.logistics .nav-tabs a.nav-two{
     border-radius: 0px;
 }
-.logistics .nav-tabs .nav-link.nav-three{
+.logistics .nav-tabs a.nav-three{
     border-radius: 0px 10px 0px 0px;
 }
-.logistics .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+.logistics .nav-tabs .nav-item.show a, .nav-tabs a.active{
     background-color: #042c54;
     color: #fff;
 }
@@ -944,6 +944,10 @@ span.flaticon-left-arrow {
 .about .counters{
     margin-top: 50px;
 }
+.about .counters .counter-image p.icon{
+    font-size: 80px !important;
+    line-height: 0px !important;
+}
 .about .counters .text-box{
     width: 75%;
 }
@@ -1004,16 +1008,15 @@ span.flaticon-left-arrow {
 .advantages .content .item .icon{
        height: 85px;
     width: 85px;
-    padding: 10px;
+    padding: 18px;
     border-radius: 50%;
     background-color: #ec0101;
     margin-right: 20px;
 }
-.advantages .content .item .icon img{
-       height: 45px;
-    width: 45px;
+.advantages .content .item .icon span{
+    font-size: 50px !important;
+    line-height: 50px !important;
     position: relative;
-    top: 6px;
 }
 .advantages .content .item h4 {
     color: #fff;
@@ -1094,12 +1097,6 @@ span.flaticon-left-arrow {
 	============= */
 
 /* 11.1 Home Page One Testimonial */
-.testimonial{
-    background-image: url(../images/shipments.jpg);
-    background-size: cover;
-    background-position: bottom;
-    padding: 100px 0px 0px;
-}
 .testimonial h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -1155,6 +1152,7 @@ span.flaticon-left-arrow {
 .testimonial .testimonial-box .client .c-image img{
     height: 50px;
     width: 50px;
+    border-radius: 50%;
 }
 .testimonial .testimonial-box .client .c-details{
     width: 82%
@@ -1334,8 +1332,7 @@ span.flaticon-left-arrow {
 
 /* 12.1 Home Page One Client */
 .clients{
-    background-color: #032c56;
-      padding: 85px 0px 100px 0;
+      padding: 50px 0px;
 }
 .clients p{
     text-align: center;
@@ -1485,16 +1482,17 @@ span.flaticon-left-arrow {
 }
 .service-area .service-box .service-img img{
     width: 100%;
+    max-height: 310px;
     display: block;
 }
 .service-area .service-box .overlay {
     position: absolute;
-    top: -10px;
+    top: 0px;
     bottom: 0;
-    left: -10px;
+    left: 0px;
     right: 0px;
-    height: 108%;
-    width: 106%;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgb(3,44,86,0.8);
@@ -1561,7 +1559,21 @@ span.flaticon-left-arrow {
     height: 3px;
     margin-top: 10px;
 }
-
+.pricing-area h1 {
+        margin-bottom: 25px;
+    font-weight: 700;
+    color: #032c56;
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+}
+.pricing-area h1:after {
+    content: "";
+    display: block;
+    width: 70px;
+    background-color: #ec0101;
+    height: 3px;
+    margin-top: 10px;
+}
 /* 14.2 Service Drtails Sidebar */
 .service-details .sidebar{
     background-color: #f2f2f2;
@@ -1627,9 +1639,8 @@ span.flaticon-left-arrow {
     padding-bottom: 50px;
 }
 .service-details #add{
-       background-image: url(../images/add.png);
-    background-size: cover;
-    padding: 1px 35px;
+    background: transparent;
+    padding: 0px;
     position: relative;
     z-index: -1;
 }
@@ -1708,28 +1719,28 @@ span.flaticon-left-arrow {
     margin-top: 100px !important;
 }
 
-.service-details .content #active{
+.pricing-area #active{
     background-color: #032c56;
     border:0px;
     margin-top: 0px;
 }
-.service-details .content #active h5{
+.pricing-area #active h5{
     color: #fff;
 }
-.service-details .content #active .price{
+.pricing-area #active .price{
     top: 130px;
 }
-.service-details .content #active ul li:first-child{
+.pricing-area #active ul li:first-child{
     margin-top: 150px;
 }
-.service-details .content #active ul li{
+.pricing-area #active ul li{
     color: #fbfbfb;
     padding: 12px 0px;
 }
-.service-details .content #active h6{
+.pricing-area #active h6{
     margin-top: 50px;
 }
-.service-details .content #active .button{
+.pricing-area #active .button{
     background-color: #ec0101;
 }
 .pricing-table h5{
@@ -1738,13 +1749,13 @@ span.flaticon-left-arrow {
 }
 
 /* 14.4 Service Drtails Pricing Table */
-.service-details .content .pricing-table{
+.pricing-area .pricing-table{
         padding: 30px 10px;
     border:1px solid #e5e5e5;
     border-radius: 10px;
     margin-top: 35px;
 }
-.service-details .content .pricing-table .price{
+.pricing-area .pricing-table .price{
     background-color: #ec0101;
     color: #fff;
     height: 90px;
@@ -1758,44 +1769,45 @@ span.flaticon-left-arrow {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.service-details .content .pricing-table .price h5 {
+.pricing-area .pricing-table .price h5 {
     color: #fff;
-    margin-top: 35px;
+    margin-top: 30px;
     font-size: 20px;
     font-weight: 600;
 }
-.service-details .content .pricing-table .price h5 span.symbol{
+.pricing-area .pricing-table .price h5 span.symbol{
     font-size: 14px;
     position: absolute;
     top: 35px !important;
     left: 9px;
     font-weight: 400;
 }
-.service-details .content .pricing-table .price h5 span.perifix{
+.pricing-area .pricing-table .price h5 span.perifix{
     font-size: 14px;
 }
-.service-details .content .pricing-table ul li{
-       font-size: 15px;
+.pricing-area .pricing-table ul li{
+    font-size: 15px;
     padding: 10px 0px;
     border-bottom: 1px solid #e5e5e5;
     color: #737f9a;
     font-weight: 400;
-	 font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik', sans-serif;
+    list-style: none;
 }
-.service-details .content .pricing-table ul li:first-child{
+.pricing-area .pricing-table ul li:first-child{
     margin-top: 120px;
 }
-.service-details .content .pricing-table ul li:last-child{
+.pricing-area .pricing-table ul li:last-child{
     border-bottom: 0px;
 }
-.service-details .content .pricing-table ul li::before{
+.pricing-area .pricing-table ul li::before{
     display: none;
     margin: 0px;
 }
-.service-details .content .pricing-table h6{
+.pricing-area .pricing-table h6{
     margin-top: 40px;
 }
-.service-details .content .pricing-table .button{
+.pricing-area .pricing-table .button{
     background-color: #333b4c;
     color: #fff;
     padding: 8px 25px;
@@ -1854,10 +1866,10 @@ span.flaticon-left-arrow {
 	============= */
 
 /* 16.1 Home Page One Blog */
-.blog {
+.blogs {
    padding: 100px 0px 100px;
 }
-.blog h1 {
+.blogs h1 {
        text-align: center;
     margin-bottom: 20px;
     color: #032c56;
@@ -1868,7 +1880,7 @@ span.flaticon-left-arrow {
     letter-spacing: 0.25px;
 
 }
-.blog h1:after {
+.blogs h1:after {
     content: "";
     display: block;
     width: 70px;
@@ -1877,7 +1889,7 @@ span.flaticon-left-arrow {
     margin-left: 46.5%;
     margin-top:20px;
 }
-.blog p {
+.blogs p {
        text-align: center;
     font-size: 16px;
     padding: 0px 184px;
@@ -1886,7 +1898,7 @@ span.flaticon-left-arrow {
     line-height: 25px;
     font-weight: 400;
 }
-.blog .blog-box{
+.blogs .blog-box{
     margin-top: 30px;
     border-radius: 15px;
     background-color: #fff;
@@ -1894,11 +1906,11 @@ span.flaticon-left-arrow {
     -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2) !important;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2) !important;
 }
-.blog .blog-box img{
+.blogs .blog-box img{
 		width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
-.blog .blog-box h3 {
+.blogs .blog-box h3 {
         padding: 20px 15px 20px 15px;
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
@@ -1914,7 +1926,7 @@ span.flaticon-left-arrow {
  .blog-box:hover h3 a{
 	color: red;
 }
-.blog .blog-box h3:after {
+.blogs .blog-box h3:after {
     content: "";
     display: block;
     width: 70px;
@@ -1929,7 +1941,7 @@ span.flaticon-left-arrow {
     font-weight: 300;
     font-family: 'Rubik', sans-serif;
 }
-.blogh h1 {
+.bloghs h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #032c56;
@@ -1938,10 +1950,10 @@ span.flaticon-left-arrow {
 .all-k{
 		display: none;
 	}
-.blog p.more{
+.blogs p.more{
     margin-top: 50px;
 }
-.blog p.more .btnn {
+.blogs p.more .btnn {
        background-color: #ec0101;
     color: #fff;
     padding: 8px 25px;
@@ -2029,9 +2041,6 @@ span.flaticon-left-arrow {
     margin-bottom: 50px;
 }
 .blog-grid .single-blog .blog-thumb{
-    background-image: url(../images/ship.jpg);
-    background-size: cover;
-    height: 420px;
     margin-bottom: 40px;
     display: block;
 }
@@ -2048,8 +2057,8 @@ span.flaticon-left-arrow {
     width: 100px;
     text-align: center;
     position: absolute;
-    margin-top: 370px;
-    right: 15px;
+    margin-top: -50px;
+    right: 40px;
     padding-top: 15px;
 }
 .share{
@@ -2136,7 +2145,7 @@ span.flaticon-left-arrow {
 	    font-family: 'Rubik', sans-serif;
 }
 .blog-sidebar .widget{
-    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .blog-sidebar .widget h3{
     color: #333b4c !important;
@@ -2594,10 +2603,7 @@ p.big {
 
 /* 21.1 Home Page Two Team */
 .team{
-    background-image: url(../images/team-bg.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    padding: 100px 0px 0px;
+    padding: 100px 0px;
 }
 .team h1{
 color: #fff;
@@ -2731,7 +2737,6 @@ color: #fff;
 }
 /* 21.2 About Page Team */
 #team{
-    padding: 60px 0px 100px;
     background:none;
 }
 #team h1{
@@ -2741,7 +2746,6 @@ color: #fff;
 /* 21.3 Team Page Team Leader */
 #teaml{
     background: none;
-    padding: 100px 0px 30px;
 }
 #teaml h1{
    color: #032c56;
@@ -2766,7 +2770,6 @@ color: #fff;
 /* 21.4 Team Page Team Management */
 #teamm{
     background: none;
-    padding: 30px 0px 115px;
 }
 #teamm h1{
    color: #032c56;
@@ -2817,7 +2820,7 @@ color: #fff;
     font-size: 17px;
     color: #333b4c;
 }
-.contact-form .contact-form-area .contact-area h4 img{
+.contact-form .contact-form-area .contact-area h4 span.float-left{
     float: left;
     margin-right: 20px;
 }
@@ -2916,7 +2919,7 @@ color: #fff;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 1px;
+    left: 15px;
     right: 10px;
     height: 100%;
     width: 92%;
@@ -2974,7 +2977,7 @@ color: #fff;
 /* 24.1 Footer Top */
 .footer{
     background-color: #021d39;
-    padding: 100px 0px;
+    padding: 100px 0px 50px;
 }
 .footer h4{
     color: #fff;

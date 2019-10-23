@@ -77,61 +77,17 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="sidebar" id="add">
-                    <h4><a href="#">Download our Service Brochure</a></h4>
-                </div>
+                <?php
+                    if ( is_active_sidebar( "service-widget" ) ) {
+                        dynamic_sidebar( "service-widget" );
+                    }
+                ?>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 col-12 content">
                 <h1><?php the_title(); ?></h1>
                 <?php the_content(); ?>
 
-                <h1>Pricing</h1>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
-                        <div class="pricing-table text-center">
-                            <h5>Basic Plan</h5>
-                            <div class="price"><h5><span class="symbol">$</span>24<span class="perifix">.99</span></h5></div>
-                            <ul>
-                                <li>Architecto beatae vitae</li>
-                                <li>Dicta sunt explicabo</li>
-                                <li>Nemo enim ipsam</li>
-                                <li>Voluptatem quia voluptas</li>
-                                <li>Sit aspernatur aut odit</li>
-                            </ul>
-                            <h6><a href="#" class="btn button">Sign up</a></h6>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
-                        <div class="pricing-table text-center" id="active">
-                            <h5>Regular</h5>
-                            <div class="price"><h5><span class="symbol">$</span>54<span class="perifix">.99</span></h5></div>
-                            <ul>
-                                <li>Architecto beatae vitae</li>
-                                <li>Dicta sunt explicabo</li>
-                                <li>Nemo enim ipsam</li>
-                                <li>Voluptatem quia voluptas</li>
-                                <li>Sit aspernatur aut odit</li>
-                            </ul>
-                            <h6><a href="#" class="btn button">Sign up</a></h6>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xm-12">
-                        <div class="pricing-table text-center">
-                            <h5>Premium</h5>
-                            <div class="price"><h5><span class="symbol">$</span>84<span class="perifix">.99</span></h5></div>
-                            <ul>
-                                <li>Architecto beatae vitae</li>
-                                <li>Dicta sunt explicabo</li>
-                                <li>Nemo enim ipsam</li>
-                                <li>Voluptatem quia voluptas</li>
-                                <li>Sit aspernatur aut odit</li>
-                            </ul>
-                            <h6><a href="#" class="btn button">Sign up</a></h6>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
