@@ -93,7 +93,7 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 			[
 				'label'     => __( 'Title', 'transticsee' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Testimonial Section Title', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transticsee' ),
 				'default'     => __( 'Subscribe for Offers and News', 'transticsee' ),
 			]
 		);

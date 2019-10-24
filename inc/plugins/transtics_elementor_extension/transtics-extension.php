@@ -130,6 +130,7 @@ final class Transtics_Elementor_Extension {
 	public function init_widgets() {
 
 		// Include Widget files
+		require_once( __DIR__ . '/widgets/title.php' );
 		require_once( __DIR__ . '/widgets/slider.php' );
 		require_once( __DIR__ . '/widgets/team-slider.php' );
 		require_once( __DIR__ . '/widgets/team-grid.php' );
@@ -142,8 +143,10 @@ final class Transtics_Elementor_Extension {
 		require_once( __DIR__ . '/widgets/gallery.php' );
 		require_once( __DIR__ . '/widgets/subscribe.php' );
 		require_once( __DIR__ . '/widgets/pricing.php' );
+		require_once( __DIR__ . '/widgets/blog.php' );
 
 		// Register widget
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Title_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Slider_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_TeamSlider_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_TeamGrid_widget() );
@@ -156,6 +159,7 @@ final class Transtics_Elementor_Extension {
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Gallery_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Subscribe_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Pricing_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Blog_widget() );
 
 	}
 
