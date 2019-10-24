@@ -42,3 +42,16 @@ Text Domain: transtics
 	content: ' ';
 	padding: 0px 5px !important;
 }
+.error{
+	text-align: center !important;
+}
+h1.errors{
+	text-align: center;
+	font-size: 200px;
+	color: red;
+}
+h2.errorh{
+	text-align: center;
+	font-size: 70px;
+	color: red;
+}
