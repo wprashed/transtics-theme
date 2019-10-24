@@ -1,6 +1,4 @@
 <?php get_header(); ?>
-
-<?php get_template_part('template-parts/custom-post/slider'); ?>
 <!-- Blog -->
 <section class="blogs" id="news">
     <div class="container">
