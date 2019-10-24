@@ -405,6 +405,7 @@ body{
 .header-bottom .navbar-light{
     margin-top: 12px;
     display: inline-block;
+    background: transparent !important;
 }
 .header-bottom .navbar-light .navbar-nav a{
     color: #647886!important;
