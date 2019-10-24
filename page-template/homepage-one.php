@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: Homepage */
+/* Template Name: Homepage One */
 the_post();
 get_header(); ?>
 <?php the_content(); ?>
