@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: Blog List */
+
 the_post();
 get_header(); ?>
 
