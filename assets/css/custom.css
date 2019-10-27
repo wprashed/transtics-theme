@@ -1389,12 +1389,12 @@ span.flaticon-left-arrow {
     margin-top: 0px;
 }
 .service .form label {
-    margin-top: 40px;
+    margin-top: 20px;
     color: #032c56;
     font-weight: 500;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
-	line-height: 32px;
+	line-height: 25px;
 }
 .service .form input{
     border: 1px solid #d1d7de;
@@ -1406,7 +1406,7 @@ span.flaticon-left-arrow {
 }
 .service .form .driver {
     height: 1px;
-    margin: 50px 0px 45px;
+    margin: 30px 0px 25px;
     background-color: #d1d7de;
     width: 100%;
 }
