@@ -55,3 +55,135 @@ h2.errorh{
 	font-size: 70px;
 	color: red;
 }
+
+
+.leave-a-comment li{
+	list-style: none;
+}
+.comment-author img{
+	border-radius: 50%;
+}
+textarea#comment {
+    background-color: #e9ecee;
+    height: 175px;
+    border-radius: 0px;
+    border: none;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+input#author {
+	background-color: #e9ecee;
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 50px;
+    margin-right: 15px;
+}
+input#email {
+    background-color: #e9ecee;
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+    float: left;
+    height: 50px;
+    margin-right: 15px;
+}
+input#url {
+	background-color: #e9ecee;
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+    float: left;
+    height: 50px;
+    margin-right: 15px;
+}
+input#submit {
+	display: inline-block;
+    text-decoration: none;
+    margin: 40px 0px;
+    padding: 15px 20px;
+    background-color: #ff5e14;
+    color: #FFF;
+    border-radius: 5px;
+}
+input#submit:hover {
+	background-color: #333b4c;
+}
+label {
+    display: block;
+    font-size: 14px;
+}
+p.comment-form-author {
+    width: 33%;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+}
+p.comment-form-email {
+	width: 33%;
+    float: left;
+    position: relative;
+    padding-right: 15px;	
+}
+p.comment-form-url {
+	width: 33%;
+    float: left;
+    position: relative;
+}
+label {
+    float: left;
+    position: relative;
+    padding-left: 10px;
+}
+input#wp-comment-cookies-consent {
+    float: left;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+}
+p.comment-form-cookies-consent {
+    display: inline-block;
+}
+h2.comments-title{
+	font-size: 20px;
+}
+ol.comment-list, ol.children {
+    list-style: none;
+}
+footer.comment-meta span.says {
+    display: none;
+}
+footer.comment-meta .fn {
+    position: relative;
+    font-size: 20px;
+    bottom: 39px;
+    left: 15px;
+}
+.comment-metadata, .comment-content, .reply {
+    position: relative;
+    left: 120px;
+    bottom: 70px;
+}
+h3.h2.comments-title {
+    margin: 25px;
+}
+.comment-content p {
+    padding-right: 60px;
+    margin-right: 60px;
+}
+.blog-description blockquote {
+    padding: 35px 45px;
+    background-color: #f0f8f6;
+    margin: 30px 0px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+p.form-submit {
+    margin-top: -20px;
+}
+.depth-2{
+	margin-left: 120px;
+}

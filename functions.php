@@ -38,7 +38,9 @@ function transtics_assets() {
     wp_enqueue_style( "responsive-css", get_theme_file_uri( "/assets/css/responsive.css" ), null, "1.0" );
     wp_enqueue_style( "transtics-css", get_stylesheet_uri(), null, "1.0" );
 
-
+    if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+        wp_enqueue_script( 'comment-reply' );
+    }
     wp_enqueue_script( "bootstrap-js", get_theme_file_uri( "/assets/js/bootstrap.min.js" ), array( "jquery" ), "1.0" );
     wp_enqueue_script( "carousel-js", get_theme_file_uri( "/assets/js/owl.carousel.min.js" ), array( "jquery" ), "1.0" );
     wp_enqueue_script( "fontawesome-js", get_theme_file_uri( "/assets/js/fontawesome.min.js" ), array( "jquery" ), "1.0", true );

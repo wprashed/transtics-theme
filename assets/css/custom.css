@@ -2325,14 +2325,11 @@ span.flaticon-left-arrow {
 }
 
 /* 17.4 Single Blog Comment */
-#single-blog .comment{
-    padding-top: 80px;
-}
 #single-blog .comment h4{
     font-size: 24px;
     font-weight: 600;
     color: #333b4c;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 #single-blog .comment label{
     color: #333b4c;

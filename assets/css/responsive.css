@@ -1,3 +1,4 @@
+
  @media only screen and (min-width: 1200px) and (max-width: 1440px) {
 	
 	#slider-home-2 .owl-nav{
@@ -59,9 +60,6 @@
 }
 	.contact-form .contact-form-area .form-area textarea {
     margin-bottom: 53px;
-}
-	#single-blog .comment {
-    padding-top: 65px;
 }
 	#single-blog .blog-content {
     padding: 40px 0px 30px;
@@ -740,9 +738,6 @@ p.big {
 	#single-blog .blog-content p.tag {
     margin-top: 0 !important;
 }
-	#single-blog .comment {
-    padding-top: 40px;
-}
 
 	#single-blog .comment h4 {
     margin-bottom: 35px;
@@ -1233,9 +1228,6 @@ p.big {
 	#single-blog .blog-content {
     padding: 40px 0px 22px
 }
-	#single-blog .comment {
-    padding-top: 41px;
-}
 	#single-blog .comment h4 {
     margin-bottom: 28px;
 }
@@ -1725,9 +1717,6 @@ p.big {
 }
 	#single-blog .blog-content h4 {
     margin-top: 7px;
-}
-	#single-blog .comment {
-    padding-top: 41px;
 }
 	#single-blog .comment h4 {
     margin-bottom: 28px;
@@ -2271,9 +2260,6 @@ p.big {
 }
 	#single-blog .blog-content {
     padding: 15px 0px 22px
-}
-	#single-blog .comment {
-    padding-top: 41px;
 }
 	#single-blog .comment h4 {
     margin-bottom: 28px;
@@ -2927,9 +2913,7 @@ p.big {
 	#single-blog .blog-content {
        padding: 20px 0px 22px;
 }
-	#single-blog .comment {
-    padding-top: 41px;
-}
+
 	#single-blog .comment h4 {
     margin-bottom: 28px;
 }
@@ -3695,9 +3679,6 @@ p.big {
 }
 	#single-blog .blog-content {
     padding: 40px 0px 22px
-}
-	#single-blog .comment {
-    padding-top: 41px;
 }
 	#single-blog .comment h4 {
     margin-bottom: 28px;
