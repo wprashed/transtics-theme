@@ -181,49 +181,5 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 		<!-- Slider /-->
 		<?php
 
-
 	}
-
-	// Widget Output Content Template
-
-	protected function _content_template() {
-		?>
-        <!-- Slider -->
-			<section class="slider">
-			    <div class="container">
-			        <div class="row slider-item">
-			            <div class="owl-carousel owl-theme" id="owl-demo">
-			                <?php query_posts( array(
-			                    'post_type' => 'slider',
-			                    'post_per_page' => -1,
-			                  )); 
-			                ?>
-			                <?php while (have_posts()) : the_post(); ?>
-			                <div class="item">
-			                    <h1 class="slider_title"><?php the_title(); ?></h1>
-			                    <h4 class="slider_content">
-			                    	<?php
-			                            if ( get_field( "slider_content" ) ) {
-			                                 echo get_field( "slider_content" ) ;
-			                            }
-			                        ?>
-			                    </h4>
-			                    <a href="<?php if ( get_field( "button_url" ) ) { echo get_field( "button_url" ) ; } ?>" class="btn">
-			                        <?php
-			                            if ( get_field( "button_text" ) ) {
-			                                 echo get_field( "button_text" ) ;
-			                            }
-			                        ?>
-			                    </a>
-			                </div>
-			                <?php endwhile; ?>
-			                <?php wp_reset_query(); ?>
-			            </div>
-			        </div>
-			    </div>
-			</section>
-		<!-- Slider /-->
-		<?php
-	}
-
 }

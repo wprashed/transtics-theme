@@ -144,6 +144,8 @@ final class Transtics_Elementor_Extension {
 		require_once( __DIR__ . '/widgets/subscribe.php' );
 		require_once( __DIR__ . '/widgets/pricing.php' );
 		require_once( __DIR__ . '/widgets/blog.php' );
+		require_once( __DIR__ . '/widgets/shipping-calculator.php' );
+		require_once( __DIR__ . '/widgets/shipment-tracking.php' );
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Title_widget() );
@@ -160,6 +162,8 @@ final class Transtics_Elementor_Extension {
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Subscribe_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Pricing_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Blog_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Shipping_Calculator_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Shipment_Tracking_widget() );
 
 	}
 

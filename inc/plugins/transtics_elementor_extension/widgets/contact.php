@@ -342,49 +342,6 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		</section>
 		<!-- Contact Form /-->
 		<?php
-
-
-	}
-
-	// Widget Output Content Template
-
-	protected function _content_template() {
-		?>
-        <!-- Contact Form -->
-		<section class="contact-form">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-md-12 contact-form-area">
-		                <h1 class="title">{{{ settings.title }}}</h1>
-		                <div class="row">
-		                    <div class="col-md-4">
-		                        <div class="contact-area">
-		                            <h4><span class="float-left"><i class="{{ settings.address_icon }} fa-2x"></i></span> <span class="text">{{{ settings.address }}}</span></h4>
-		                        </div>
-		                    </div>
-		                    <div class="col-md-4">
-		                        <div class="contact-area">
-		                            <h4><span class="float-left"><i class="{{ settings.phone_icon }} fa-2x"></i></span> <span class="text">{{{ settings.phone_one }}}<br>{{{ settings.phone_two }}}</span></h4>
-		                        </div>
-		                    </div>
-		                    <div class="col-md-4">
-		                        <div class="contact-area">
-		                            <h4><span class="float-left"><i class="{{ settings.email_icon }} fa-2x"></i></span> <span class="text">{{{ settings.email_one }}}<br>{{{ settings.email_two }}}</span></h4>
-		                        </div>
-		                    </div>
-		                </div>
-		                <div class="row form-area">
-		                    <div class="col-md-12">
-		                        <h1 class="form-title">{{{ settings.form_title }}}</h1>
-		                    </div>
-		                    {{{ settings.contact_form }}}
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</section>
-		<!-- Contact Form /-->
-		<?php
 	}
 
 }

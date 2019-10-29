@@ -197,48 +197,5 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 		<!-- Service Area /-->
 		<?php
 
-
 	}
-
-	// Widget Output Content Template
-
-	protected function _content_template() {
-		$total_count = $settings['total_count'];
-		$args=[
-				'post_type' => 'service',
-				'posts_per_page' => $total_count,
-			];
-		$service = new \WP_Query($args);
-		?>
-        <!-- Service Area -->
-		<section class="service-area">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-md-12">
-		                <h1 class="service_title">{{{ settings.title }}}</h1>
-		                <p class="service_description">{{{ settings.content }}}</p>
-		            </div>
-		        </div>
-		        <div class="row">
-		           <?php if($service->have_posts()) : while($service->have_posts()) : $service->the_post(); ?>
-					<div class="col-md-6 col-12">
-					    <div class="service-box">
-					        <div class="service-img">
-					            <?php the_post_thumbnail("transtics-service-thumb"); ?>
-					            <div class="overlay">
-					                <div class="text d-flex justify-content-center"><a href="<?php the_permalink(); ?>"><i class="fas fa-link fa-2x"></i></a></div>
-					            </div>
-					        </div>
-					        <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-					        <?php the_excerpt(); ?>
-					    </div>
-					</div>
-					<?php endwhile; endif; wp_reset_postdata();?>
-		        </div>
-		    </div>
-		</section>
-		<!-- Service Area /-->
-		<?php
-	}
-
 }

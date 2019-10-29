@@ -161,31 +161,5 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 		<!-- Subscribe /-->
 		<?php
 
-
 	}
-
-	// Widget Output Content Template
-
-	protected function _content_template() {
-		?>
-        <!-- Subscribe -->
-		<section class="subscribe">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-md-4">
-		                <img src="{{ settings.image.url }}" alt="Image">
-		            </div>
-		            <div class="col-md-8">
-		                <div class="subscribe-here">
-		                    <h1 class="title">{{{ settings.title }}}</h1>
-		                    {{{ settings.subscribe_form }}}
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</section>
-		<!-- Subscribe /-->
-		<?php
-	}
-
 }

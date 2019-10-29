@@ -322,68 +322,6 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		</section>
 		<!-- Advantages /-->
 		<?php
-
-
-	}
-
-	// Widget Output Content Template
-
-	protected function _content_template() {
-		
-		?>
-        <!-- Advantages -->
-		<section class="advantages">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-md-6 content">
-		                <h2 class="title">{{{ settings.title }}}</h2>
-		                <div class="owl-carousel owl-theme" id="content-carousel">
-		                	<# if ( settings.list.length ) { #>
-		                	<# _.each( settings.list, function( item ) { #>
-		                    <div class="item">
-		                        <div class="d-flex justify-content-between aditem">
-		                            <div class="icons">
-		                                <div class="icon d-flex justify-content-center">
-		                                    <span class="iconf"><i class="{{ item.icon_one }}"></i></span>
-		                                </div>
-		                            </div>
-		                            <div class="text">
-		                                <h4 class="atitle">{{{ item.title_one }}}</h4>
-		                                <h6 class="adetails">{{{ item.content_one }}}</h6>
-		                            </div>
-		                        </div>
-		                        <div class="d-flex justify-content-between aditem">
-		                            <div class="icons">
-		                                <div class="icon d-flex justify-content-center">
-		                                    <span class="iconf"><i class="{{ item.icon_two }}"></i></span>
-		                                </div>
-		                            </div>
-		                            <div class="text">
-		                                <h4 class="atitle">{{{ item.title_two }}}</h4>
-		                                <h6 class="adetails">{{{ item.content_two }}}</h6>
-		                            </div>
-		                        </div>
-		                        <div class="d-flex justify-content-between aditem">
-		                            <div class="icons">
-		                                <div class="icon d-flex justify-content-center">
-		                                    <span class="iconf"><i class="{{ item.icon_three }}"></i></span>
-		                                </div>
-		                            </div>
-		                            <div class="text">
-		                                <h4 class="atitle">{{{ item.title_three }}}</h4>
-		                                <h6 class="adetails">{{{ item.content_three }}}</h6>
-		                            </div>
-		                        </div>
-		                    </div>
-		                   <# }); #>
-		                   <# } #>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</section>
-		<!-- Advantages /-->
-		<?php
 	}
 
 }

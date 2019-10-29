@@ -112,6 +112,34 @@ class Transtics_Client_widget extends \Elementor\Widget_Base {
 		</section>
 		<!-- Client /-->
 		<?php
+
+
+	}
+
+	// Widget Output Content Template
+
+	protected function _content_template() {
+		$total = $settings['total'];
+		$args=[
+				'post_type' => 'client',
+				'posts_per_page' => $total,
+			];
+		$client = new \WP_Query($args);
+		?>
+        <!-- Client -->
+		<section class="clients">
+		    <div class="container">
+		        <div class="row">
+					<?php if($client->have_posts()) : while($client->have_posts()) : $client->the_post(); ?>
+					<div class="col align-self-center">
+					    <p><?php the_post_thumbnail(); ?></p>
+					</div>
+					<?php endwhile; endif; wp_reset_postdata();?>
+		        </div>
+		    </div>
+		</section>
+		<!-- Client /-->
+		<?php
 	}
 
 }
