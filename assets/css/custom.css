@@ -229,7 +229,7 @@ body{
     border-radius: 0px;
 }
 .dropdown-menu .dropdown-item{
-    color: #647886;
+    color: #647886 !important;
 }
 .dropdown-menu .dropdown-item:hover {
     font-weight: 500 !important;
