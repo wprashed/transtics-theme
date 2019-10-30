@@ -12,7 +12,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 	// Widget Title
 
 	public function get_title() {
-		return __( 'Slider', 'transticsee' );
+		return __( 'Slider', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -44,7 +44,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'backgrount_section',
 			[
-				'label' => __( 'Slider Control', 'transticsee' ),
+				'label' => __( 'Slider Control', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -55,7 +55,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .slider',
 			]
@@ -66,7 +66,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#ff0000',
 				'selectors' => [
@@ -79,7 +79,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .slider_title',
 			]
@@ -90,7 +90,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'content_color',
 			[
-				'label'     => __( 'Description Color', 'transticsee' ),
+				'label'     => __( 'Description Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#fff',
 				'selectors' => [
@@ -103,7 +103,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'content_typography',
-				'label'    => __( 'Description Typography', 'transticsee' ),
+				'label'    => __( 'Description Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .slider_content',
 			]
@@ -114,7 +114,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_color',
 			[
-				'label'     => __( 'Button Text Color', 'transticsee' ),
+				'label'     => __( 'Button Text Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#fff',
 				'selectors' => [
@@ -126,7 +126,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_background_color',
 			[
-				'label'     => __( 'Button Background Color', 'transticsee' ),
+				'label'     => __( 'Button Background Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#FF0000',
 				'selectors' => [

@@ -12,7 +12,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Contact', 'transticsee' );
+		return __( 'Contact', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -44,7 +44,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'control_section',
 			[
-				'label' => __( 'Contact Controls', 'transticsee' ),
+				'label' => __( 'Contact Controls', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -55,7 +55,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .contact-form',
 			]
@@ -66,17 +66,17 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title',
 			[
-				'label'     => __( 'Title', 'transticsee' ),
+				'label'     => __( 'Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Get in touch', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Get in touch', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032c56',
 				'selectors' => [
@@ -89,7 +89,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .title',
 			]
@@ -100,7 +100,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'padding',
 			[
-				'label' => __( 'Padding', 'transticsee' ),
+				'label' => __( 'Padding', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [
@@ -116,7 +116,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'contact_section',
 			[
-				'label' => __( 'Contact Information', 'transticsee' ),
+				'label' => __( 'Contact Information', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -137,10 +137,10 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'address',
 			[
-				'label'     => __( 'Address', 'transticsee' ),
+				'label'     => __( 'Address', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Address', 'transticsee' ),
-				'default'     => __( 'Collins Street West Victoria 8007, Australia', 'transticsee' ),
+				'placeholder' => __( 'Enter Address', 'transtics_elementor_extension' ),
+				'default'     => __( 'Collins Street West Victoria 8007, Australia', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -160,10 +160,10 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'phone_one',
 			[
-				'label'     => __( 'Phone One', 'transticsee' ),
+				'label'     => __( 'Phone One', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Phone Number', 'transticsee' ),
-				'default'     => __( '+124 (2486) 444', 'transticsee' ),
+				'placeholder' => __( 'Enter Phone Number', 'transtics_elementor_extension' ),
+				'default'     => __( '+124 (2486) 444', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -172,10 +172,10 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'phone_two',
 			[
-				'label'     => __( 'Phone Two', 'transticsee' ),
+				'label'     => __( 'Phone Two', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Phone Number', 'transticsee' ),
-				'default'     => __( '+133 (4444) 878', 'transticsee' ),
+				'placeholder' => __( 'Enter Phone Number', 'transtics_elementor_extension' ),
+				'default'     => __( '+133 (4444) 878', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -195,10 +195,10 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'email_one',
 			[
-				'label'     => __( 'Email One', 'transticsee' ),
+				'label'     => __( 'Email One', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Email', 'transticsee' ),
-				'default'     => __( 'mail@example.com', 'transticsee' ),
+				'placeholder' => __( 'Enter Email', 'transtics_elementor_extension' ),
+				'default'     => __( 'mail@example.com', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -207,10 +207,10 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'email_two',
 			[
-				'label'     => __( 'Email Two', 'transticsee' ),
+				'label'     => __( 'Email Two', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Email', 'transticsee' ),
-				'default'     => __( 'info@mail.com', 'transticsee' ),
+				'placeholder' => __( 'Enter Email', 'transtics_elementor_extension' ),
+				'default'     => __( 'info@mail.com', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -219,10 +219,10 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'form_title',
 			[
-				'label'     => __( 'Form Title', 'transticsee' ),
+				'label'     => __( 'Form Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Contact Form Title', 'transticsee' ),
-				'default'     => __( 'Leave us a message', 'transticsee' ),
+				'placeholder' => __( 'Enter Contact Form Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Leave us a message', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -231,10 +231,10 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'contact_form',
 			[
-				'label'     => __( 'Contact Form Shortcode', 'transticsee' ),
+				'label'     => __( 'Contact Form Shortcode', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Contact Form Shortcode', 'transticsee' ),
-				'default'     => __( '[contact-form-7 id="5" title="Contact form 1"]', 'transticsee' ),
+				'placeholder' => __( 'Contact Form Shortcode', 'transtics_elementor_extension' ),
+				'default'     => __( '[contact-form-7 id="5" title="Contact form 1"]', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -243,7 +243,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'icon_color',
 			[
-				'label'     => __( 'Icon Color', 'transticsee' ),
+				'label'     => __( 'Icon Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#EC0101',
 				'selectors' => [
@@ -255,7 +255,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'information_color',
 			[
-				'label'     => __( 'Information Color', 'transticsee' ),
+				'label'     => __( 'Information Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#333b4c',
 				'selectors' => [
@@ -268,7 +268,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'information_typography',
-				'label'    => __( 'Information Typography', 'transticsee' ),
+				'label'    => __( 'Information Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .text',
 			]
@@ -277,7 +277,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'form_title_color',
 			[
-				'label'     => __( 'Form Title Color', 'transticsee' ),
+				'label'     => __( 'Form Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032c56',
 				'selectors' => [
@@ -290,7 +290,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'form_title_typography',
-				'label'    => __( 'Form Title Typography', 'transticsee' ),
+				'label'    => __( 'Form Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .form-title',
 			]

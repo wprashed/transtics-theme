@@ -1,5 +1,9 @@
 <?php
 
+// Plugin Activation
+
+require_once('inc/tgm.php');
+
 // Theme Support
 
 function transtics_theme_setup() {

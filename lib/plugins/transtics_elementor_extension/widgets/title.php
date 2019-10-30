@@ -12,7 +12,7 @@ class Transtics_Title_widget extends \Elementor\Widget_Base {
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Title', 'transticsee' );
+		return __( 'Title', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -44,7 +44,7 @@ class Transtics_Title_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'content_section',
 			[
-				'label' => __( 'Title Controls', 'transticsee' ),
+				'label' => __( 'Title Controls', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -53,17 +53,17 @@ class Transtics_Title_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title',
 			[
-				'label'     => __( 'Title', 'transticsee' ),
+				'label'     => __( 'Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Ship Smart with Transtics', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Ship Smart with Transtics', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032c56',
 				'selectors' => [
@@ -76,7 +76,7 @@ class Transtics_Title_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .title',
 			]
@@ -87,18 +87,18 @@ class Transtics_Title_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'content',
 			[
-				'label'     => __( 'Description', 'transticsee' ),
+				'label'     => __( 'Description', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::TEXTAREA,
 				'rows'		=> '6',
-				'placeholder' => __( 'Enter Section Description', 'transticsee' ),
-				'default'     => __( 'All our efforts and investments are geared towards offering better solutions. Solving your supply chain needs from end to end, taking the complexity out of container shipping. We are at the forefront of developing innovation.', 'transticsee' ),
+				'placeholder' => __( 'Enter Section Description', 'transtics_elementor_extension' ),
+				'default'     => __( 'All our efforts and investments are geared towards offering better solutions. Solving your supply chain needs from end to end, taking the complexity out of container shipping. We are at the forefront of developing innovation.', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'content_color',
 			[
-				'label'     => __( 'Description Color', 'transticsee' ),
+				'label'     => __( 'Description Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#9fadbb',
 				'selectors' => [
@@ -111,7 +111,7 @@ class Transtics_Title_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'content_typography',
-				'label'    => __( 'Description Typography', 'transticsee' ),
+				'label'    => __( 'Description Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .description',
 			]

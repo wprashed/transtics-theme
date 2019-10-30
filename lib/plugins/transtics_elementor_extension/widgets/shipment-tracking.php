@@ -12,7 +12,7 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Shipment & Schedule', 'transticsee' );
+		return __( 'Shipment & Schedule', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -44,7 +44,7 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'content_section',
 			[
-				'label' => __( 'Content', 'transticsee' ),
+				'label' => __( 'Content', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -54,7 +54,7 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .schedule',
 			]
@@ -76,10 +76,10 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'shipment_title',
 			[
-				'label'     => __( 'Shipment Title', 'transticsee' ),
+				'label'     => __( 'Shipment Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Track My Shipment', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Track My Shipment', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -88,11 +88,11 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'shipment_shortcode',
 			[
-				'label'     => __( 'Shipment Form Shortcode', 'transticsee' ),
+				'label'     => __( 'Shipment Form Shortcode', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::TEXTAREA,
 				'rows'		=> '4',
-				'placeholder' => __( 'Enter Section Description', 'transticsee' ),
-				'default'     => __( '[contact-form-7 id="215" title="Track Shipment"]', 'transticsee' ),
+				'placeholder' => __( 'Enter Section Description', 'transtics_elementor_extension' ),
+				'default'     => __( '[contact-form-7 id="215" title="Track Shipment"]', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -112,10 +112,10 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'schdule_title',
 			[
-				'label'     => __( 'Schedule Title', 'transticsee' ),
+				'label'     => __( 'Schedule Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Get a Schedule', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Get a Schedule', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -124,11 +124,11 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'schdule_shortcode',
 			[
-				'label'     => __( 'Schedule Form Shortcode', 'transticsee' ),
+				'label'     => __( 'Schedule Form Shortcode', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::TEXTAREA,
 				'rows'		=> '4',
-				'placeholder' => __( 'Enter Section Description', 'transticsee' ),
-				'default'     => __( '[contact-form-7 id="216" title="Get a Schedule"]', 'transticsee' ),
+				'placeholder' => __( 'Enter Section Description', 'transtics_elementor_extension' ),
+				'default'     => __( '[contact-form-7 id="216" title="Get a Schedule"]', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -137,7 +137,7 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032c56',
 				'selectors' => [
@@ -150,7 +150,7 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .title',
 			]
@@ -159,7 +159,7 @@ class Transtics_Shipment_Tracking_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'icon_color',
 			[
-				'label'     => __( 'Icon Color', 'transticsee' ),
+				'label'     => __( 'Icon Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032c56',
 				'selectors' => [

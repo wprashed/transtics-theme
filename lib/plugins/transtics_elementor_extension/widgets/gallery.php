@@ -12,7 +12,7 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Gallery', 'transticsee' );
+		return __( 'Gallery', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -44,7 +44,7 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'backgrount_section',
 			[
-				'label' => __( 'Gallery Controls', 'transticsee' ),
+				'label' => __( 'Gallery Controls', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -55,7 +55,7 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .gallery-area',
 			]
@@ -66,19 +66,19 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_text',
 			[
-				'label'     => __( 'Button Text', 'transticsee' ),
+				'label'     => __( 'Button Text', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Button Text', 'transticsee' ),
-				'default'     => __( 'Get Quote', 'transticsee' ),
+				'placeholder' => __( 'Enter Button Text', 'transtics_elementor_extension' ),
+				'default'     => __( 'Get Quote', 'transtics_elementor_extension' ),
 			]
 		);
 		
 		$this->add_control(
 			'button_url',
 			[
-				'label'     => __( 'Button Url', 'transticsee' ),
+				'label'     => __( 'Button Url', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::URL,
-				'placeholder' => __( 'https://your-link.com', 'transticsee' ),
+				'placeholder' => __( 'https://your-link.com', 'transtics_elementor_extension' ),
 				'show_external' => true,
 				'default' => [
 					'url' => '',
@@ -101,7 +101,7 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_color',
 			[
-				'label'     => __( 'Button Color', 'transticsee' ),
+				'label'     => __( 'Button Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#fff',
 				'selectors' => [
@@ -113,7 +113,7 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_background_color',
 			[
-				'label'     => __( 'Button Background Color', 'transticsee' ),
+				'label'     => __( 'Button Background Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#FF0000',
 				'selectors' => [
@@ -127,7 +127,7 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'total',
 			[
-				'label' => __( 'Total Item', 'transticsee' ),
+				'label' => __( 'Total Item', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::NUMBER,
 				'default' => 6,
 			]
@@ -138,7 +138,7 @@ class Transtics_Gallery_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'padding',
 			[
-				'label' => __( 'Padding', 'transticsee' ),
+				'label' => __( 'Padding', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [

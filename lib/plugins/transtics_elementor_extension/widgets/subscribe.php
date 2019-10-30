@@ -12,7 +12,7 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Subscribe', 'transticsee' );
+		return __( 'Subscribe', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -44,7 +44,7 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'backgrount_section',
 			[
-				'label' => __( 'Subscribe Controls', 'transticsee' ),
+				'label' => __( 'Subscribe Controls', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -55,7 +55,7 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .subscribe',
 			]
@@ -64,7 +64,7 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'padding',
 			[
-				'label' => __( 'Padding', 'transticsee' ),
+				'label' => __( 'Padding', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [
@@ -78,7 +78,7 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'image',
 			[
-				'label' => __( 'Subcribe Image', 'transticsee' ),
+				'label' => __( 'Subcribe Image', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::MEDIA,
 				'default' => [
 					'url' => \Elementor\Utils::get_placeholder_image_src(),
@@ -91,17 +91,17 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title',
 			[
-				'label'     => __( 'Title', 'transticsee' ),
+				'label'     => __( 'Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Subscribe for Offers and News', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Subscribe for Offers and News', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -114,7 +114,7 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .title',
 			]
@@ -125,10 +125,10 @@ class Transtics_Subscribe_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'subscribe_form',
 			[
-				'label'     => __( 'Subscribe Form Shortcode', 'transticsee' ),
+				'label'     => __( 'Subscribe Form Shortcode', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXTAREA,
-				'placeholder' => __( 'Subscribe Form Shortcode', 'transticsee' ),
-				'default'     => __( '[mc4wp_form id="130"]', 'transticsee' ),
+				'placeholder' => __( 'Subscribe Form Shortcode', 'transtics_elementor_extension' ),
+				'default'     => __( '[mc4wp_form id="130"]', 'transtics_elementor_extension' ),
 			]
 		);
 

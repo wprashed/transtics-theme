@@ -3,11 +3,11 @@
 Plugin Name: Transtics Elementor Extention
 Plugin URI:
 Description: Boilerplate for creating Elementor Extensions
-Version: 1.0
+Version: 1.0.0
 Author: AndIT Themes
 Author URI: http://anditthemes.com
 License: GPLv2 or later
-Text Domain: transticsee
+Text Domain: transtics_elementor_extension
 */
 
 final class Transtics_Elementor_Extension {
@@ -44,7 +44,7 @@ final class Transtics_Elementor_Extension {
 
 	public function i18n() {
 
-		load_plugin_textdomain( 'transticsee' );
+		load_plugin_textdomain( 'transtics_elementor_extension' );
 
 	}
 
@@ -75,7 +75,7 @@ final class Transtics_Elementor_Extension {
 
 	public function register_new_category($manager){
 		$manager->add_category('transticscategory', [
-			'title'=>__('Transtics', 'transticsee'),
+			'title'=>__('Transtics', 'transtics_elementor_extension'),
 			'icon'=>'fa fa-image'
 		]);
 	}
@@ -86,9 +86,9 @@ final class Transtics_Elementor_Extension {
 
 		$message = sprintf(
 		/* translators: 1: Plugin name 2: Elementor */
-			esc_html__( '"%1$s" requires "%2$s" to be installed and activated.', 'transticsee' ),
-			'<strong>' . esc_html__( 'Transtics Elementor Extension', 'transticsee' ) . '</strong>',
-			'<strong>' . esc_html__( 'Elementor', 'transticsee' ) . '</strong>'
+			esc_html__( '"%1$s" requires "%2$s" to be installed and activated.', 'transtics_elementor_extension' ),
+			'<strong>' . esc_html__( 'Transtics Elementor Extension', 'transtics_elementor_extension' ) . '</strong>',
+			'<strong>' . esc_html__( 'Elementor', 'transtics_elementor_extension' ) . '</strong>'
 		);
 
 		printf( '<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', $message );
@@ -101,9 +101,9 @@ final class Transtics_Elementor_Extension {
 
 		$message = sprintf(
 		/* translators: 1: Plugin name 2: Elementor 3: Required Elementor version */
-			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'transticsee' ),
-			'<strong>' . esc_html__( 'Transtics Elementor Extension', 'transticsee' ) . '</strong>',
-			'<strong>' . esc_html__( 'Elementor', 'transticsee' ) . '</strong>',
+			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'transtics_elementor_extension' ),
+			'<strong>' . esc_html__( 'Transtics Elementor Extension', 'transtics_elementor_extension' ) . '</strong>',
+			'<strong>' . esc_html__( 'Elementor', 'transtics_elementor_extension' ) . '</strong>',
 			self::MINIMUM_ELEMENTOR_VERSION
 		);
 
@@ -117,9 +117,9 @@ final class Transtics_Elementor_Extension {
 
 		$message = sprintf(
 		/* translators: 1: Plugin name 2: PHP 3: Required PHP version */
-			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'transticsee' ),
-			'<strong>' . esc_html__( 'Transtics Elementor Extension', 'transticsee' ) . '</strong>',
-			'<strong>' . esc_html__( 'PHP', 'transticsee' ) . '</strong>',
+			esc_html__( '"%1$s" requires "%2$s" version %3$s or greater.', 'transtics_elementor_extension' ),
+			'<strong>' . esc_html__( 'Transtics Elementor Extension', 'transtics_elementor_extension' ) . '</strong>',
+			'<strong>' . esc_html__( 'PHP', 'transtics_elementor_extension' ) . '</strong>',
 			self::MINIMUM_PHP_VERSION
 		);
 

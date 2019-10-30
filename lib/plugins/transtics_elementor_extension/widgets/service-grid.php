@@ -12,7 +12,7 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 	// Widget Title
 
 	public function get_title() {
-		return __( 'Service Grid', 'transticsee' );
+		return __( 'Service Grid', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -45,7 +45,7 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'backgrount_section',
 			[
-				'label' => __( 'Service Controls', 'transticsee' ),
+				'label' => __( 'Service Controls', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -54,7 +54,7 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .service-area',
 			]
@@ -65,17 +65,17 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title',
 			[
-				'label'     => __( 'Title', 'transticsee' ),
+				'label'     => __( 'Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Service Section Title', 'transticsee' ),
-				'default'     => __( 'We Serve Various Ways', 'transticsee' ),
+				'placeholder' => __( 'Enter Service Section Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'We Serve Various Ways', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032c56',
 				'selectors' => [
@@ -88,7 +88,7 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .service_title',
 			]
@@ -99,18 +99,18 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'content',
 			[
-				'label'     => __( 'Description', 'transticsee' ),
+				'label'     => __( 'Description', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::TEXTAREA,
 				'rows'		=> '6',
-				'placeholder' => __( 'Enter Service Section Description', 'transticsee' ),
-				'default'     => __( 'Solving your supply chain needs from end to end, taking the complexity out of container shipping.We are at the forefront of developing innovation.', 'transticsee' ),
+				'placeholder' => __( 'Enter Service Section Description', 'transtics_elementor_extension' ),
+				'default'     => __( 'Solving your supply chain needs from end to end, taking the complexity out of container shipping.We are at the forefront of developing innovation.', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'content_color',
 			[
-				'label'     => __( 'Description Color', 'transticsee' ),
+				'label'     => __( 'Description Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#9fadbb',
 				'selectors' => [
@@ -123,7 +123,7 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'content_typography',
-				'label'    => __( 'Description Typography', 'transticsee' ),
+				'label'    => __( 'Description Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .service_description',
 			]
@@ -132,7 +132,7 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'padding',
 			[
-				'label' => __( 'Padding', 'transticsee' ),
+				'label' => __( 'Padding', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [
@@ -144,7 +144,7 @@ class Transtics_ServiceGrid_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'total_count',
 			[
-				'label' => __( 'Total Item', 'transticsee' ),
+				'label' => __( 'Total Item', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::NUMBER,
 				'default' => 2,
 			]

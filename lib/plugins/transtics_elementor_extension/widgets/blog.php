@@ -12,7 +12,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Blog', 'transticsee' );
+		return __( 'Blog', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -60,7 +60,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'content_section',
 			[
-				'label' => __( 'Blog Controls', 'transticsee' ),
+				'label' => __( 'Blog Controls', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -70,7 +70,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .blogs',
 			]
@@ -81,7 +81,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'padding',
 			[
-				'label' => __( 'Padding', 'transticsee' ),
+				'label' => __( 'Padding', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [
@@ -95,17 +95,17 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title',
 			[
-				'label'     => __( 'Title', 'transticsee' ),
+				'label'     => __( 'Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Recent News', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Recent News', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032c56',
 				'selectors' => [
@@ -118,7 +118,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .title',
 			]
@@ -129,18 +129,18 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'content',
 			[
-				'label'     => __( 'Description', 'transticsee' ),
+				'label'     => __( 'Description', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::TEXTAREA,
 				'rows'		=> '6',
-				'placeholder' => __( 'Enter Section Description', 'transticsee' ),
-				'default'     => __( 'All our efforts and investments are geared towards offering better solutions. Solving your supply chain needs from end to end, taking the complexity out of container shipping. We are at the forefront of developing innovation.', 'transticsee' ),
+				'placeholder' => __( 'Enter Section Description', 'transtics_elementor_extension' ),
+				'default'     => __( 'All our efforts and investments are geared towards offering better solutions. Solving your supply chain needs from end to end, taking the complexity out of container shipping. We are at the forefront of developing innovation.', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'content_color',
 			[
-				'label'     => __( 'Description Color', 'transticsee' ),
+				'label'     => __( 'Description Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#9fadbb',
 				'selectors' => [
@@ -153,7 +153,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'content_typography',
-				'label'    => __( 'Description Typography', 'transticsee' ),
+				'label'    => __( 'Description Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .description',
 			]
@@ -164,19 +164,19 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_text',
 			[
-				'label'     => __( 'Button Text', 'transticsee' ),
+				'label'     => __( 'Button Text', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Button Text', 'transticsee' ),
-				'default'     => __( 'More News', 'transticsee' ),
+				'placeholder' => __( 'Enter Button Text', 'transtics_elementor_extension' ),
+				'default'     => __( 'More News', 'transtics_elementor_extension' ),
 			]
 		);
 		
 		$this->add_control(
 			'button_url',
 			[
-				'label'     => __( 'Button Url', 'transticsee' ),
+				'label'     => __( 'Button Url', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::URL,
-				'placeholder' => __( 'https://your-link.com', 'transticsee' ),
+				'placeholder' => __( 'https://your-link.com', 'transtics_elementor_extension' ),
 				'show_external' => true,
 				'default' => [
 					'url' => '',
@@ -199,7 +199,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_color',
 			[
-				'label'     => __( 'Button Color', 'transticsee' ),
+				'label'     => __( 'Button Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#fff',
 				'selectors' => [
@@ -211,7 +211,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_background_color',
 			[
-				'label'     => __( 'Button Background Color', 'transticsee' ),
+				'label'     => __( 'Button Background Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#FF0000',
 				'selectors' => [
@@ -225,7 +225,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'category',
 			[
-				'label' => __( 'Category', 'transticsee' ),
+				'label' => __( 'Category', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::SELECT,
 				'default' => 'all',
 				'options' => array_merge($arrayCateAll,$cate_array),
@@ -237,7 +237,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'total_count',
 			[
-				'label' => __( 'Total Post', 'transticsee' ),
+				'label' => __( 'Total Post', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::NUMBER,
 				'default' => 3,
 			]
@@ -248,12 +248,12 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'order_by',
 			[
-				'label' => __('Order By', 'transticsee'),
+				'label' => __('Order By', 'transtics_elementor_extension'),
 				'type' => \Elementor\Controls_Manager::SELECT,
 				'default' => 'desc',
 				'options' => [
-					'asc' => __('ASC', 'transticsee'),
-					'desc' => __('DESC', 'transticsee'),
+					'asc' => __('ASC', 'transtics_elementor_extension'),
+					'desc' => __('DESC', 'transtics_elementor_extension'),
 				]
 			]
 		);
@@ -263,10 +263,10 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'show_author',
 			[
-				'label' => __( 'Show Author', 'transticsee' ),
+				'label' => __( 'Show Author', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::SWITCHER,
-				'label_on' => __( 'Show', 'transticsee' ),
-				'label_off' => __( 'Hide', 'transticsee' ),
+				'label_on' => __( 'Show', 'transtics_elementor_extension' ),
+				'label_off' => __( 'Hide', 'transtics_elementor_extension' ),
 				'return_value' => 'yes',
 				'default' => 'yes',
 			]
@@ -275,10 +275,10 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'show_category',
 			[
-				'label' => __( 'Show Date', 'transticsee' ),
+				'label' => __( 'Show Date', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::SWITCHER,
-				'label_on' => __( 'Show', 'transticsee' ),
-				'label_off' => __( 'Hide', 'transticsee' ),
+				'label_on' => __( 'Show', 'transtics_elementor_extension' ),
+				'label_off' => __( 'Hide', 'transtics_elementor_extension' ),
 				'return_value' => 'yes',
 				'default' => 'yes',
 			]
@@ -289,7 +289,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title_color',
 			[
-				'label' => __( 'Title Color', 'transticsee' ),
+				'label' => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} h3.btitle a' => 'color : {{VALUE}} ;'
@@ -301,7 +301,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title_color_hover',
 			[
-				'label' => __( 'Title Color Hover', 'transticsee' ),
+				'label' => __( 'Title Color Hover', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} h3.btitle a:hover' => 'color : {{VALUE}} ;'
@@ -317,7 +317,7 @@ class Transtics_Blog_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'meta_color',
 			[
-				'label' => __( 'Author & Date Color', 'transticsee' ),
+				'label' => __( 'Author & Date Color', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .meta' => 'color : {{VALUE}}!important;'

@@ -12,7 +12,7 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Pricing', 'transticsee' );
+		return __( 'Pricing', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -44,7 +44,7 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'pricing_section',
 			[
-				'label' => __( 'Pricing Controls', 'transticsee' ),
+				'label' => __( 'Pricing Controls', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -54,10 +54,10 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title',
 			[
-				'label'     => __( 'Title', 'transticsee' ),
+				'label'     => __( 'Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Pricing', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Pricing', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -66,7 +66,7 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'padding',
 			[
-				'label' => __( 'Padding', 'transticsee' ),
+				'label' => __( 'Padding', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [
@@ -82,7 +82,7 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'table_one',
 			[
-				'label' => __( 'Table One', 'transticsee' ),
+				'label' => __( 'Table One', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -92,10 +92,10 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_one_title',
 			[
-				'label'     => __( 'Table Name', 'transticsee' ),
+				'label'     => __( 'Table Name', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Basic', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Basic', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -104,10 +104,10 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_one_price',
 			[
-				'label'     => __( 'Price', 'transticsee' ),
+				'label'     => __( 'Price', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Price', 'transticsee' ),
-				'default'     => __( '$24', 'transticsee' ),
+				'placeholder' => __( 'Enter Price', 'transtics_elementor_extension' ),
+				'default'     => __( '$24', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -117,9 +117,9 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 
 		$repeater->add_control(
 			'table_one_element', [
-				'label' => __( 'Item', 'transticsee' ),
+				'label' => __( 'Item', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => __( 'Warehouse Facility' , 'transticsee' ),
+				'default' => __( 'Warehouse Facility' , 'transtics_elementor_extension' ),
 				'label_block' => true,
 			]
 		);
@@ -127,7 +127,7 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_one_list',
 			[
-				'label' => __( 'Table element', 'transticsee' ),
+				'label' => __( 'Table element', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::REPEATER,
 				'fields' => $repeater->get_controls(),
 			]
@@ -138,19 +138,19 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_one_button_text',
 			[
-				'label'     => __( 'Button Text', 'transticsee' ),
+				'label'     => __( 'Button Text', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Button Text', 'transticsee' ),
-				'default'     => __( 'Sign Up', 'transticsee' ),
+				'placeholder' => __( 'Enter Button Text', 'transtics_elementor_extension' ),
+				'default'     => __( 'Sign Up', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'table_one_button_url',
 			[
-				'label'     => __( 'Button Url', 'transticsee' ),
+				'label'     => __( 'Button Url', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::URL,
-				'placeholder' => __( 'https://your-link.com', 'transticsee' ),
+				'placeholder' => __( 'https://your-link.com', 'transtics_elementor_extension' ),
 				'show_external' => true,
 				'default' => [
 					'url' => '',
@@ -167,7 +167,7 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'table_two',
 			[
-				'label' => __( 'Table Two', 'transticsee' ),
+				'label' => __( 'Table Two', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -177,10 +177,10 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_two_title',
 			[
-				'label'     => __( 'Table Name', 'transticsee' ),
+				'label'     => __( 'Table Name', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Regular', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Regular', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -189,10 +189,10 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_two_price',
 			[
-				'label'     => __( 'Price', 'transticsee' ),
+				'label'     => __( 'Price', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Price', 'transticsee' ),
-				'default'     => __( '$24', 'transticsee' ),
+				'placeholder' => __( 'Enter Price', 'transtics_elementor_extension' ),
+				'default'     => __( '$24', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -202,9 +202,9 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 
 		$repeater->add_control(
 			'table_two_element', [
-				'label' => __( 'Item', 'transticsee' ),
+				'label' => __( 'Item', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => __( 'Warehouse Facility' , 'transticsee' ),
+				'default' => __( 'Warehouse Facility' , 'transtics_elementor_extension' ),
 				'label_block' => true,
 			]
 		);
@@ -212,7 +212,7 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_two_list',
 			[
-				'label' => __( 'Table element', 'transticsee' ),
+				'label' => __( 'Table element', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::REPEATER,
 				'fields' => $repeater->get_controls(),
 			]
@@ -223,19 +223,19 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_two_button_text',
 			[
-				'label'     => __( 'Button Text', 'transticsee' ),
+				'label'     => __( 'Button Text', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Button Text', 'transticsee' ),
-				'default'     => __( 'Sign Up', 'transticsee' ),
+				'placeholder' => __( 'Enter Button Text', 'transtics_elementor_extension' ),
+				'default'     => __( 'Sign Up', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'table_two_button_url',
 			[
-				'label'     => __( 'Button Url', 'transticsee' ),
+				'label'     => __( 'Button Url', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::URL,
-				'placeholder' => __( 'https://your-link.com', 'transticsee' ),
+				'placeholder' => __( 'https://your-link.com', 'transtics_elementor_extension' ),
 				'show_external' => true,
 				'default' => [
 					'url' => '',
@@ -252,7 +252,7 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'table_three',
 			[
-				'label' => __( 'Table Three', 'transticsee' ),
+				'label' => __( 'Table Three', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -262,10 +262,10 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_three_title',
 			[
-				'label'     => __( 'Table Name', 'transticsee' ),
+				'label'     => __( 'Table Name', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Premium', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Premium', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -274,10 +274,10 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_three_price',
 			[
-				'label'     => __( 'Price', 'transticsee' ),
+				'label'     => __( 'Price', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Price', 'transticsee' ),
-				'default'     => __( '$24', 'transticsee' ),
+				'placeholder' => __( 'Enter Price', 'transtics_elementor_extension' ),
+				'default'     => __( '$24', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -287,9 +287,9 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 
 		$repeater->add_control(
 			'table_three_element', [
-				'label' => __( 'Item', 'transticsee' ),
+				'label' => __( 'Item', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => __( 'Warehouse Facility' , 'transticsee' ),
+				'default' => __( 'Warehouse Facility' , 'transtics_elementor_extension' ),
 				'label_block' => true,
 			]
 		);
@@ -297,7 +297,7 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_three_list',
 			[
-				'label' => __( 'Table element', 'transticsee' ),
+				'label' => __( 'Table element', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::REPEATER,
 				'fields' => $repeater->get_controls(),
 			]
@@ -308,19 +308,19 @@ class Transtics_Pricing_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'table_three_button_text',
 			[
-				'label'     => __( 'Button Text', 'transticsee' ),
+				'label'     => __( 'Button Text', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Button Text', 'transticsee' ),
-				'default'     => __( 'Sign Up', 'transticsee' ),
+				'placeholder' => __( 'Enter Button Text', 'transtics_elementor_extension' ),
+				'default'     => __( 'Sign Up', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'table_three_button_url',
 			[
-				'label'     => __( 'Button Url', 'transticsee' ),
+				'label'     => __( 'Button Url', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::URL,
-				'placeholder' => __( 'https://your-link.com', 'transticsee' ),
+				'placeholder' => __( 'https://your-link.com', 'transtics_elementor_extension' ),
 				'show_external' => true,
 				'default' => [
 					'url' => '',

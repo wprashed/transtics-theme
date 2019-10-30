@@ -12,7 +12,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Feature', 'transticsee' );
+		return __( 'Feature', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -44,7 +44,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'content_section',
 			[
-				'label' => __( 'Client Controls', 'transticsee' ),
+				'label' => __( 'Client Controls', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -55,7 +55,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .feature',
 			]
@@ -64,7 +64,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'padding',
 			[
-				'label' => __( 'Padding', 'transticsee' ),
+				'label' => __( 'Padding', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [
@@ -78,10 +78,10 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title',
 			[
-				'label'     => __( 'Title', 'transticsee' ),
+				'label'     => __( 'Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Taking care of you and your business all the way', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Taking care of you and your business all the way', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -90,10 +90,10 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'subtitle',
 			[
-				'label'     => __( 'Subtitle', 'transticsee' ),
+				'label'     => __( 'Subtitle', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Transtics Shipping corp', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Transtics Shipping corp', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -102,10 +102,10 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'description',
 			[
-				'label'     => __( 'Description', 'transticsee' ),
+				'label'     => __( 'Description', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXTAREA,
-				'placeholder' => __( 'Enter Title', 'transticsee' ),
-				'default'     => __( 'Solving your supply chain needs from end to end, taking the complexity out of container shipping. We are at the forefront of developing innovation.', 'transticsee' ),
+				'placeholder' => __( 'Enter Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Solving your supply chain needs from end to end, taking the complexity out of container shipping. We are at the forefront of developing innovation.', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -116,7 +116,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$repeater->add_control(
 			'icon',
 			[
-				'label' => __( 'Icon', 'transticsee' ),
+				'label' => __( 'Icon', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::ICON,
 				'default' => 'fa fa-ship',
 			]
@@ -124,18 +124,18 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 
 		$repeater->add_control(
 			'ftitle', [
-				'label' => __( 'Tilte', 'transticsee' ),
+				'label' => __( 'Tilte', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => __( 'Secured Containers' , 'transticsee' ),
+				'default' => __( 'Secured Containers' , 'transtics_elementor_extension' ),
 				'label_block' => true,
 			]
 		);
 
 		$repeater->add_control(
 			'content', [
-				'label' => __( 'Content', 'transticsee' ),
+				'label' => __( 'Content', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXTAREA,
-				'default' => __( 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt' , 'transticsee' ),
+				'default' => __( 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt' , 'transtics_elementor_extension' ),
 				'rows'	=> 4,
 			]
 		);
@@ -143,19 +143,19 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$repeater->add_control(
 			'button_text',
 			[
-				'label'     => __( 'Button Text', 'transticsee' ),
+				'label'     => __( 'Button Text', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Button Text', 'transticsee' ),
-				'default'     => __( 'Read More', 'transticsee' ),
+				'placeholder' => __( 'Enter Button Text', 'transtics_elementor_extension' ),
+				'default'     => __( 'Read More', 'transtics_elementor_extension' ),
 			]
 		);
 		
 		$repeater->add_control(
 			'button_url',
 			[
-				'label'     => __( 'Button Url', 'transticsee' ),
+				'label'     => __( 'Button Url', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::URL,
-				'placeholder' => __( 'https://your-link.com', 'transticsee' ),
+				'placeholder' => __( 'https://your-link.com', 'transtics_elementor_extension' ),
 				'show_external' => true,
 				'default' => [
 					'url' => '',
@@ -168,7 +168,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'list',
 			[
-				'label' => __( 'Feature List', 'transticsee' ),
+				'label' => __( 'Feature List', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::REPEATER,
 				'fields' => $repeater->get_controls(),
 			]
@@ -181,7 +181,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'style_section',
 			[
-				'label' => __( 'Client Controls', 'transticsee' ),
+				'label' => __( 'Client Controls', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -191,7 +191,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032C56',
 				'selectors' => [
@@ -204,7 +204,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .title',
 			]
@@ -215,7 +215,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'subtitle_color',
 			[
-				'label'     => __( 'Subtitle Color', 'transticsee' ),
+				'label'     => __( 'Subtitle Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#ec0101',
 				'selectors' => [
@@ -228,7 +228,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'subtitle_typography',
-				'label'    => __( 'Subtitle Typography', 'transticsee' ),
+				'label'    => __( 'Subtitle Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .subtitle',
 			]
@@ -239,7 +239,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'description_color',
 			[
-				'label'     => __( 'Description Color', 'transticsee' ),
+				'label'     => __( 'Description Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#5f6a75',
 				'selectors' => [
@@ -252,7 +252,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'description_typography',
-				'label'    => __( 'Description Typography', 'transticsee' ),
+				'label'    => __( 'Description Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .description',
 			]
@@ -263,7 +263,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'icon_color',
 			[
-				'label'     => __( 'Icon Color', 'transticsee' ),
+				'label'     => __( 'Icon Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#ff0543',
 				'selectors' => [
@@ -277,7 +277,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'ftitle_color',
 			[
-				'label'     => __( 'Feature Title Color', 'transticsee' ),
+				'label'     => __( 'Feature Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032C56',
 				'selectors' => [
@@ -290,7 +290,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'ftitle_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .ftitle',
 			]
@@ -301,7 +301,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'content_color',
 			[
-				'label'     => __( 'Content Color', 'transticsee' ),
+				'label'     => __( 'Content Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#5f6a75',
 				'selectors' => [
@@ -314,7 +314,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'content_typography',
-				'label'    => __( 'Content Typography', 'transticsee' ),
+				'label'    => __( 'Content Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .content',
 			]
@@ -335,7 +335,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_color',
 			[
-				'label'     => __( 'Button Color', 'transticsee' ),
+				'label'     => __( 'Button Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#FF0000',
 				'selectors' => [
@@ -347,7 +347,7 @@ class Transtics_Feature_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'button_background_color',
 			[
-				'label'     => __( 'Button Background Color', 'transticsee' ),
+				'label'     => __( 'Button Background Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => 'transparent',
 				'selectors' => [

@@ -12,7 +12,7 @@ class Transtics_TeamGrid_widget extends \Elementor\Widget_Base {
 	// Widget Title
 
 	public function get_title() {
-		return __( 'Team Grid', 'transticsee' );
+		return __( 'Team Grid', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -44,7 +44,7 @@ class Transtics_TeamGrid_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'backgrount_section',
 			[
-				'label' => __( 'Team Grid Options', 'transticsee' ),
+				'label' => __( 'Team Grid Options', 'transtics_elementor_extension' ),
 				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -55,7 +55,7 @@ class Transtics_TeamGrid_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .team',
 			]
@@ -66,17 +66,17 @@ class Transtics_TeamGrid_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title',
 			[
-				'label'     => __( 'Title', 'transticsee' ),
+				'label'     => __( 'Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Team Section Title', 'transticsee' ),
-				'default'     => __( 'Our Team', 'transticsee' ),
+				'placeholder' => __( 'Enter Team Section Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Our Team', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Color', 'transticsee' ),
+				'label'     => __( 'Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#032c56',
 				'selectors' => [
@@ -89,7 +89,7 @@ class Transtics_TeamGrid_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Typography', 'transticsee' ),
+				'label'    => __( 'Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .team_title',
 			]
@@ -98,7 +98,7 @@ class Transtics_TeamGrid_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'total_count',
 			[
-				'label' => __( 'Total Item', 'transticsee' ),
+				'label' => __( 'Total Item', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::NUMBER,
 				'default' => 3,
 			]
@@ -107,7 +107,7 @@ class Transtics_TeamGrid_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'padding',
 			[
-				'label' => __( 'Padding', 'transticsee' ),
+				'label' => __( 'Padding', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%', 'em' ],
 				'selectors' => [

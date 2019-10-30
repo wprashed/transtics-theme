@@ -12,7 +12,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Advantages', 'transticsee' );
+		return __( 'Advantages', 'transtics_elementor_extension' );
 	}
 
 	// Widget Icon
@@ -42,7 +42,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'control_section',
 			[
-				'label' => __( 'Advantages Control', 'transticsee' ),
+				'label' => __( 'Advantages Control', 'transtics_elementor_extension' ),
 				'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -53,7 +53,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Background::get_type(),
 			[
 				'name' => 'background',
-				'label' => __( 'Background', 'transticsee' ),
+				'label' => __( 'Background', 'transtics_elementor_extension' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
 				'selector' => '{{WRAPPER}} .advantages',
 			]
@@ -64,17 +64,17 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title',
 			[
-				'label'     => __( 'Title', 'transticsee' ),
+				'label'     => __( 'Title', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Advantages Section Title', 'transticsee' ),
-				'default'     => __( 'Our Advantages', 'transticsee' ),
+				'placeholder' => __( 'Enter Advantages Section Title', 'transtics_elementor_extension' ),
+				'default'     => __( 'Our Advantages', 'transtics_elementor_extension' ),
 			]
 		);
 
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#fff',
 				'selectors' => [
@@ -87,7 +87,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .title',
 			]
@@ -100,7 +100,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$this->start_controls_section(
 			'item_section',
 			[
-				'label' => __( 'Items', 'transticsee' ),
+				'label' => __( 'Items', 'transtics_elementor_extension' ),
 				'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
@@ -110,7 +110,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$repeater->add_control(
 			'icon_one',
 			[
-				'label' => __( 'Icon', 'transticsee' ),
+				'label' => __( 'Icon', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::ICON,
 				'default' => 'fa fa-facebook',
 			]
@@ -118,18 +118,18 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 
 		$repeater->add_control(
 			'title_one', [
-				'label' => __( 'Tilte', 'transticsee' ),
+				'label' => __( 'Tilte', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => __( 'Warehouse Facility' , 'transticsee' ),
+				'default' => __( 'Warehouse Facility' , 'transtics_elementor_extension' ),
 				'label_block' => true,
 			]
 		);
 
 		$repeater->add_control(
 			'content_one', [
-				'label' => __( 'Content', 'transticsee' ),
+				'label' => __( 'Content', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXTAREA,
-				'default' => __( 'Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor unde om' , 'transticsee' ),
+				'default' => __( 'Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor unde om' , 'transtics_elementor_extension' ),
 				'rows'	=> 4,
 			]
 		);
@@ -137,7 +137,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$repeater->add_control(
 			'icon_two',
 			[
-				'label' => __( 'Icon', 'transticsee' ),
+				'label' => __( 'Icon', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::ICON,
 				'default' => 'fa fa-facebook',
 			]
@@ -145,18 +145,18 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 
 		$repeater->add_control(
 			'title_two', [
-				'label' => __( 'Tilte', 'transticsee' ),
+				'label' => __( 'Tilte', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => __( 'Customer Satisfaction' , 'transticsee' ),
+				'default' => __( 'Customer Satisfaction' , 'transtics_elementor_extension' ),
 				'label_block' => true,
 			]
 		);
 
 		$repeater->add_control(
 			'content_two', [
-				'label' => __( 'Content', 'transticsee' ),
+				'label' => __( 'Content', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXTAREA,
-				'default' => __( 'Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor unde om' , 'transticsee' ),
+				'default' => __( 'Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor unde om' , 'transtics_elementor_extension' ),
 				'rows'	=> 4,
 			]
 		);
@@ -164,7 +164,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$repeater->add_control(
 			'icon_three',
 			[
-				'label' => __( 'Icon', 'transticsee' ),
+				'label' => __( 'Icon', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::ICON,
 				'default' => 'fa fa-facebook',
 			]
@@ -172,18 +172,18 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 
 		$repeater->add_control(
 			'title_three', [
-				'label' => __( 'Tilte', 'transticsee' ),
+				'label' => __( 'Tilte', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => __( 'Real-time Cargo Tracking' , 'transticsee' ),
+				'default' => __( 'Real-time Cargo Tracking' , 'transtics_elementor_extension' ),
 				'label_block' => true,
 			]
 		);
 
 		$repeater->add_control(
 			'content_three', [
-				'label' => __( 'Content', 'transticsee' ),
+				'label' => __( 'Content', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::TEXTAREA,
-				'default' => __( 'Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor unde om' , 'transticsee' ),
+				'default' => __( 'Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor unde om' , 'transtics_elementor_extension' ),
 				'rows'	=> 4,
 			]
 		);
@@ -191,7 +191,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'list',
 			[
-				'label' => __( 'Advantages List', 'transticsee' ),
+				'label' => __( 'Advantages List', 'transtics_elementor_extension' ),
 				'type' => \Elementor\Controls_Manager::REPEATER,
 				'fields' => $repeater->get_controls(),
 			]
@@ -202,7 +202,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'title_color',
 			[
-				'label'     => __( 'Title Color', 'transticsee' ),
+				'label'     => __( 'Title Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -215,7 +215,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'title_typography',
-				'label'    => __( 'Title Typography', 'transticsee' ),
+				'label'    => __( 'Title Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .atitle',
 			]
@@ -226,7 +226,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'content_color',
 			[
-				'label'     => __( 'Description Color', 'transticsee' ),
+				'label'     => __( 'Description Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -239,7 +239,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'content_typography',
-				'label'    => __( 'Description Typography', 'transticsee' ),
+				'label'    => __( 'Description Typography', 'transtics_elementor_extension' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .adetails',
 			]
@@ -250,7 +250,7 @@ class Transtics_Advantages_widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'icon_color',
 			[
-				'label'     => __( 'Icon Color', 'transticsee' ),
+				'label'     => __( 'Icon Color', 'transtics_elementor_extension' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'default'   => '#ffffff',
 				'selectors' => [
