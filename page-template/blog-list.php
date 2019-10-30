@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php 
+/* Template Name: Blog List */
+get_header(); ?>
 <!-- Blog Grid -->
 <section class="blog-grid">
     <div class="container">
