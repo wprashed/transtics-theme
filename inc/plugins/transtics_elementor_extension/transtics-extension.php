@@ -132,6 +132,7 @@ final class Transtics_Elementor_Extension {
 		// Include Widget files
 		require_once( __DIR__ . '/widgets/title.php' );
 		require_once( __DIR__ . '/widgets/slider.php' );
+		require_once( __DIR__ . '/widgets/about.php' );
 		require_once( __DIR__ . '/widgets/team-slider.php' );
 		require_once( __DIR__ . '/widgets/team-grid.php' );
 		require_once( __DIR__ . '/widgets/client.php' );
@@ -146,10 +147,12 @@ final class Transtics_Elementor_Extension {
 		require_once( __DIR__ . '/widgets/blog.php' );
 		require_once( __DIR__ . '/widgets/shipping-calculator.php' );
 		require_once( __DIR__ . '/widgets/shipment-tracking.php' );
+		require_once( __DIR__ . '/widgets/feature.php' );
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Title_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Slider_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_About_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_TeamSlider_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_TeamGrid_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Client_widget() );
@@ -164,6 +167,7 @@ final class Transtics_Elementor_Extension {
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Blog_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Shipping_Calculator_widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Shipment_Tracking_widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Transtics_Feature_widget() );
 
 	}
 

@@ -1,24 +1,24 @@
 <?php
 
 
-class Transtics_Intro_widget extends \Elementor\Widget_Base {
+class Transtics_About_widget extends \Elementor\Widget_Base {
 
 	// Widget Name
 
 	public function get_name() {
-		return 'intro';
+		return 'about';
 	}
 
 	// Widget Titke
 
 	public function get_title() {
-		return __( 'Intro', 'transticsee' );
+		return __( 'About', 'transticsee' );
 	}
 
 	// Widget Icon
 
 	public function get_icon() {
-		return 'fa fa-address-card-o';
+		return 'fa fa-address-book-o';
 	}
 
 	//	Widget Categories
@@ -57,7 +57,21 @@ class Transtics_Intro_widget extends \Elementor\Widget_Base {
 				'name' => 'background',
 				'label' => __( 'Background', 'transticsee' ),
 				'types' => [ 'classic', 'gradient', 'video' ],
-				'selector' => '{{WRAPPER}} .global',
+				'selector' => '{{WRAPPER}} .about',
+			]
+		);
+
+		// Padding
+
+		$this->add_control(
+			'padding',
+			[
+				'label' => __( 'Padding', 'transticsee' ),
+				'type' => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => [ 'px', '%', 'em' ],
+				'selectors' => [
+					'{{WRAPPER}} .about' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				],
 			]
 		);
 
@@ -143,77 +157,84 @@ class Transtics_Intro_widget extends \Elementor\Widget_Base {
 			]
 		);
 
-		// Button
+		// Name
 
 		$this->add_control(
-			'button_text',
+			'name',
 			[
-				'label'     => __( 'Button Text', 'transticsee' ),
+				'label'     => __( 'Name', 'transticsee' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter Button Text', 'transticsee' ),
-				'default'     => __( 'More About Us', 'transticsee' ),
+				'placeholder' => __( 'Enter Name', 'transticsee' ),
+				'default'     => __( 'Jonathon Doelan', 'transticsee' ),
 			]
 		);
-		
+
 		$this->add_control(
-			'button_url',
+			'name_color',
 			[
-				'label'     => __( 'Button Url', 'transticsee' ),
-				'type'        => \Elementor\Controls_Manager::URL,
-				'placeholder' => __( 'https://your-link.com', 'transticsee' ),
-				'show_external' => true,
-				'default' => [
-					'url' => '',
-					'is_external' => true,
-					'nofollow' => true,
-				],
+				'label'     => __( 'Name Color', 'transticsee' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'default'   => '#032c56',
+				'selectors' => [
+					'{{WRAPPER}} .name' => 'color: {{VALUE}}'
+				]
 			]
 		);
-		
+
 		$this->add_group_control(
 			\Elementor\Group_Control_Typography::get_type(),
 			[
-				'name'     => 'button_typography',
-				'label'    => __( 'Button Typography', '`' ),
+				'name'     => 'name_typography',
+				'label'    => __( 'Title Typography', 'transticsee' ),
 				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
-				'selector' => '{{WRAPPER}} .more',
+				'selector' => '{{WRAPPER}} .name',
+			]
+		);
+
+		// Designation
+
+		$this->add_control(
+			'designation',
+			[
+				'label'     => __( 'Designation', 'transticsee' ),
+				'type'      => \Elementor\Controls_Manager::TEXTAREA,
+				'rows'		=> '6',
+				'placeholder' => __( 'Enter Designation', 'transticsee' ),
+				'default'     => __( 'Chairman, Transtics', 'transticsee' ),
 			]
 		);
 
 		$this->add_control(
-			'button_color',
+			'designation_color',
 			[
-				'label'     => __( 'Button Color', 'transticsee' ),
+				'label'     => __( 'Designation Color', 'transticsee' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
-				'default'   => '#fff',
+				'default'   => '#9fadbb',
 				'selectors' => [
-					'{{WRAPPER}} .more' => 'color: {{VALUE}}'
+					'{{WRAPPER}} .designation' => 'color: {{VALUE}}'
 				]
 			]
 		);
 
-		$this->add_control(
-			'button_background_color',
+		$this->add_group_control(
+			\Elementor\Group_Control_Typography::get_type(),
 			[
-				'label'     => __( 'Button Background Color', 'transticsee' ),
-				'type'      => \Elementor\Controls_Manager::COLOR,
-				'default'   => '#FF0000',
-				'selectors' => [
-					'{{WRAPPER}} .more' => 'background-color: {{VALUE}}'
-				]
+				'name'     => 'designation_typography',
+				'label'    => __( 'Designation Typography', 'transticsee' ),
+				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'selector' => '{{WRAPPER}} .designation',
 			]
 		);
 
-		// Padding
+		// Signature
 
 		$this->add_control(
-			'padding',
+			'signature',
 			[
-				'label' => __( 'Padding', 'transticsee' ),
-				'type' => \Elementor\Controls_Manager::DIMENSIONS,
-				'size_units' => [ 'px', '%', 'em' ],
-				'selectors' => [
-					'{{WRAPPER}} .global' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				'label' => __( 'Signature', 'transticsee' ),
+				'type' => \Elementor\Controls_Manager::MEDIA,
+				'default' => [
+					'url' => \Elementor\Utils::get_placeholder_image_src(),
 				],
 			]
 		);
@@ -537,61 +558,71 @@ class Transtics_Intro_widget extends \Elementor\Widget_Base {
 	// Widget Render Output
 
 	protected function render() {
-		$target = $settings['button_url']['is_external'] ? ' target="_blank"' : '';
-		$nofollow = $settings['button_url']['nofollow'] ? ' rel="nofollow"' : '';
 		$settings   = $this->get_settings_for_display();
 		?>
-		<!-- Intro -->
-		<section class="global">
+		<!-- About -->
+		<section class="about">
 		    <div class="container">
 		        <div class="row">
-		            <div class="col-lg-6 col-md-12 col-sm-12 col-12 left">
-		                <img src="<?php echo $settings['image']['url'] ?>" class="img-fluid" alt="Image">
+		            <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+		                <div class="about-img">
+		                    <img src="<?php echo $settings['image']['url'] ?>" class="img-fluid" alt="Image">
+		                </div>
 		            </div>
-		            <div class="col-lg-6 col-md-12 col-sm-12 col-12 right">
-		                <h1 class="title"><?php echo $settings['title'] ?></h1>
-		                <p class="description"><?php echo $settings['content'] ?></p>
-		                <a href="<?php echo $settings['button_url']['url'] ?>" <?php echo $target  ?>  <?php $nofollow ?> class="btn more"><?php echo $settings['button_text'] ?></a>
+		            <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+		                <div class="about-content">
+		                    <h1><?php echo $settings['title'] ?></h1>
+		                    <p><?php echo $settings['content'] ?></p>
+		                    <div class="d-flex justify-content-between">
+		                        <div class="name">
+		                            <h5><?php echo $settings['name'] ?></h5>
+		                            <h6><?php echo $settings['designation'] ?></h6>
+		                        </div>
+		                        <div class="signature">
+		                            <img src="<?php echo $settings['signature']['url'] ?>" class="float-right" alt="Image">
+		                        </div>
+		                    </div>
+		                </div>
 		            </div>
 		        </div>
-				<div class="row counters">
-		            <div class="col-md-4 col-sm-4 col-xs-12 signle-counter">
+		        <div class="row counters">
+		            <div class="col-md-4 signle-counter">
 		                <div class="d-flex justify-content-between">
 		                    <div class="counter-image">
 		                        <p class="icon_one"><i class="<?php echo $settings['c_icon_one'] ?> fa-4x"></i></p>
 		                    </div>
 		                    <div class="text-box">
-		                        <h2 class="count_one"><?php echo $settings['c_number_one'] ?></h2>
-		                        <h5 class="ctitle_one"><?php echo $settings['c_title_one'] ?></h5>
+		                        <h2 class="count"><?php echo $settings['c_number_one'] ?></h2>
+		                        <h5><?php echo $settings['c_title_one'] ?></h5>
 		                    </div>
 		                </div>
 		            </div>
-		            <div class="col-md-4 col-sm-4 col-xs-12 signle-counter">
+		            <div class="col-md-4 signle-counter">
 		                <div class="d-flex justify-content-between">
 		                    <div class="counter-image">
 		                        <p class="icon_two"><i class="<?php echo $settings['c_icon_two'] ?> fa-4x"></i></p>
 		                    </div>
 		                    <div class="text-box">
-		                        <h2 class="count_two"><?php echo $settings['c_number_two'] ?></h2>
-		                        <h5 class="ctitle_two"><?php echo $settings['c_title_two'] ?></h5>
+		                        <h2 class="count"><?php echo $settings['c_number_two'] ?></h2>
+		                        <h5><?php echo $settings['c_title_two'] ?></h5>
 		                    </div>
 		                </div>
 		            </div>
-		            <div class="col-md-4 col-sm-4 col-xs-12 signle-counter">
+		            <div class="col-md-4 signle-counter">
 		                <div class="d-flex justify-content-between">
 		                    <div class="counter-image">
 		                        <p class="icon_three"><i class="<?php echo $settings['c_icon_three'] ?> fa-4x"></i></p>
 		                    </div>
 		                    <div class="text-box">
-		                        <h2 class="count_three"><?php echo $settings['c_number_three'] ?></h2>
-		                        <h5 class="ctitle_three"><?php echo $settings['c_title_three'] ?></h5>
+		                        <h2 class="count"><?php echo $settings['c_number_three'] ?></h2>
+		                        <h5><?php echo $settings['c_title_three'] ?></h5>
 		                    </div>
 		                </div>
 		            </div>
 		        </div>
 		    </div>
 		</section>
-		<!-- Intro /-->
+		<!-- About /-->
 		<?php
 	}
 
