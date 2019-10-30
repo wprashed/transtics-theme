@@ -25,6 +25,14 @@ function transtics_theme_setup() {
 
 add_action( "after_setup_theme", "transtics_theme_setup" );
 
+// Register Custom Navigation Walker
+
+function register_navwalker(){
+    require_once get_template_directory() . '/inc/transtics-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );
+
+
 // Assets Enqueue
 
 function transtics_assets() {

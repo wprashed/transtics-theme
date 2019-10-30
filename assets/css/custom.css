@@ -229,11 +229,10 @@ body{
     border-radius: 0px;
 }
 .dropdown-menu .dropdown-item{
-    font-weight: 500 !important;
     color: #647886;
 }
 .dropdown-menu .dropdown-item:hover {
-    font-weight: 700 !important;
+    font-weight: 500 !important;
     color: #ec0101;
 }
 .form-control:focus{
@@ -330,6 +329,7 @@ body{
 
 .navbar-light .navbar-nav a:hover{
     color: #ec0101 !important;
+    font-weight: 500;
 }
 .navbar-light .navbar-nav .active>a,
 .navbar-light .navbar-nav a.active,
@@ -403,15 +403,12 @@ body{
     width: auto;
 }
 .header-bottom .navbar-light{
-    margin-top: 12px;
+    margin-top: 5px;
     display: inline-block;
     background: transparent !important;
 }
 .header-bottom .navbar-light .navbar-nav a{
     color: #647886!important;
-}
-.navbar-expand-lg .navbar-nav a {
-    padding-left: 0px;
 }
 .header-bottom .search{
     color: #647886 !important;
