@@ -15,9 +15,7 @@ function transtics_theme_setup() {
         'header-text'           => true,
         'default-text-color'    => 'white',
     );
-    add_theme_support("custom-header", $transtics_custom_header_details);
     add_theme_support( 'html5', array( 'search-form', 'comment-list' ) );
-    add_theme_support( "post-formats", array( "image", "gallery", "quote", "audio", "video", "link" ) );
     add_theme_support("custom-background");
     register_nav_menu( "topmenu", __( "Top Menu", "transtics" ) );
     add_image_size( "transtics-news-list", 840, 420, true );

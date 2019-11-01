@@ -19,7 +19,7 @@
 <!-- Home Search -->
 <div class="home-search">
     <div id="myOverlay" class="overlay">
-        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay"><?php _e( 'X', 'transtics' ); ?></span>
         <div class="overlay-content">
             <?php $unique_id = esc_attr( uniqid( 'search-form-' ) ); ?>
             <form role="search" method="get" class="search-form"  action="<?php echo esc_url( home_url( '/' ) ); ?>">
