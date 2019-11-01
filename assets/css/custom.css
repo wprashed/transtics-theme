@@ -2051,11 +2051,9 @@ span.flaticon-left-arrow {
     margin-bottom: 40px;
     display: block;
 }
-.blog-grid .single-blog #thumb2{
-    background-image: url(../images/bridge.jpg);
-}
-.blog-grid .single-blog #thumb3{
-    background-image: url(../images/containers.jpg);
+.blog-grid .single-blog .blog-thumb img{
+    max-height: 420px;
+    width: 100%;
 }
 .blog-grid .single-blog .blog-thumb .share{
     background-color: #ec0101;
@@ -2063,10 +2061,8 @@ span.flaticon-left-arrow {
     height: 50px;
     width: 100px;
     text-align: center;
-    position: absolute;
+    float: right;
     margin-top: -50px;
-    right: 40px;
-    padding-top: 15px;
 }
 .share{
     position: relative;

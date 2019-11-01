@@ -92,6 +92,12 @@ function transtics_register_required_plugins() {
 		),
 
 		array(
+			'name'      => 'AddToAny Share Buttons',
+			'slug'      => 'add-to-any',
+			'required'  => true,
+		),
+
+		array(
 			'name'      => 'Classic Editor',
 			'slug'      => 'classic-editor',
 			'required'  => true,

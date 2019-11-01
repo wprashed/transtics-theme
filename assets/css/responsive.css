@@ -1659,9 +1659,7 @@ p.big {
     .blog-grid .single-blog .blog-thumb .share {
         height: 45px;
         width: 80px;
-        margin-top: 375px;
-        right: 15px;
-        padding-top: 17px;
+        margin-top: -45px;
     }
     .blog-grid nav .page-link {
         font-size: 22px;
@@ -2193,9 +2191,7 @@ p.big {
     .blog-grid .single-blog .blog-thumb .share {
         height: 45px;
         width: 80px;
-        margin-top: 375px;
-        right: 15px;
-        padding-top: 17px;
+        margin-top: -45px;
     }
     .blog-grid nav .page-link {
         font-size: 20px;
@@ -2765,9 +2761,7 @@ p.big {
     .blog-grid .single-blog .blog-thumb .share {
         height: 45px;
         width: 80px;
-        margin-top: 375px;
-        right: 15px;
-        padding-top: 17px;
+        margin-top: -45px;
     }
     .blog-grid nav .page-link {
         font-size: 18px;
@@ -3634,9 +3628,7 @@ p.big {
     .blog-grid .single-blog .blog-thumb .share {
         height: 45px;
         width: 80px;
-        margin-top: 375px;
-        right: 15px;
-        padding-top: 17px;
+        margin-top: -45px;
     }
     #news nav .page-link {
         font-size: 14px;

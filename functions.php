@@ -20,7 +20,7 @@ function transtics_theme_setup() {
     add_theme_support( "post-formats", array( "image", "gallery", "quote", "audio", "video", "link" ) );
     add_theme_support("custom-background");
     register_nav_menu( "topmenu", __( "Top Menu", "transtics" ) );
-    add_image_size( "transtics-news-list", 800, 400, true );
+    add_image_size( "transtics-news-list", 840, 420, true );
     add_image_size( "transtics-news-grid", 350, 233, true );
     add_image_size( "transtics-service-thumb", 465, 310, true );
     add_image_size( "transtics-testimonial", 50, 50, true );
