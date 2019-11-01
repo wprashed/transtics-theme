@@ -234,7 +234,7 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 				'label'     => __( 'Contact Form Shortcode', 'transtics_elementor_extension' ),
 				'type'        => \Elementor\Controls_Manager::TEXT,
 				'placeholder' => __( 'Contact Form Shortcode', 'transtics_elementor_extension' ),
-				'default'     => __( '[contact-form-7 id="5" title="Contact form 1"]', 'transtics_elementor_extension' ),
+				'default'     => __( '[contact-form-7 id="5" title="Contact form"]', 'transtics_elementor_extension' ),
 			]
 		);
 
@@ -334,8 +334,8 @@ class Transtics_Contact_widget extends \Elementor\Widget_Base {
 		                    <div class="col-md-12">
 		                        <h1 class="form-title"><?php echo $settings['form_title'] ?></h1>
 		                    </div>
-		                    <?php echo $settings['contact_form'] ?>
 		                </div>
+		                <?php echo $settings['contact_form'] ?>
 		            </div>
 		        </div>
 		    </div>
