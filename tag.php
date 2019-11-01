@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php
+/** 
+ * Tag Archive
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package transtics
+ */
+get_header(); ?>
 
 <!-- Blog -->
 <section class="blog" id="news">

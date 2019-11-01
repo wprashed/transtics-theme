@@ -1,8 +1,12 @@
-<?php 
-
+<?php
+/** 
+ * Page Template
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package transtics
+ */
 the_post();
 get_header(); ?>
-
 <!-- Blog Grid -->
 <section class="blog-grid">
     <div class="container">

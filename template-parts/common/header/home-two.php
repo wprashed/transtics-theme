@@ -1,3 +1,13 @@
+<?php
+/** 
+ * Homepage Two Header
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package transtics
+ */
+
+global $transtics;
+?>
 <!-- Header Top -->
 <section class="header-top">
    <h4 class="d-none">header-top</h4>
@@ -6,22 +16,25 @@
             <div class="col-md-12">
                 <p class="float-left d-flex justify-content-between">
                     <span><i class="fas fa-envelope"></i>
-                        <?php
-                            $email = ot_get_option('email');
+                        <?php 
+                            if(!empty($transtics['email']) ) {
+                                echo esc_html($transtics['email']); 
+                            } 
                         ?>
-                        <?php echo $email; ?>
                     </span>
                     <span><i class="fas fa-phone"></i>
-                        <?php
-                            $phone = ot_get_option('phone');
-                        ?> 
-                        <?php echo $phone; ?>
+                        <?php 
+                            if(!empty($transtics['phone']) ) {
+                                echo esc_html($transtics['phone']); 
+                            } 
+                        ?>
                     </span>
                 </p>
+                <?php if(($transtics['get_language']) == 1) : ?>
                 <p class="float-right right">
-                    <span><a href="#" class="active">ENG</a></span>
-                    <span><a href="#">FR</a></span>
+                    <?php echo do_shortcode($transtics['language_srcode']);?>
                 </p>
+                <?php endif ?>
             </div>
         </div>
     </div>
@@ -34,16 +47,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-sm-3 col-4">
-                <?php
-                  $logo = ot_get_option('logo');
-                ?>
-                <a href="<?php echo get_home_url(); ?>"><img src="<?php echo $logo; ?>" class="img-fluid" alt="Image"></a>
+                <?php if(!empty($transtics['transtics_logo']) ) { ?>
+                    <a href="<?php echo get_home_url(); ?>"><img src="<?php echo esc_url($transtics['transtics_logo']['url']); ?>" class="img-fluid" alt="Image"></a>
+                <?php } ?>
             </div>
             <div class="col-md-10 col-sm-9 col-8">
                 <?php get_template_part("template-parts/common/nav-one"); ?>
                 <span class="right float-right">
                   <a class="search" onclick="openSearch()"><i class="fas fa-search"></i></a>
-                  <a href="#" class="btn quate float-right">get quote</a>
+                  <?php if(($transtics['get_quote_button']) == 1) : ?> 
+                  <?php if(!empty($transtics['get_quote_text']) ) { ?>
+                  <a href="<?php echo esc_url($transtics['get_quote_url']); ?>" class="btn quate float-right"><?php echo esc_html($transtics['get_quote_text']); ?></a>
+                  <?php } ?>
+                  <?php endif ?>
                 </span>
             </div>
         </div>

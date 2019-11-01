@@ -1,7 +1,13 @@
-<?php 
-the_post(); 
+<?php
+/** 
+ * Service Signle Page
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package transtics
+ */
+global $transtics;
+the_post();
 get_header(); ?>
-
 <!-- Service Details -->
 <section class="service-details">
     <div class="container">
@@ -30,10 +36,11 @@ get_header(); ?>
                             </div>
                             <div class="col-md-10 col-sm-10 col-10">
                                 <h4>
-                                    <?php
-                                        $address = ot_get_option('address');
+                                    <?php 
+                                        if(!empty($transtics['address']) ) {
+                                            echo esc_html($transtics['address']); 
+                                        } 
                                     ?>
-                                    <?php echo $address; ?>
                                 </h4>
                             </div>
                         </div>
@@ -45,14 +52,17 @@ get_header(); ?>
                             </div>
                             <div class="col-md-10 col-sm-10 col-10">
                                 <h4>
-                                    <?php
-                                        $phone_one = ot_get_option('phone_one');
+                                    <?php 
+                                        if(!empty($transtics['phone_one']) ) {
+                                            echo esc_html($transtics['phone_one']); 
+                                        } 
+                                    ?> 
+                                    <br>
+                                    <?php 
+                                        if(!empty($transtics['phone_two']) ) {
+                                            echo esc_html($transtics['phone_two']); 
+                                        } 
                                     ?>
-                                    <?php
-                                        $phone_two = ot_get_option('phone_two');
-                                    ?>
-                                    <?php echo $phone_one; ?> 
-                                    <br><?php echo $phone_two; ?>
                                 </h4>
                             </div>
                         </div>
@@ -64,14 +74,17 @@ get_header(); ?>
                             </div>
                             <div class="col-md-10 col-sm-10 col-10">
                                 <h4>
-                                    <?php
-                                        $email_one = ot_get_option('email_one');
+                                    <?php 
+                                        if(!empty($transtics['email_one']) ) {
+                                            echo esc_html($transtics['email_one']); 
+                                        } 
+                                    ?> 
+                                    <br>
+                                    <?php 
+                                        if(!empty($transtics['email_two']) ) {
+                                            echo esc_html($transtics['email_two']); 
+                                        } 
                                     ?>
-                                    <?php
-                                        $email_two = ot_get_option('email_two');
-                                    ?>
-                                    <?php echo $email_one; ?> 
-                                    <br><?php echo $email_two; ?>
                                 </h4>
                             </div>
                         </div>
@@ -94,27 +107,5 @@ get_header(); ?>
 </section>
 <!-- Service Arae /-->
 
-<!-- Subscribe -->
-<section class="subscribe">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parcel.png" alt="Image">
-            </div>
-            <div class="col-md-8">
-                <div class="subscribe-here">
-                    <h1>Subscribe for Offers and News</h1>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's email" aria-label="email address" aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Subscribe /-->
 
 <?php get_footer(); ?>

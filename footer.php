@@ -1,3 +1,13 @@
+<?php
+/** 
+ * Footer
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package transtics
+ */
+
+global $transtics;
+?>
 <!-- Footer Top -->
 <section class="footer">
     <div class="container">
@@ -37,10 +47,11 @@
             <div class="col-md-12">
                 <div class="credit text-center">
                     <h5>
-                        <?php
-                            $copyright_text = ot_get_option('copyright_text');
+                        <?php 
+                            if(!empty($transtics['footer_copyright']) ) {
+                                echo esc_html($transtics['footer_copyright']); 
+                            } 
                         ?>
-                        <?php echo $copyright_text; ?>
                     </h5>
                 </div>
             </div>

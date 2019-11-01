@@ -1,4 +1,10 @@
-<?php 
+<?php
+/** 
+ * Signle Page
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package transtics
+ */
 the_post();
 get_header(); ?>
 <!-- Blog Grid -->

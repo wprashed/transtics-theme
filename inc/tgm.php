@@ -110,6 +110,12 @@ function transtics_register_required_plugins() {
 		),
 
 		array(
+			'name'      => 'Google Language Translator',
+			'slug'      => 'google-language-translator',
+			'required'  => true,
+		),
+
+		array(
 			'name'      => 'MC4WP: Mailchimp for WordPress',
 			'slug'      => 'mailchimp-for-wp',
 			'required'  => true,
@@ -118,6 +124,12 @@ function transtics_register_required_plugins() {
 		array(
 			'name'      => 'Multiple Map Marker',
 			'slug'      => 'map-multiple-marker',
+			'required'  => true,
+		),
+
+		array(
+			'name'      => 'Redux Framework',
+			'slug'      => 'redux-framework',
 			'required'  => true,
 		),
 	);

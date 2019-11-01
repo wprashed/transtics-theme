@@ -1,5 +1,11 @@
-<?php get_header(); ?>
-
+<?php
+/** 
+ * Admin Archive
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package transtics
+ */
+get_header(); ?>
 <!-- Blog -->
 <section class="blog" id="news">
     <div class="container">

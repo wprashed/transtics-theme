@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php 
+/** 
+ * 404 Page
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package transtics
+ */
+get_header(); ?>
 <!-- Blog -->
 <section class="blogs error" id="news">
     <div class="container">

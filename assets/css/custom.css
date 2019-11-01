@@ -2188,7 +2188,7 @@ span.flaticon-left-arrow {
     color: #e8e8e8;
 }
 .blog-sidebar .widget .recent{
-    margin-top: 40px !important;
+    margin-top: 20px !important;
 }
 .blog-sidebar .widget .recent img{
     height: 70px;
@@ -2196,7 +2196,7 @@ span.flaticon-left-arrow {
     margin-right: 10px;
 }
 .blog-sidebar .widget .recent h5{
-    font-size: 18px !important;
+    font-size: 16px !important;
     color: #4f535b !important;
 }
 .blog-sidebar .widget .recent h6{

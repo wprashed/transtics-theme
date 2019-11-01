@@ -1,8 +1,9 @@
 <?php
 
-// Plugin Activation
+// Require Files
 
-require_once('inc/tgm.php');
+require_once( get_theme_file_path("/inc/tgm.php") );
+require_once( get_theme_file_path( "/options/opt-config.php" ) );
 
 // Theme Support
 
@@ -150,6 +151,3 @@ function transtics_widgets() {
 
 add_action( "widgets_init", "transtics_widgets" );
 
-/* Theme Option */
-
-require_once('inc/theme-options.php');
