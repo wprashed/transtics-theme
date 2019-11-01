@@ -49,6 +49,17 @@ class Transtics_Client_widget extends \Elementor\Widget_Base {
 			]
 		);
 
+		// Post Count
+
+		$this->add_control(
+			'total',
+			[
+				'label' => __( 'Total Item', 'transtics_elementor_extension' ),
+				'type' => \Elementor\Controls_Manager::NUMBER,
+				'default' => 5,
+			]
+		);
+
 		// Background
 
 		$this->add_group_control(
@@ -61,14 +72,7 @@ class Transtics_Client_widget extends \Elementor\Widget_Base {
 			]
 		);
 
-		$this->add_control(
-			'total',
-			[
-				'label' => __( 'Total Item', 'transtics_elementor_extension' ),
-				'type' => \Elementor\Controls_Manager::NUMBER,
-				'default' => 5,
-			]
-		);
+		// Padding
 
 		$this->add_control(
 			'padding',

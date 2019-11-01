@@ -61,6 +61,17 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 			]
 		);
 
+		// Post Count
+
+		$this->add_control(
+			'total',
+			[
+				'label' => __( 'Total Item', 'transtics_elementor_extension' ),
+				'type' => \Elementor\Controls_Manager::NUMBER,
+				'default' => 2,
+			]
+		);
+
 		// Title
 
 		$this->add_control(
@@ -143,18 +154,19 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 	protected function render() {
 
 		$settings   = $this->get_settings_for_display();
+		$total = $settings['total'];
+		$args=[
+				'post_type' => 'slider',
+				'posts_per_page' => $total,
+			];
+		$slider = new \WP_Query($args);
 		?>
 		<!-- Slider -->
 			<section class="slider">
 			    <div class="container">
 			        <div class="row slider-item">
 			            <div class="owl-carousel owl-theme" id="owl-demo">
-			                <?php query_posts( array(
-			                    'post_type' => 'slider',
-			                    'post_per_page' => -1,
-			                  )); 
-			                ?>
-			                <?php while (have_posts()) : the_post(); ?>
+			                <?php if($slider->have_posts()) : while($slider->have_posts()) : $slider->the_post(); ?>
 			                <div class="item">
 			                    <h1 class="slider_title"><?php the_title(); ?></h1>
 			                    <h4 class="slider_content">
@@ -172,8 +184,7 @@ class Transtics_Slider_widget extends \Elementor\Widget_Base {
 			                        ?>
 			                    </a>
 			                </div>
-			                <?php endwhile; ?>
-			                <?php wp_reset_query(); ?>
+			                <?php endwhile; endif; wp_reset_postdata();?>
 			            </div>
 			        </div>
 			    </div>
