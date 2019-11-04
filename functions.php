@@ -24,6 +24,7 @@ function transtics_theme_setup() {
     add_image_size( "transtics-testimonial", 50, 50, true );
     add_image_size( "transtics-team-archive", 350, 327, true );
     add_image_size( "transtics-team-slider", 340, 317, true );
+    add_image_size( "transtics-gallery", 340, 320, true );
 }
 
 add_action( "after_setup_theme", "transtics_theme_setup" );

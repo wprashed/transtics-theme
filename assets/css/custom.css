@@ -329,7 +329,6 @@ body{
 
 .navbar-light .navbar-nav a:hover{
     color: #ec0101 !important;
-    font-weight: 500;
 }
 .navbar-light .navbar-nav .active>a,
 .navbar-light .navbar-nav a.active,
@@ -403,7 +402,7 @@ body{
     width: auto;
 }
 .header-bottom .navbar-light{
-    margin-top: 5px;
+    margin-top: 8px;
     display: inline-block;
     background: transparent !important;
 }
@@ -435,7 +434,7 @@ body{
 .page-header{
     background-image: url(../images/page-header-bg.jpg);
     background-size: cover;
-    padding: 100px 0px;
+    padding: 80px 0px;
     color: #fff;
 }
 .page-header h1 {
@@ -712,7 +711,7 @@ font-family: 'Rubik', sans-serif;
 	============= */
 
 .logistics{
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .logistics h1{
        text-align: center;
@@ -893,7 +892,7 @@ span.flaticon-left-arrow {
 }
 .about{
     background-color: #fff;
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .about h1 {
      margin-top: 10px;
@@ -981,8 +980,7 @@ span.flaticon-left-arrow {
 }
 .advantages .content {
     background-color: #072E57;
-    padding: 100px 0px;
-    margin-bottom: 78px;
+    padding: 80px 0px;
     opacity: .9;
 }
 .advantages .content h2 {
@@ -1090,7 +1088,7 @@ span.flaticon-left-arrow {
 /* 10.2 Service Page Map */
 #map{
     background-color: #fff;
-    padding: 100px 0px 150px;
+    padding: 80px 0px 150px;
 }
 
 /* ==========
@@ -1102,7 +1100,7 @@ span.flaticon-left-arrow {
     background-image: url(../images/shipments.jpg);
     background-size: cover;
     background-position: bottom;
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .testimonial h1 {
     text-align: center;
@@ -1219,7 +1217,7 @@ span.flaticon-left-arrow {
     background-image: url(../images/shipments.jpg);
     background-position: top;
     background-repeat: no-repeat;
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .testimonialh h1 {
     text-align: center;
@@ -1361,7 +1359,7 @@ span.flaticon-left-arrow {
 /* 13.1 Home Page One Service */
 .service{
     background-color: #fff;
-    padding: 100px 0px 150px;
+    padding: 80px 0px 150px;
 }
 .service h1 {
        margin-bottom: 30px;
@@ -1446,7 +1444,7 @@ span.flaticon-left-arrow {
 }
 /* 13.2 Service Page Service */
 .service-area{
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .service-area h1 {
        text-align: center;
@@ -1549,7 +1547,7 @@ span.flaticon-left-arrow {
 
 /* 14.1 Service Drtails */
 .service-details{
-    padding: 100px 0px 150px;
+    padding: 80px 0px 150px;
 }
 .service-details h1 {
         margin-bottom: 25px;
@@ -1647,26 +1645,15 @@ span.flaticon-left-arrow {
 }
 .service-details #add{
     background: transparent;
-    padding: 0px;
+    padding-top: 30px;
     position: relative;
-    z-index: -1;
-}
-.service-details #add::after{
-    background-image: linear-gradient(transparent, #ec0101);
-    content: "";
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: 1;
 }
 .service-details #add h4{
-        margin: 130px 0px 0px;
+    margin-top: -35px;
     padding: 0px 0 19px 0;
     font-size: 20px;
-    text-decoration: underline;
     line-height: 30px;
+    position: absolute;
 }
 .service-details #add h4 a{
     color: #fff;
@@ -1874,7 +1861,7 @@ span.flaticon-left-arrow {
 
 /* 16.1 Home Page One Blog */
 .blogs {
-   padding: 100px 0px 100px;
+   padding: 80px 0px;
 }
 .blogs h1 {
        text-align: center;
@@ -2042,7 +2029,7 @@ span.flaticon-left-arrow {
 
 /* 16.3 News Page Blog Gird */
 .blog-grid{
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .blog-grid .single-blog{
     margin-bottom: 50px;
@@ -2365,7 +2352,7 @@ span.flaticon-left-arrow {
     background-image: url(../images/map-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 0px;
+    padding: 80px 0px;
     text-align: center;
 }
 .feature h4 {
@@ -2451,7 +2438,7 @@ span.flaticon-left-arrow {
     background-image: url(../images/map-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 0px;
+    padding: 80px 0px;
     text-align: center;
 }
 .featurea h4{
@@ -2517,7 +2504,7 @@ span.flaticon-left-arrow {
 
 .track{
     background-image: url(../images/track-bg.jpg);
-    padding: 100px 0px;
+    padding: 80px 0px;
     background-size: cover;
 }
 .track h1 {
@@ -2535,7 +2522,7 @@ span.flaticon-left-arrow {
 	============= */
 
 .global{
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .global .left{
     padding-right: 60px;
@@ -2608,7 +2595,7 @@ p.big {
     background-image: url(../images/team-bg.png);
     background-position: top;
     background-repeat: no-repeat;
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .team h1{
 color: #fff;
@@ -2744,9 +2731,7 @@ color: #fff;
 #team{
     background:none;
 }
-#team h1{
-    color: #032c56;
-}
+
 
 /* 21.3 Team Page Team Leader */
 #teaml{
@@ -2794,6 +2779,7 @@ color: #fff;
 }
 #teamm .item img{
     width: 100%;
+    height: 345px;
 }
 
 /* =============
@@ -2869,7 +2855,7 @@ color: #fff;
 
 /* 23.1 Gallery Area */
 .gallery-area{
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 
 /* 23.2 Gallery Nav */
@@ -2918,7 +2904,7 @@ color: #fff;
 }
 .gallery-area .main-iso .item img{
     height: 320px;
-    width: 100% !important;
+    max-width: 340px;
 }
 .gallery-area .single-gallery .overlay {
     position: absolute;
@@ -2982,7 +2968,7 @@ color: #fff;
 /* 24.1 Footer Top */
 .footer{
     background-color: #021d39;
-    padding: 100px 0px 50px;
+    padding: 80px 0px 50px;
 }
 .footer h4{
     color: #fff;
