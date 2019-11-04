@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="info">
-            <h4><?php the_title(); ?></h4>
+            <h4 class="wp-caption-text"><?php the_title(); ?></h4>
             <p>
                 <?php
                     if ( get_field( "designation" ) ) {

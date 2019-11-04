@@ -18,6 +18,7 @@
                 ?>
     <div class="single-gallery">
         <?php the_post_thumbnail(); ?>
+        <h4 class="gallery-caption"><?php the_title(); ?></h4>
         <div class="overlay">
             <div class="text d-flex justify-content-center">
                 <!-- <a href=""><i class="fas fa-link"></i></a> -->

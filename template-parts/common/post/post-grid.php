@@ -1,4 +1,4 @@
-<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+<div <?php post_class('col-lg-4 col-md-6 col-sm-6 col-12'); ?>>
     <div class="blog-box">
         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail("transtics-news-grid"); ?></a>
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>

@@ -7,13 +7,13 @@
  */
 get_header(); ?>
 <!-- Blog -->
-<section class="blog" id="news">
+<section class="blogs bypostauthor" id="news">
     <div class="container">
         <div class="row">
             <?php
                 if ( ! have_posts() ):
                     ?>
-                    <h1 class="text-center"><?php _e("No result found !!","transtics"); ?></h1>
+                    <h1 class="text-center aligncenter"><?php _e("No result found !!","transtics"); ?></h1>
                 <?php
                 endif;
             ?>

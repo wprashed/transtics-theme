@@ -57,7 +57,7 @@ global $transtics;
                 </div>
                 <div class="hitem" id="hitem">
                     <?php get_template_part("template-parts/common/nav-two"); ?>
-                    <a class="search float-right" onclick="openSearch()"><i class="fas fa-search"></i></a>
+                    <a class="search float-right alignrigh" onclick="openSearch()"><i class="fas fa-search"></i></a>
                 </div>
             </div>
         </div>

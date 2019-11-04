@@ -8,13 +8,13 @@
 get_header(); ?>
 
 <!-- Blog -->
-<section class="blog" id="news">
+<section class="blogs" id="news">
     <div class="container">
         <div class="row">
             <?php
                 if ( ! have_posts() ):
                     ?>
-                    <h1 class="text-center"><?php _e("There is no post in this category !!","transtics"); ?></h1>
+                    <h1 class="text-center aligncenter"><?php _e("There is no post in this category !!","transtics"); ?></h1>
                 <?php
                 endif;
             ?>
