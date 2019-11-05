@@ -81,7 +81,7 @@
             1000:{
                 items:3,
                 nav:true,
-                loop:false,
+                loop:true,
                 autoplay:false,
                 autoplaySpeed:1000
             }
@@ -108,7 +108,7 @@
             1000:{
                 items:3,
                 nav:true,
-                loop:false,
+                loop:true,
                 autoplay:false,
                 autoplaySpeed:1000
             }
@@ -135,7 +135,7 @@
             1000:{
                 items:3,
                 nav:true,
-                loop:false,
+                loop:true,
                 autoplay:false,
                 autoplaySpeed:1000
             }
