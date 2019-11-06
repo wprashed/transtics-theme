@@ -35,16 +35,13 @@ global $transtics;
                                 } 
                             ?>
                         </span>
-                        <span>
-                            <?php if(($transtics['get_language']) == 1) : ?>
-                            <?php echo do_shortcode($transtics['language_srcode']);?>
-                            <?php endif ?>
-                        </span>
+                        <span class="ml-auto">
                         <?php if(($transtics['get_quote_button']) == 1) : ?> 
                         <?php if(!empty($transtics['get_quote_text']) ) { ?>
                             <a href="<?php echo esc_url($transtics['get_quote_url']); ?>" class="btn btn-default"><?php echo esc_html($transtics['get_quote_text']); ?></a>
                         <?php } ?>
                         <?php endif ?>
+                        </span>
                     </p>
                     <h4 class="d-none">get quote</h4>
                 </div>

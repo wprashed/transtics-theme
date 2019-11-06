@@ -339,10 +339,8 @@ body{
 .header .search {
     display: inline-block;
     color: #7c90a6 !important;
-    margin-top: 5px;
+    margin-top: 9px;
     cursor: pointer;
-    margin-left: 27px;
-    margin-right: 13px;
 }
 .openbtn {
     font-size: 18px;
@@ -2395,7 +2393,7 @@ span.flaticon-left-arrow {
     font-weight: 700;
 }
 .feature .item p {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     padding: 0px;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
