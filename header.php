@@ -36,7 +36,7 @@
     }
 ?>
 <?php
- if (!is_home() && ! is_front_page()) {
+ if (!is_home() && !is_page_template("page-template/homepage-one.php") && !is_page_template("page-template/homepage-two.php") && ! is_front_page()) {
      get_template_part("template-parts/common/header/breadcamb");
  }
 ?>
