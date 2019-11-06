@@ -16,7 +16,7 @@ get_header(); ?>
                     <div class="blog-thumb">
                     	<img src="<?php the_post_thumbnail_url() ?>" class="img-fluid">
                         <div class="share">
-                            <h6><a class="a2a_dd" href="https://www.addtoany.com/share"><i class="fas fa-share-alt"></i> Share</a></h6>
+                            <h6><a class="a2a_dd"><i class="fas fa-share-alt"></i> Share</a></h6>
                         </div>
                     </div>
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -28,7 +28,7 @@ get_header(); ?>
                         ?>
                         <p class="tag">
                             <i class="fas fa-tag"></i> <?php echo get_the_tag_list(); ?>
-                            <span class="float-right float-right"><a class="a2a_dd" href="https://www.addtoany.com/share"><i class="fas fa-share-alt"></i> Share this article</a></span>
+                            <span class="float-right float-right"><a class="a2a_dd"><i class="fas fa-share-alt"></i> Share this article</a></span>
                         </p>
                     </div>
                     <div class="d-flex flex-row admin">
