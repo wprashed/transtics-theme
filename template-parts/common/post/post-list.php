@@ -6,7 +6,7 @@
         </div>
     </div>
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <p class="meta">By : <?php the_author(); ?> <span class="date"><i class="far fa-calendar-alt"></i> <?php the_date(); ?></span> <span class="comment"><i class="far fa-comments"></i> <?php comments_number(); ?> Comments</span></p>
+    <p class="meta">By : <?php the_author(); ?> <span class="date"><i class="far fa-calendar-alt"></i> <?php the_date(); ?></span> <span class="comment"><i class="far fa-comments"></i> <?php comments_number(); ?></span></p>
     <?php the_excerpt(); ?>
     <p><a href="<?php the_permalink(); ?>">Continue reading...</a></p>
 </div>

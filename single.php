@@ -20,7 +20,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    <p class="meta alignnone">By : <?php the_author(); ?> <span class="date"><i class="far fa-calendar-alt"></i> <?php the_date(); ?></span> <span class="comment"><i class="far fa-comments"></i> <?php comments_number(); ?> Comments</span></p>
+                    <p class="meta alignnone">By : <?php the_author(); ?> <span class="date"><i class="far fa-calendar-alt"></i> <?php the_date(); ?></span> <span class="comment"><i class="far fa-comments"></i> <?php comments_number(); ?></span></p>
                     <div class="blog-content">
                         <?php 
                             the_content();
