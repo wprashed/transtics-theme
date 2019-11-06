@@ -6,8 +6,7 @@
  * @package transtics
  */
 get_header(); ?>
-
-<!-- Blog -->
+<!-- Archive -->
 <section class="blogs" id="news">
     <div class="container">
         <div class="row">
@@ -27,7 +26,6 @@ get_header(); ?>
                 endwhile;
             ?>
         </div>
-
         <div class="row">
             <div class="col-md-12 text-center">
                 <nav aria-label="Page navigation example pagination justify-content-center">
@@ -43,6 +41,5 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<!-- Blog /-->
-
+<!-- Archive /-->
 <?php get_footer(); ?>

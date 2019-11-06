@@ -7,7 +7,7 @@
  */
 the_post();
 get_header(); ?>
-<!-- Blog Grid -->
+<!-- Blog Single -->
 <section class="blog-grid" id="single-blog">
     <div class="container">
         <div class="row">
@@ -31,7 +31,6 @@ get_header(); ?>
                             <span class="float-right float-right"><a class="a2a_dd" href="https://www.addtoany.com/share"><i class="fas fa-share-alt"></i> Share this article</a></span>
                         </p>
                     </div>
-
                     <div class="d-flex flex-row admin">
                         <div>
                             <?php echo get_avatar( get_the_author_meta( "ID" ) ); ?>
@@ -61,19 +60,16 @@ get_header(); ?>
                             </span>
                         </div>
                     </div>
-
                     <?php
 					    if(!post_password_required()){
 					        comments_template();
 					    }
 				    ?>
                 </div>
-
             </div>
-
            <?php get_sidebar(); ?>
         </div>
     </div>
 </section>
-<!-- Blog Grid -->
+<!-- Blog Single -->
 <?php get_footer(); ?>

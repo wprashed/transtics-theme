@@ -7,7 +7,7 @@
  */
 the_post();
 get_header(); ?>
-<!-- Blog Grid -->
+<!-- Page -->
 <section class="blog-grid">
     <div class="container">
         <div class="row">
@@ -19,6 +19,5 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<!-- Blog Grid -->
-
+<!-- Page -->
 <?php get_footer(); ?>

@@ -7,7 +7,7 @@
  */
 get_header(); ?>
 
-<!-- Blog -->
+<!-- Author -->
 <section class="blogs bypostauthor" id="news">
     <div class="container">
         <div class="row">
@@ -27,7 +27,6 @@ get_header(); ?>
                 endwhile;
             ?>
         </div>
-
         <div class="row">
             <div class="col-md-12 text-center">
                 <nav aria-label="Page navigation example pagination justify-content-center">
@@ -43,6 +42,5 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<!-- Blog /-->
-
+<!-- Author /-->
 <?php get_footer(); ?>

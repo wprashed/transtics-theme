@@ -10,8 +10,7 @@ get_header();
 $bloggridswitchvalue = $transtics['transtics-blog-layout-option'];
 if( $bloggridswitchvalue == 1 ){
 ?>
-
-<!-- Blog -->
+<!-- Blog Grid -->
 <section class="blogs" id="news">
     <div class="container">
         <div class="row">
@@ -24,7 +23,6 @@ if( $bloggridswitchvalue == 1 ){
                 endwhile;
             ?>
         </div>
-
         <div class="row">
             <div class="col-md-12 text-center">
                 <nav aria-label="Page navigation example pagination justify-content-center">
@@ -40,7 +38,7 @@ if( $bloggridswitchvalue == 1 ){
         </div>
     </div>
 </section>
-<!-- Blog /-->
+<!-- Blog Grid /-->
 <?php
   }else{
 ?>
@@ -57,7 +55,6 @@ if( $bloggridswitchvalue == 1 ){
                 <?php
                     endwhile;
                 ?>
-
                 <nav aria-label="Page navigation example">
                     <?php
                       the_posts_pagination(array(
@@ -67,9 +64,7 @@ if( $bloggridswitchvalue == 1 ){
                       ));
                     ?>
                 </nav>
-
             </div>
-
             <?php get_sidebar(); ?>
         </div>
     </div>

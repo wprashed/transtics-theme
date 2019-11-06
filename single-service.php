@@ -8,7 +8,7 @@
 global $transtics;
 the_post();
 get_header(); ?>
-<!-- Service Details -->
+<!-- Service Area -->
 <section class="service-details">
     <div class="container">
         <div class="row">
@@ -99,13 +99,9 @@ get_header(); ?>
             <div class="col-lg-8 col-md-8 col-sm-12 col-12 content">
                 <h1><?php the_title(); ?></h1>
                 <?php the_content(); ?>
-
-                
             </div>
         </div>
     </div>
 </section>
 <!-- Service Arae /-->
-
-
 <?php get_footer(); ?>

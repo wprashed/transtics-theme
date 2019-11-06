@@ -7,7 +7,7 @@
  */
 get_header(); ?>
 
-<!-- Blog -->
+<!-- Tag -->
 <section class="blogs" id="news">
     <div class="container">
         <div class="row">
@@ -43,6 +43,6 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<!-- Blog /-->
+<!-- Tag /-->
 
 <?php get_footer(); ?>

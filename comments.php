@@ -19,7 +19,6 @@ if ( post_password_required() ) {
     return;
 }
 ?>
-
 <div id="comments" class="comments-area">
 
     <?php
@@ -56,7 +55,6 @@ comment_form();
                 }
                 ?>
             </h3>
-
         <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
         <nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
             <h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'transtics' ); ?></h2>
@@ -68,7 +66,6 @@ comment_form();
             </div><!-- .nav-links -->
         </nav><!-- #comment-nav-above -->
         <?php endif; // Check for comment navigation. ?>
-
         <ol class="comment-list">
             <?php
                 wp_list_comments( array(
@@ -79,7 +76,6 @@ comment_form();
                 ) );
             ?>
         </ol><!-- .comment-list -->
-
         <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
         <nav id="comment-nav-below" class="navigation comment-navigation" role="navigation">
             <h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'transtics' ); ?></h2>
@@ -95,5 +91,4 @@ comment_form();
 
     endif; // Check for have_comments().
     ?>
-
 </div><!-- #comments -->

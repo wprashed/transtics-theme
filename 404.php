@@ -6,7 +6,7 @@
  * @package transtics
  */
 get_header(); ?>
-<!-- Blog -->
+<!-- 404 -->
 <section class="blogs error" id="news">
     <div class="container">
         <div class="row text-center aligncenter">
@@ -15,6 +15,5 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<!-- Blog /-->
-
+<!-- 404 /-->
 <?php get_footer(); ?>
