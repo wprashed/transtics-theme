@@ -29,7 +29,7 @@ Text Domain: transtics
 	padding: 5px 10px;
 }
 .pagination .page-numbers.current{
-	background-color: #ec0101 !important;
+	background-color: #FF0000 !important;
     color: #fff;
     border-radius: 50%;
 }
@@ -116,7 +116,7 @@ input#url {
 }
 input#submit {
     font-family: 'Work Sans', sans-serif;
-	background-color: #ec0101;
+	background-color: #FF0000;
     color: #fff;
     padding: 10px 30px;
     text-transform: uppercase;
@@ -218,14 +218,18 @@ h3.h2.comments-title {
 }
 .footer .widget_recent_entries h3{
     color:#fff;
-    margin-bottom:45px;
+    margin-bottom:25px;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .footer .widget_recent_entries h5{
-    margin-bottom:15px;
+    margin-bottom:10px;
+    line-height: 18px;
 }
 .footer .widget_recent_entries h6{
     color:#8897a6;
     font-weight:400;
+    font-size: 13px;
 }
 .footer .widget_recent_entries h5 a{
     color:#8897a6;
@@ -233,7 +237,7 @@ h3.h2.comments-title {
     font-weight:400;
 }
 .footer.widget_recent_entries h5 a:hover{
-    color:#EC0101;
+    color:#FF0000;
 }
 .footer .widget_recent_entries .recent{
     margin-bottom:20px;
