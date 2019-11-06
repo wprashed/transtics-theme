@@ -62,6 +62,9 @@ h2.errorh{
     background-color: #032c56;
     color: #fff !important;
 }
+.a2a_full_footer a{
+    display: none !important;
+}
 /**
 * Comment Section
 **/

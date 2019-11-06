@@ -49,10 +49,10 @@ function transtics_assets() {
     wp_enqueue_style( "owl-carousel-css", get_theme_file_uri( "/assets/css/owl.carousel.min.css" ), null, "1.0" );
     wp_enqueue_style( "owl-theme-css", get_theme_file_uri( "/assets/css/owl.theme.default.min.css" ), null, "1.0" );
     wp_enqueue_style( "fontawesome-css", get_theme_file_uri( "/assets/css/fontawesome.min.css" ), null, "1.0" );
-    wp_enqueue_style( "flaticon-css", get_theme_file_uri( "/assets/css/flaticon.css" ), null, "1.0" );
+    wp_enqueue_style( "flaticon-css", get_theme_file_uri( "/assets/font/flaticon.css" ), null, "1.0" );
     wp_enqueue_style( "fancybox-css", get_theme_file_uri( "/assets/css/jquery.fancybox.min.css" ), null, "1.0" );
-    wp_enqueue_style( "font-rubbik", "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap", null, "1.0" );
-    wp_enqueue_style( "font-work", "https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap", null, "1.0" );
+    wp_enqueue_style( "font-rubbik", "//fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap", null, "1.0" );
+    wp_enqueue_style( "font-work", "//fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap", null, "1.0" );
     wp_enqueue_style( "custom-css", get_theme_file_uri( "/assets/css/custom.css" ), null, "1.0" );
     wp_enqueue_style( "responsive-css", get_theme_file_uri( "/assets/css/responsive.css" ), null, "1.0" );
     wp_enqueue_style( "transtics-css", get_stylesheet_uri(), null, "1.0" );
@@ -68,6 +68,7 @@ function transtics_assets() {
     wp_enqueue_script( "counterup-js", get_theme_file_uri( "/assets/js/jquery.counterup.min.js" ), array( "jquery" ), "1.0", true );
     wp_enqueue_script( "scroll-js", get_theme_file_uri( "/assets/js/scroll-top.js" ), array( "jquery" ), "1.0", true );
     wp_enqueue_script( "search-js", get_theme_file_uri( "/assets/js/search.js" ), array( "jquery" ), "1.0", true );
+    wp_enqueue_script( "addtoany-js", "//static.addtoany.com/menu/page.js", array( "jquery" ), "1.0", true );
     wp_enqueue_script( "custom-js", get_theme_file_uri( "/assets/js/custom.js" ), array( "jquery" ), "1.0", true );
 }
 
