@@ -7,6 +7,7 @@ function transtics_import_files() {
             'import_file_name'             => esc_html__( 'Transtics Demo One', 'transtics' ),
             'local_import_file'            => trailingslashit( get_template_directory() ) . '/inc/demos/contents.xml',
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . '/inc/demos/widgets.wie',
+            'local_import_customizer_file'     => trailingslashit( get_template_directory() ) . '/inc/demos/customizer.dat',
             'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ).'/inc/demos/screenshot.png',
             'import_notice'                => wp_kses_post(__( 'Install and activate all required plugins before you click on the "Import" button. 
             <br> All pages will be imported. If you fail to import the demo data, follow the alternative way described in Doccumentations', 'transtics' )),
@@ -23,6 +24,7 @@ function transtics_import_files() {
             'import_file_name'             => esc_html__( 'Transtics Demo Two', 'transtics' ),
             'local_import_file'            => trailingslashit( get_template_directory() ) . '/inc/demos/contents-h.xml',
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . '/inc/demos/widgets.wie',
+            'local_import_customizer_file'     => trailingslashit( get_template_directory() ) . '/inc/demos/customizer.dat',
             'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ).'/inc/demos/screenshot-h.png',
             'import_notice'                => wp_kses_post(__( 'Install and activate all required plugins before you click on the "Import" button. 
             <br> All pages will be imported. If you fail to import the demo data, follow the alternative way described in Doccumentations', 'transtics' )),
