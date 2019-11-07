@@ -27,7 +27,9 @@ get_header(); ?>
                             wp_link_pages();
                         ?>
                         <p class="tag">
+                            <?php if (has_tag()) {?>
                             <i class="fas fa-tag"></i> <?php echo get_the_tag_list(); ?>
+                            <?php } ?>
                             <span class="float-right float-right"><a class="a2a_dd"><i class="fas fa-share-alt"></i> Share this article</a></span>
                         </p>
                     </div>

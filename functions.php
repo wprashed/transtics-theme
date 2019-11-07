@@ -4,6 +4,7 @@
 
 require_once( get_theme_file_path("/inc/tgm.php") );
 require_once( get_theme_file_path( "/options/opt-config.php" ) );
+require_once( get_theme_file_path( "/inc/demo_config.php" ) );
 
 if ( ! isset( $content_width ) ) $content_width = 1140;
 
@@ -172,4 +173,3 @@ function transtics_widgets() {
 }
 
 add_action( "widgets_init", "transtics_widgets" );
-
