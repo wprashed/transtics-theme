@@ -65,9 +65,12 @@ h2.errorh{
 .a2a_full_footer a{
     display: none !important;
 }
+
+
 /**
 * Language Translator
 **/
+
 #google_language_translator{
 	display:none;
 }
@@ -88,9 +91,11 @@ h2.errorh{
 	display:none !important;
 }
 
+
 /**
 * Comment Section
 **/
+
 .comment-reply-title{
     margin-top: 20px;
 }
@@ -230,9 +235,11 @@ h3.h2.comments-title {
     display: none;
 }
 
+
 /**
 * Footer Widget
 **/
+
 .footer .widget_recent_entries  img{
     max-width:85px;
     height:80px;
@@ -265,6 +272,7 @@ h3.h2.comments-title {
 .footer .widget_recent_entries .recent{
     margin-bottom:20px;
 } 
+
 
 /**
 *WordPress Core
