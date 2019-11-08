@@ -13,7 +13,7 @@ Text Domain: transtics
 
 /** 
 * Theme Custom CSS *
-*/
+**/
 
 .credit h5{
 	color: #fff;
@@ -65,6 +65,29 @@ h2.errorh{
 .a2a_full_footer a{
     display: none !important;
 }
+/**
+* Language Translator
+**/
+#google_language_translator{
+	display:none;
+}
+#flags{
+	float:right;
+	width:auto;
+}
+#glt-translate-trigger{
+	display:none;
+}
+#glt-toolbar{
+	display:none;
+}
+#glt-footer{
+	display:none;
+}
+.goog-te-banner{
+	display:none !important;
+}
+
 /**
 * Comment Section
 **/
