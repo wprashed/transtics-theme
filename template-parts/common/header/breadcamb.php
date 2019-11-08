@@ -14,7 +14,7 @@
                 	?>
                 </h1>
                 <h6>
-                	<a href="<?php echo get_home_url(); ?>">Home</a> <i class="fas fa-angle-right"></i> 
+                	<a href="<?php echo get_home_url(); ?>"><?php _e('Home','transtics');?></a> <i class="fas fa-angle-right"></i> 
                 	<?php
                 		if (is_archive()) {
                 			the_archive_title();
