@@ -1,7 +1,7 @@
 <?php
 /** 
  * Sidebar
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package transtics
  */

@@ -1,7 +1,7 @@
 <?php 
 /** 
  * Date Archive Page
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package transtics
  */

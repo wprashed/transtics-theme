@@ -1,7 +1,6 @@
 <?php
 /** 
- * Tag Archive
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * Tag Archivehttps://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package transtics
  */

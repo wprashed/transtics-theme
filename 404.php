@@ -1,7 +1,7 @@
 <?php 
 /** 
  * 404 Page
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
  * @package transtics
  */
