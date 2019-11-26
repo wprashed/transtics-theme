@@ -76,7 +76,11 @@ h2.errorh{
 }
 #flags{
 	float:right;
-	width:auto;
+	width:auto !important;
+}
+#flags li{
+    margin-right: 0px !important;
+    margin-left: 15px !important;
 }
 #glt-translate-trigger{
 	display:none;
